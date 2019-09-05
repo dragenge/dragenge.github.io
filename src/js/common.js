@@ -583,7 +583,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://jay-chef.ru/shikimori/engitheme'
+        base = 'https://dragenge.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -672,7 +672,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://jay-chef.ru/shikimori/engitheme/', function(list) {
+      XHR('https://dragenge.github.io/engitheme/', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -748,7 +748,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'jay-chef.ru/shikimori' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'dragenge.github.io/shikimori' ? 'master' : 'main');
   },
 });
 
