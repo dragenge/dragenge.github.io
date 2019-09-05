@@ -1,0 +1,219 @@
+{
+  "pallete": {
+    "white_color": {
+      "category": "pallete",
+      "block": "Основные цвета",
+      "name": "Основной цвет приложения",
+      "description": ""
+    },
+    "light_color": {
+      "category": "pallete",
+      "block": "Основные цвета",
+      "name": "Акцентирующий цвет приложения",
+      "description": ""
+    },
+    "dark_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет текста ссылки по умолчанию",
+      "description": ""
+    },
+    "bright_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при наведении",
+      "description": ""
+    },
+    "dull_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "input_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "hover_buttoms_1": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "buttoms_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "hover_buttoms_2": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "very_high_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "high_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "average_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "small_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "time_filled": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "time_empty": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "anime_inprocess": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "anime_complete": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "manga_inprocess": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "manga_complete": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "hover_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "shadows_color": {
+      "category": "pallete",
+      "block": "Меню сайта",
+      "name": "Цвет меню",
+      "description": ""
+    },
+        "block_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "menu_back": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "nick_cover": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    },
+        "popup_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет ссылки при нажатии",
+      "description": ""
+    }
+  },
+
+  "calculated": {
+    "color_primary_darker": {
+      "category": "calculated",
+      "name": "Затемненный основной цвет",
+      "description": "Вычисляется как $color_primary + rgba(0,0,0,.12)."
+    },
+    "color_primary_lighter": {
+      "category": "calculated",
+      "name": "Осветленный основной цвет",
+      "description": "Вычисляется как $color_primary + rgba(255,255,255,.12)."
+    },
+    "color_text_on_primary": {
+      "category": "calculated",
+      "name": "Текст на основном цвете",
+      "description": "Цвет текста используемого на элементах, где фоном служит основной цвет."
+    },
+    "color_text_on_accent": {
+      "category": "calculated",
+      "name": "Текст на акцентирующем цвете",
+      "description": "Цвет текста используемого на элементах, где фоном служит акцентирующий цвет."
+    },
+    "color_header_text": {
+      "category": "calculated",
+      "name": "Цвет текста в меню",
+      "description": "Используется как для текста, так и для иконок."
+    },
+    "color_header_background_shade": {
+      "category": "calculated",
+      "name": "Цвет подменю",
+      "description": "Вычисляется как $color_header_background + rgba(0,0,0,.12)."
+    },
+    "color_border_hover": {
+      "category": "calculated",
+      "name": "Цвет границы области при наведении",
+      "description": "Вычисляется как $color_border + rgba(0,0,0,.12)."
+    }
+  },
+  "user": {
+    "id": {
+      "category": "user",
+      "name": "ID пользователя",
+      "description": "Личный идентификатор пользователя указанный в атрибуте data_user_id элемента profile_head."
+    },
+    "image_background": {
+      "category": "user",
+      "name": "Фон сайта",
+      "description": "Пользовательское изображение, используемое в качестве фона сайта."
+    },
+    "image_cover": {
+      "category": "user",
+      "name": "Обложка пользователя",
+      "description": "Пользовательское изображение, используемое в качестве обложки в профиле пользователя."
+    }
+  },
+  "todo": {
+    "color_primary_on_background": {
+      "category": "calculated",
+      "description": "Основной цвет текста на фоновом цвете сайта."
+    },
+    "color_accent_on_background": {
+      "category": "calculated",
+      "description": "Основной цвет текста на фоновом цвете сайта."
+    }
+  }
+}
