@@ -175,7 +175,7 @@
 		background-size: cover  
 		background-position: center  
 		background-repeat: no-repeat  
-		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)  
+		box-shadow: none  
 
 	.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove  
 		margin-left: 0 
@@ -945,16 +945,17 @@
 	.p-profiles .profile-head .c-info .c-additionals  
 		margin-bottom: 43px!important 
 
-	.subheadline.m13  
-		width: 32px 
+	.subheadline.m13
+		display: inline-block
+		position: relative
+		top: -6px
+		margin: 0!important
+		padding: 21px 9px
+		width: 32px
+		line-height: 20px		
 		word-wrap: break-word 
 		white-space: normal 
-		text-align: center 
-		line-height: 20px 
-		position: relative 
-		margin: 0!important 
-		display: inline-block 
-		padding: 21px 9px 
+		text-align: center    
 
 	.subheadline.m13 a  
 		width: 35px 
@@ -1005,7 +1006,7 @@
 		align-items: center 
 		justify-content: space-around 
 		align-content: space-around 
-		min-height: 94px 
+		min-height: 96px 
 		top: 0px 
 		width: calc(100% - 34px) 
 		padding: 0px 0px 0px 4px 
@@ -1111,7 +1112,7 @@
 
 @media screen and (min-width: 1530px)  
 	.p-profiles-show .cc-friends .b-user, .p-profiles-show .cc-friends .b-user:last-child  
-		width: 21% 
+		width: 16% 
 		margin: auto 0% !important 
 		
 	body#profiles_show .profile-head  
@@ -1406,7 +1407,7 @@
 		text-align: left 
 		position: absolute 
 		right: 0px 
-		margin-top: 2px 
+		margin-top: 4px 
 		padding-left: 35px 
 
 	.p-profiles .profile-head .c-brief header.head .misc  

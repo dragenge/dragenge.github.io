@@ -373,7 +373,7 @@
 		transform: none 
 	 
 	.p-profiles .profile-head  
-		margin: 30px 0px 10px!important  
+		margin: 0px 0px 10px!important  
 	 
 	.b-stats_bar .stat_names  
 		font-size: 10px!important 
@@ -450,35 +450,43 @@
 		margin-right: 3% 
 	 
 	.l-page .menu-toggler .toggler  
-		background: rgba(43, 42, 97, 0.45) 
+		background: rgba($menu-back,$ninty) 
 		border-radius: 6px 
-		border: 2px solid rgba(43, 42, 97,.05) 
-		overflow: hidden 
-		padding-bottom: 2px 
-		padding-top: 5px 
+		border: 2px solid rgba($menu-back,$five) 
+		overflow: hidden  
+		padding: 0px 
 		text-align: center 
-		font-family: 'Comfortaa' 
-		width: 25px 
+		font-family: 'Comfortaa'
+		width: 58px
+		height: 58px
+		line-height: 58px
+		border-radius: 50%
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important 
 	 
-	.menu-toggler.ipad-expanded  
-		margin-top: 75px 
+	.menu-toggler.ipad-expanded, .l-page .menu-toggler
+		position: fixed
+		bottom: 15px
+		right: 50px
+		top: auto
+		margin: 0
 	 
 	.l-page .menu-toggler .toggler:before  
-		font-family: 'Comfortaa' 
+		display: none
 	 
 	.l-page .menu-toggler .toggler:after, .l-page.menu-expanded .menu-toggler .toggler:after  
-		content: '\\_f0d9' 
-		font-size: 20px 
+		content: '\\_f039' 
+		font-size: 26px 
 		color: $light_color 
+		font-family: FontAwesome
 	 
 	.l-page.menu-expanded .menu-toggler .toggler:after  
-		content: '\\_f0da' 
-		font-size: 20px 
-		color: #afadad 
+		content: '\\_f054' 
+		font-size: 26px 
+		color: $light_color 
+		font-family: FontAwesome
 	 
 	.l-page.menu-expanded .l-content  
-		margin-left: -220px 
+		margin-left: 0px 
 	 
 	ul.b-block_list  
 		height: auto!important 
@@ -502,7 +510,10 @@
 		z-index: 4 
 		position: relative 
 		color: #d2892d 
-	 
+	
+	.item-mobile.selected[title="Действия"]
+		opacity: 0
+	
 	.b-topic.aside-expanded>.inner aside.buttons, .b-comment.aside-expanded>.inner aside.buttons, .b-dialog.aside-expanded>.inner aside.buttons, .b-message.aside-expanded>.inner aside.buttons  
 		display: block 
 		margin-right: 0px 
@@ -642,15 +653,15 @@
 	.b-comment > .inner header .name-date  
 		margin-left: 55px!important 
 	 
-	.b-comment>.inner header .name-date a.name, .b-topic>.inner header .name-date a.name, .b-dialog>.inner header .name-date a.name, .b-message>.inner header .name-date a.name  
+	.b-comment > .inner header .name-date a.name, .b-topic > .inner header .name-date a.name, .b-dialog>.inner header .name-date a.name, .b-message>.inner header .name-date a.name  
 		font-size: 14px 
 	 
 	/*новости*/
-	.b-topic>.inner header .name-date a.name, .b-dialog>.inner header .name-date a.name  
+	.b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name  
 		top: 2px 
 		position: relative 
 		 
-	.b-topic>.inner header img  
+	.b-topic > .inner header img  
 		margin: 1px 12px 4px 0 
 		width: 38px 
 	 
@@ -733,7 +744,7 @@
 		position: absolute 
 		right: 24px 
 		top: 65px 
-		background: rgba(43, 42, 97, 0.4)!important 
+		background: rgba($menu-back,$fourty)!important 
 		left: auto 
 		width: 150px 
 	 
@@ -747,7 +758,8 @@
 	.p-profiles .profile-head .c-brief header.head .misc  
 		top: 285px 
 	 
-	 
+	.b-topic > .inner header .name-date
+		margin-right: 45px
 
 
 
@@ -775,7 +787,10 @@
 	 
 	.b-user.avatar img  
 		height: auto 
-	 
+		
+	.p-profiles-show .cc-friends .b-user:nth-child(n+11) 
+		display: none
+		
 	.b-club .logo  
 		height: auto 
 		width: auto!important 
@@ -822,6 +837,13 @@
 		text-align:-webkit-auto 
 		padding: 0.47em 6em 0.47em 1em 
 	 
+	.p-profiles-show .cc-friends .b-user 
+		position: relative
+		width: 13%
+	
+	.p-profiles-show .cc-friends .b-user:nth-child(n+11)
+		display: inline-block
+
 	.cc-8>.c-column  
 		width: calc(16.6% - 10px) 
 	 
@@ -1058,7 +1080,7 @@
 		white-space: normal 
 		margin: 0px 3px 
 	 
-	.p-profiles .profile-head .c-info .c-additionals div a  
+	.p-profiles .profile-head .c-info .c-additionals div a, .p-profiles .profile-head .c-info .c-additionals div[data-type="video_changes"] span
 		font-size: 11px!important 
 		display: block 
 		padding: 6px 15px 10px 15px 
@@ -1083,7 +1105,7 @@
 		padding: 5px 6px 0px 6px 
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important 
 		 
-	.p-profiles .profile-head .c-info .c-additionals div a[href*="/video"]  
+	.p-profiles .profile-head .c-info .c-additionals div a[href*="/video"], .p-profiles .profile-head .c-info .c-additionals div[data-type="video_changes"] span
 		display: table-cell 
 		width: 65px 
 		height: 60px 
@@ -1118,12 +1140,18 @@
 		pointer-events: auto 
 		width: 120px 
 	 
-	.p-profiles .profile-head .c-info .c-additionals div a  
+	.p-profiles .profile-head .c-info .c-additionals div a, .p-profiles .profile-head .c-info .c-additionals div span 
 		padding: 6px 15px 10px 15px 
 		background: rgba($block_color,$fourty) 
 		border-radius: 10% 
 		color: $dark_color!important 
 	 
+	.p-profiles .profile-head .c-info .c-additionals div a
+		color: $dark_color!important
+		
+	.p-profiles .profile-head .c-info .c-additionals div span
+		color: $light_color!important
+	
 	.b-breadcrumbs  
 		font-size: 12px!important 
 	 
@@ -1339,6 +1367,8 @@
 		text-rendering: auto 
 		-webkit-font-smoothing: antialiased 
 		position: absolute 
+		box-shadow: none!important
+		padding: 0
 	 
 	body[data-locale=ru] .b-new_marker  
 		margin: 0 
@@ -1432,9 +1462,9 @@
 	.b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected  
 		color: #d2892d 
 		font-size: 13px 
-		background-color: rgba(43, 42, 97, 0.6) 
+		background-color: rgba($block-color,$sixty) 
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) 
-		border-radius: 4px 
+		border-radius: 8px 
 		padding: 4px 10px 4px 10px 
 		transition: 0.3s ease-out 
 
@@ -1444,17 +1474,17 @@
 		line-height: 12px 
 		width: 130px 
 		display: inline-block 
-		background-color: rgba(43, 42, 97, 0.6) 
+		background-color: rgba($menu-back,$sixty) 
 		border-radius: 4px 
 		color: $light_color 
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) 
 		margin: 2px 2px 
 	 
 	.b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone_portrait a  
-		background-color: rgba(43, 42, 97, 0.6) 
+		background-color: rgba($menu-back,$sixty) 
 		color: $light_color  
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) 
-		border-radius: 4px 
+		border-radius: 8px 
 		margin: 2px 2px 
 		vertical-align: middle 
 		color: $light_color 
@@ -1548,7 +1578,7 @@
 	.x1000 .menu-slide-outer.x199 .l-menu, .x1000 .menu-slide-outer.x240 .l-menu, .x1200 .menu-slide-outer.x199 .l-menu, .x1200 .menu-slide-outer.x240 .l-menu, .menu-slide-outer.x199 .l-menu, .menu-slide-outer.x240 .l-menu  
 		width: 100% 
 		padding: 0px 10px 0px 17px 
-		outline: 57px solid rgba($menu_back,$eighty) 
+		outline: 55555px solid rgba($menu_back,$eighty) 
 	 
 	.p-dashboards-show .cc-ongoings .c-column  
 		width: calc(33.33% - 20px) 
@@ -1569,7 +1599,7 @@
 		padding: 6px 10px 
 	 
 	body#profiles_show .l-page  
-		margin-top: 362px!important 
+		margin-top: 326px!important 
 		border-radius: 0 
 	 
 
@@ -2011,10 +2041,12 @@
 		display: table-cell 
 		vertical-align: middle 
 	 
-	.p-achievements-index .c-franchises .b-badge  
-	width: calc(268px) 
-		margin-right: 12px!important 
-	 
+	.p-achievements-index .c-franchises .b-badge
+		width: 280px
+		margin-right: 1%!important
+		
+	
+	
 	.p-achievements-index .c-franchises .b-badge[data-progress='100']:after  
 		background: linear-gradient(135deg, transparent 283px, #483d1c 0) 
 	 
