@@ -98,15 +98,16 @@ header.head h2, header.head h1
 /* кнопка смотреть онлайн */
 .b-link_button.dark
   background-color: rgba($buttoms_color,$seventy)
-  border-color: rgba($buttoms_color,$seventy)
   color: $white_color
   transition: 0.2s ease
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)
   border-radius: 14px
+  border: none
 
 .b-link_button:hover, .b-link_button.dark:hover
   background-color: $hover_buttoms_2
   color: white!important
+  border: none
 
 .b-link_button
   background-color: rgba($buttoms_color,$seventy)
@@ -204,7 +205,7 @@ textarea
   border-radius: 7px
 
 /* жанр, ссылка на него */
-.line .b-tag, .line .tag, .b-forums .reload
+.line .b-tag, .line .tag, .b-forums .reload, .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names
   padding: 1px 12px!important
   margin: 2px!important
   color: $bright_color !important
@@ -213,13 +214,43 @@ textarea
   border: none!important
   border-radius: 10px
 
-.line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover
-  color: $hover_color !important
-  background: rgba($shadows_color,$twenty)!important
+.line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover
+  background-color: $hover_buttoms_2 !important
+  color: white!important
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important
   margin: 2px!important
   border: none!important
 
+.block.genres .b-spoiler label
+  padding: 2px 0px !important
+  color: $bright_color !important
+  background: rgba($block_color,$sixty)!important
+  transition: 0.3s ease !important
+  border: none !important
+  border-radius: 10px
+  display: inline-block
+  width: 100%
+  text-align: center
+
+.block.genres .b-spoiler label:hover, .b-table .actions a:hover
+  background-color: $hover_buttoms_2 !important
+  color: white!important
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important
+  border: none!important
+  animation: none
+
+.block.genres .b-spoiler
+  border: none!important
+
+.b-table .actions a
+  padding: 4px 18px !important
+  color: $bright_color !important
+  background: rgba($block_color,$sixty)!important
+  transition: 0.3s ease !important
+  border: none !important
+  border-radius: 10px
+  text-align: center
+  
 .b-forums .reload
   width: 100%
   padding: 5px 12px!important
@@ -331,6 +362,11 @@ textarea
   border: none
   border-radius: 6px
 
+.b-comments .comments-loader:active, .b-comments .comments-hider:active, .b-comments .comments-expander:active
+  background: rgba($block_color,$fourty)
+  color: $dark_color
+  border: none
+  
 /* цвет рейтенга текста */
 .b-rate .score-notice
   color: $dark_color
@@ -717,7 +753,7 @@ tr.user_rate.selectable.editable:after
   color: $light_color
 
 .b-tooltipped.dotted 
-  border-color: $light_color
+  border: none
 
 .p-profiles .profile-head .c-info .c-additionals div a:hover
   color: $hover_color !important
@@ -737,6 +773,9 @@ tr.user_rate.selectable.editable:after
   color: $hover_color
   animation: spoilzero 2s ease infinite
 
+.b-spoiler .b-poll label
+  border: none
+ 
 .b-input input, .b-input textarea
   background: rgba($block_color,$fourty)
   color: $light_color
@@ -975,7 +1014,7 @@ input, select, button, textarea
   margin-top: 13px
 
 
-.buttons .item-reply, .buttons .item-moderation, .buttons .item-edit, .buttons .item-delete, .buttons .item-ignore,.buttons .item-apply, .buttons .item-request-confirm, .buttons .item-delete-confirm, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel
+.p-user_history-index .history-page .history-interval p .destroy, .buttons .item-reply, .buttons .item-moderation, .buttons .item-edit, .buttons .item-delete, .buttons .item-ignore,.buttons .item-apply, .buttons .item-request-confirm, .buttons .item-delete-confirm, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel
   color: $bright_color
 
 .buttons .item-reply:before, .buttons .item-moderation:before, .buttons .item-edit:before, .buttons .item-delete:before, .buttons .item-ignore:before, .buttons .item-apply:before, .buttons .item-request-confirm:before, .buttons .item-delete-confirm:before, .buttons .item-cancel:before, .buttons .item-request-reject:before, .buttons .item-delete-cancel:before, .buttons .item-moderation-cancel:before
@@ -1469,6 +1508,7 @@ body.localized_names-ru .name-ru:before
   border-color: rgba($block_color,$fourty)!important
   color: $light_color
   line-height: 20px
+  border-radius: 8px
 
 .p-profiles .profile-head .c-history .entry:hover .title
   color: $white_color !important
