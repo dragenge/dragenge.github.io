@@ -8,15 +8,6 @@
   background: rgba($shadows_color,$twentyfiver)
   box-shadow: 0px 0px 20px rgba($shadows_color,$fifty)
 
-.b-show_more-more .hide-more:hover, .b-show_more:hover
-  color: $hover_color !important
-  background: rgba($shadows_color,$twentyfiver)
-  box-shadow: 0px 0px 20px rgba($shadows_color,$fifty)
-  text-decoration: none!important
-
-.b-show_more-more .hide-more, .b-show_more
-  transition: 0.3s ease
-
 .b-user16:hover span
   text-decoration: none
 
@@ -1141,7 +1132,7 @@ body#profiles_show .b-to-top .arrow
   color: #cad8e4
 
 .b-catalog_entry.rewatching
-  background: rgba(18, 74, 132, 0.62)
+  background: rgba(17, 86, 82, 0.62)
   padding: 5px 5px
   border-radius: 10px
 
@@ -1530,7 +1521,7 @@ body#people_show .c-works .b-catalog_entry .image-cutter
 .b-comments .comments-collapser
   font-size: 0px
   text-decoration: none
-  margin: 11px 10px 0 0
+  margin: 6px 10px 0 0
   border: none
 
 .b-breadcrumbs a.b-link:hover
@@ -1892,8 +1883,11 @@ img[alt='morr']
   color: $white-color !important
 
 .bulma .modal-card-body 
-  background: rgba(40, 43, 49, 0.8)!important
+  background: rgba($menu-back,$eighty) !important
   border-radius: 14px
+
+.bulma .select:not(.is-multiple):not(.is-loading):after
+    border-color: $light-color!important;
 
 .bulma .button.is-info:hover, .bulma .button.is-info.is-hovered
   background-color: $hover_buttoms_2 !important
@@ -1942,5 +1936,172 @@ span.submenu-triangle.icon-avatar img
   display: none
   
 body#profiles_edit .b-catalog_entry .cover .image-decor img
-    border-radius: 14px
+  border-radius: 14px
+
+#profiles_show .achievements .header 
+  position: relative
+  justify-content: center
+  margin: 4px 4px
+  padding: 6px 10px 5px
+  line-height: 1
+  box-shadow: 0 2px 6px 2px rgba($block-color,$eighty)
+  border-radius: 13px
+
+#profiles_show.p-profiles-show .achievements .header .size
+  position: absolute
+  right: 17px
+
+#profiles_show .block.achievements .cc-3
+  padding: 5px 10px
+
+#profiles_show .block.achievements
+  margin-bottom: 0px
+
+#profiles_show .b-achievement.is-badge .c-image
+  border-radius: 14.5px
+  overflow: hidden
+
+#profiles_show .b-achievement .c-image .inner
+  transition: .4s ease-out
+  will-change: transform
+
+#profiles_show .b-achievement .c-image .inner:hover 
+  transform: scale(1.1)
+  transition: .4s ease-out
+
+#profiles_show .b-achievement.is-badge::before
+  display: inline-flex
+  justify-content: space-around
+  align-items: center
+  left: 0
+  right: 0
+  bottom: 0
+  width: 100%
+  margin: 0 auto
+  padding: 8px
+  background-color: rgba($menu_back,$fifty)
+  border-radius: 0 0 15px 15px
+  text-align: center
+  pointer-events: none
+  opacity: 0
+  line-height: 10px
+  transition: .4s
+  will-change: transform
+  text-overflow: clip
+  white-space: normal
+  word-break: break-word
+
+#profiles_show .b-achievement.is-badge:hover:before
+  height: 100%
+  border-radius: 14.5px
+  opacity: 1
+    
+#profiles_show .achievements .cc-achievements .b-achievement
+  display: inline-flex;
+  left: 0rem
+  width: 31.2%
+  margin: 0
+  padding: 0
+  z-index: 3
+  background: linear-gradient(transparent 0%, hsla(0, 0%, 0%, 0.24)100%)
+
+#profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement
+  width: 31.2%
+
+#profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement
+  width: 23%
+
+#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge
+  width: 7.5%
+  padding: 0
+  margin: 0
+
+.p-profiles-show .achievements .cc-achievements:after 
+  content: none
+
+#profiles_show .cc-achievements, #profiles_show .cc-franchises 
+  margin-top: 12px
+  display: inline-flex
+  justify-content: space-around
+  align-content: space-around
+  flex-wrap: nowrap
+  width: 100%
+
+#profiles_show .achievements .cc-3 > .c-column:first-child
+  width: 42%
+  margin-left: 0
+  margin-right: 0
+
+#profiles_show .achievements .cc-3 > .c-column:nth-child(2)
+  width: 57%
+  margin-left: 1%
+  margin-right: 0
+
+#profiles_show .achievements .cc-3 > .c-column:nth-child(3)
+  width: 100%
+
+.p-profiles-show a.b-badge:hover:before 
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3)
+  background: rgba($menu_back,$fifty)
+  
+.b-catalog_entry .cover .image-cutter::before
+  content: ''
+  display: block
+  padding-bottom: 155.5%
+
+.b-catalog_entry .cover .image-cutter img
+  position: absolute
+  top: 0
+  right: -100%
+  left: -100%
+  width: auto
+  min-width: 100%
+  max-width: none
+  height: 100%
+  min-height: 100%
+  margin: auto
+  border-radius: 5px
+
+.cc-favourites 
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-content: center
+
+.b-dialog .to_dialog:after
+    content: 'перейти к диалогу'
+    font-size: 11px
+    padding: 3px 2px 2px 15px
+    background: rgba($block_color,$sixty)
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important
+    width: 135px
+    height: 15px
+    border-radius: 9px
+    position: relative
+    margin-left: -22px
+    top: -2px
+    display: inline-flex
+    justify-content: space-around
+    align-items: center
+
+.b-dialog .to_dialog:before 
+    content: '\\_f0e6'
+    font: normal normal normal 15px FontAwesome
+    text-rendering: auto
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    border-radius: 50%
+    background: $block_color
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important
+    width: 28px
+    height: 28px
+    display: inline-flex
+    justify-content: space-around
+    align-items: center
+    z-index: 1
+    position: relative
+
+.b-dialog .to_dialog 
+    font-size: 0px!important
+
 

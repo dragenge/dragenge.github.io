@@ -33,7 +33,7 @@
     "url": "prof_form_shikista.sass",
     "disabled": true,
     "checked": false,
-    "description": "*Bigshot* Формат профиля"
+    "description": "*Shikista* Формат профиля"
   },
     {
     "url": "prof_form_citrus.sass",
@@ -51,7 +51,7 @@
     "url": "prof_form_bigshot.sass",
     "disabled": true,
     "checked": true,
-    "description": "shikista Формат профиля"
+    "description": "*BigShot* Формат профиля"
   },
   {
     "url": "q01_alter_menu.sass",
@@ -64,5 +64,23 @@
     "disabled": false,
     "checked": false,
     "description": "Однотонные списки аниме и манги (только для *Citrus*)"
+  },
+  {
+  "url": "q03_group_achive_per_cent.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Сортировка франшиз по процентам (перестают работать стандартные)"
+  },
+  {
+  "url": "q04_mark_module_for_posters.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Модуль оценок в блоке 'Обо мне'"
+  },
+  {
+  "url": "q05_animated_activity_graph.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Альтернативный анимированный график активности"
   }
 ]

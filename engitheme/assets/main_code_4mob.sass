@@ -163,7 +163,7 @@
 
  
 
-@media only screen and (min-width: 769px) 
+@media only screen and (min-width: 768px) 
 	.p-dashboards-show .cc-news .c-news_topics 
 		margin-right: 25px
 		width: calc(69% - 25px)
@@ -175,6 +175,8 @@
 		width: 30%
 		margin-right: 7px!important
 
+	#profiles_show .cc-3>.c-column 
+		margin-bottom: 10px
 
 @media only screen and (min-width: 1025px)
 	body[data-locale=ru] .b-offtopic_marker.off:hover:before, body[data-locale=ru] .b-offtopic_marker.active:hover:before 
@@ -280,6 +282,9 @@
 
 @media screen and (min-width: 1200px)  
 
+	.b-clubs
+		flex-wrap: unset
+
 	.l-page  
 		margin: 15px auto 15px 
 		border-radius: 12px 
@@ -311,13 +316,13 @@
 		margin: 0 5px 
 	 
 	.block.achievements .cc-3  
-		padding: 0 10px 
-	 
-	 
+		padding: 0 10px 	 
+	
 
 
 
 @media screen and (max-width: 1290px)  
+
 	.b-to-top .slide:before  
 		background: rgba($menu_back,$fourty) 
 		height: 100% 
@@ -325,17 +330,82 @@
 	 
 	.b-to-top.active .slide, .b-to-top .arrow  
 		width: 40px!important 
-	   
-	 
+	
+@media screen and (max-width: 1200px)
+
+	.l-page 
+		background-color: transparent
+		box-shadow: none!important
+		
+	body:before 
+		content: ''
+		position: fixed
+		background: rgba($menu_back, $eighty)
+		z-index: 1
+		width: 100%
+		height: 100%
+
+	body#profiles_show .b-clubs 
+		flex-wrap: unset
 
 @media only screen and (max-width: 1100px)  
 	.b-comments-notifier  
 		display: none!important 
+	
+	.p-profiles-show .lifetime .times .time, .p-profiles-show .lifetime .title .value 
+		font-size: 10px!important
+
 	 
 	 
 
 @media screen and (max-width: 1024px)
- 
+	
+	#profiles_show .achievements .cc-achievements .b-achievement:nth-child(n+3)
+		display: none
+
+	#profiles_show .achievements .cc-3 > .c-column:first-child
+		width: 24%
+
+	#profiles_show .achievements .cc-3 > .c-column:nth-child(2)
+		width: 24%
+
+	#profiles_show .achievements .cc-3 > .c-column:nth-child(3)
+		width: 50%
+		margin-left: 1%
+
+	#profiles_show .cc-achievements, #profiles_show .cc-franchises
+		flex-wrap: wrap
+		justify-content: center
+
+	#profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement, #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement
+		width: 70%
+		margin: 0px 15% 8px
+
+	#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge
+		width: 17%
+		margin: 2px 8px
+
+
+	#profiles_show .b-achievement.is-badge:before
+		height: 100%
+		border-radius: 14.5px
+		opacity: 1
+
+	.b-dialog>.inner header img
+		margin: 1px 10px 7px 0!important
+		width: 48px!important
+
+	.b-dialog .b-message .inner header img 
+		margin: 7px 7px 4px 0!important
+		width: 37px!important
+
+	.b-message>.inner .name-date .time 
+		padding-top: 0
+		line-height: 14px
+
+	.b-topic .item-mobile
+		top: 3px
+
 	.b-comments-notifier
 		display: none!important
 
@@ -348,11 +418,9 @@
 	.p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries  
 		padding: 0px 12px 0px 4px 
 	 
-
 	.l-page  
 		animation: none!important 
 		transition: none!important 
-		margin: 0px!important  
 	 
 	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga  
 		width: 100% 
@@ -638,7 +706,7 @@
 		max-width: 600px 
 	 
 	.b-message > .inner div.body .b-catalog_entry.cc .cover 
-		width: auto 
+		width: 43% 
 		margin-right: 10px 
 	 
 	.b-comment>.inner header .name-date .time  
@@ -655,7 +723,10 @@
 	 
 	.b-comment > .inner header .name-date a.name, .b-topic > .inner header .name-date a.name, .b-dialog>.inner header .name-date a.name, .b-message>.inner header .name-date a.name  
 		font-size: 14px 
-	 
+	
+	.b-dialog > .inner > header .name-date a.name 
+		font-size: 16px
+
 	/*новости*/
 	.b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name  
 		top: 2px 
@@ -744,7 +815,7 @@
 		position: absolute 
 		right: 24px 
 		top: 65px 
-		background: rgba($menu-back,$fourty)!important 
+		background: rgba($menu_back,$fourty)!important 
 		left: auto 
 		width: 150px 
 	 
@@ -753,7 +824,7 @@
 	 
 	.b-clubs.one-line .b-club  
 		position: relative 
-		width: 28% 
+		width: auto
 	 
 	.p-profiles .profile-head .c-brief header.head .misc  
 		top: 285px 
@@ -808,7 +879,7 @@
 		display: none  
 	 
 	.x1000 > .l-page div .profile-head:hover .c-info .c-lists-info, .p-profiles .profile-head:hover .c-info .c-lists-info  
-		margin-top: 92px!important 
+		margin-top: 0px!important 
 	 
 	.p-profiles .profile-head .c-brief .avatar .profile-actions  
 		bottom: 50px!important 
@@ -819,6 +890,8 @@
 	body#profiles_show .about.block  
 		margin-top: 20px 
 	 
+	.p-profiles-show .cc-favourites .c-column:nth-child(n+7)
+		display: none
 
 
 
@@ -832,6 +905,29 @@
 	 
 
 @media screen and (max-width: 767px)  
+
+	#profiles_show .achievements .cc-3 > .c-column:nth-child(1), #profiles_show .achievements .cc-3 > .c-column:nth-child(2)
+		width: 49%
+		margin-bottom: 10px
+		clear: none
+
+	#profiles_show .achievements .cc-3 > .c-column:nth-child(3) 
+		width: 100%
+		margin: 0
+
+	#profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement, #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement
+		width: 48%
+		margin: 0px 1% 0px
+
+	#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge
+		width: 14%
+		margin: 2px 1%
+
+
+	.b-message>.inner header img
+		margin: 2px 7px 4px 0
+		width: 40px
+
 	.fullwidth > .b-spoiler > label  
 		white-space: nowrap 
 		text-align:-webkit-auto 
@@ -866,17 +962,17 @@
 	 
 	.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left  
 		width: 100% 
+		margin: 28% auto 13.25rem auto
+		top: 14.45rem
 	 
 	.p-profiles .cc-2a>.c-column  
-		width: 50%!important 
+		width: 48% !important
+		margin: 0 1%!important
 	 
 	.c-column.c-left  
 		margin-top: 336px 
 	 
 	.p-profiles-show .lifetime  
-		margin-top: 0px!important 
-	 
-	.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child  
 		margin-top: 0px!important 
 	 
 	.b-block_list  
@@ -1543,7 +1639,7 @@
 		top: 0 
 	 
 	body#profiles_show .c-column.c-right .b-catalog_entry  
-		padding: 2px 2px!important 
+		padding: 8px!important 
 	 
 	.p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries  
 		padding: 0px 
@@ -1622,7 +1718,7 @@
 	 
 	.b-clubs.one-line .b-club  
 		position: relative 
-		width: 30% 
+		width: auto 
 		margin: auto!important 
 	 
 	.b-club .logo  
@@ -1668,6 +1764,16 @@
 	 
 @media screen and (max-width: 480px) and (orientation: portrait) 
  
+	#profiles_show .achievements .cc-3 > .c-column:nth-child(1), #profiles_show .achievements .cc-3 > .c-column:nth-child(2)
+		width: 100%
+
+	#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge
+		width: 23%
+
+	.b-dialog .to_dialog 
+		margin-top: 10px
+		line-height: 1.8
+
 	.cc-8>.c-column  
 		width: calc(33.3% - 10px) 
 		margin: 5px 
@@ -1760,9 +1866,9 @@
 		margin-top: 5px 
 	 
 	.b-catalog-entry-embedded .expanded-options  
-		top: 35px 
-		right: 130px 
-		width: 270px 
+		top: 41px 
+		right: 122px 
+		width: 290px 
 	 
 	.b-message  
 		padding-bottom: 15px 
@@ -1882,6 +1988,9 @@
 		border-radius: 4px 
 		color: #7685f5 
 		box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important 
+	
+	body#profiles_show .c-column.c-right .b-catalog_entry 
+		padding: 4px !important
 	 
 
 @media screen and (max-width: 350px) and (orientation: portrait)  
@@ -1936,7 +2045,7 @@
 	 
 	.p-profiles-show .lifetime .title .value  
 		width: 69px 
-		bordeR: none 
+		border: none 
 	 
 	.b-catalog-entry-embedded .b-catalog_entry  
 		padding-bottom: 20px!important 
@@ -1989,15 +2098,6 @@
 	.p-profiles .profile-head .c-brief .avatar .profile-actions  
 		width: 110px 
 	 
-	.p-profiles-show .lifetime  
-		margin-top: 180px!important 
-	 
-	body#profiles_show .cc-2a>.c-column  
-		width: 50%!important 
-	 
-	.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left  
-		margin-top: 159px 
-	 
 	body#profiles_show .b-user.avatar img  
 		width: 90% 
 	 
@@ -2005,12 +2105,12 @@
 		width: 100%!important 
 	 
 	.b-clubs.one-line .b-club  
-		width: 22% 
+		width: auto 
 		margin: auto!important 
 	 
 	body#profiles_show .l-page  
 		border-radius: 0px 
-		margin-top: 403px!important 
+		margin-top: 364px!important 
 	 
 	body#profiles_show .profile-head  
 		top: -360px 
@@ -2045,14 +2145,14 @@
 		width: 280px
 		margin-right: 1%!important
 		
-	
-	
 	.p-achievements-index .c-franchises .b-badge[data-progress='100']:after  
 		background: linear-gradient(135deg, transparent 283px, #483d1c 0) 
 	 
 	body.p-achievements.p-profiles .b-list_switchers  
 		margin-top: 2px!important 
-	 
+
+	.p-profiles-show .cc-favourites .c-column:nth-child(n+9) 
+		display: none
 	 
 
 

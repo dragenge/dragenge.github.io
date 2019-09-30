@@ -1043,7 +1043,7 @@ video#main-video_html5_api .vjs-big-play-button
 
 
 .b-catalog_entry .cover .misc, .p-dashboards-show .midheadline .b-link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link, .p-dashboards .user_list .list-change .note, .p-dashboards .c-my_list .list-change .note, .p-dashboards-show .contests .contest .notice, .b-forums .forum .topics, .name-date .time, .p-profiles .profile-head .c-history .entry .misc, .p-profiles-show .lifetime .times .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .b-comment > .inner header .name-date .time, .b-replies, .b-options-floated, .p-messages .mass-actions .action, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .b-show_more, .b-rate .score-notice, .b-animes-menu .block-list .date,
-.bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .bar.horizontal .line .bar-container .value, .tipsy, header.head a.edit, .p-studios .studio .animes, .p-studios .studio .years, .p-contests-index .contest .date, .p-contests .contest-match .vs .help, .p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain, .p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info, .b-user.detailed .info .last-online, .b-user.detailed .history .line .date, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .p-userlist_comparer .comparer table .notice, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .contests .contest .notice, .p-topics .l-menu .sticked-topics .topic .notice, .b-video_player .cc-player_controls .label, .b-video_player .cc-player_controls .episode-title .video-link, .b-log_entry .date, .b-log_entry .spoiler.collapse, .b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-js-action, .b-input .hint, .b-review-topic .review-votes_count, .b-show_more-more .hide-more, .p-dashboard .l-menu .ongoing .misc, .p-dashboard .l-menu .season .notice, .p-topics .l-menu .sticky-topics .topic .notice, .b-hot_topics .topic, .b-dialog .to_dialog
+.bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .bar.horizontal .line .bar-container .value, .tipsy, header.head a.edit, .p-studios .studio .animes, .p-studios .studio .years, .p-contests-index .contest .date, .p-contests .contest-match .vs .help, .p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain, .p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info, .b-user.detailed .info .last-online, .b-user.detailed .history .line .date, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .p-userlist_comparer .comparer table .notice, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .contests .contest .notice, .p-topics .l-menu .sticked-topics .topic .notice, .b-video_player .cc-player_controls .label, .b-video_player .cc-player_controls .episode-title .video-link, .b-log_entry .date, .b-log_entry .spoiler.collapse, .b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-js-action, .b-input .hint, .b-review-topic .review-votes_count, .b-show_more-more .hide-more, .p-dashboard .l-menu .ongoing .misc, .p-dashboard .l-menu .season .notice, .p-topics .l-menu .sticky-topics .topic .notice, .b-hot_topics .topic
 	font-size: 12px!important
 
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc
@@ -1576,6 +1576,7 @@ a.b-badge.b-tooltipped
 	padding: 10px 6px 6px
 	z-index: 1
 
+
 body.p-achievements.p-profiles.p-profiles .b-badge img
 	width: 100%
 	height: 100%
@@ -1585,22 +1586,14 @@ body.p-achievements.p-profiles.p-profiles .b-badge img
 	position: relative
 	border-radius: 11px
 	transition: 0.3s all
-
+    
 .p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::after
-	content: '★'
-	font-size: 26px
-	color: #ffcf22
-	width: calc(100% - 10px)!important
-	height: calc(100% - 15px)!important
-	line-height: 20px!important
-	box-shadow: 0 0 2px 2px #ffcf2280 inset
-	border-radius: 9px
-	transition: 0.2s ease
-	display: flex
-	align-items: flex-end
-	top: 0
-	justify-content: flex-end
-	padding: 10px 6px 6px
+    color: #ffcf22
+    width: calc(100% - 10px) !important
+    height: calc(100% - 15px) !important
+    box-shadow: 0 0 2px 2px #ffcf2280 inset
+    border-radius: 9px
+    line-height: 327px
 
 .p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']:hover:after
 	box-shadow: 0 0 2px 3px #cfbe9ccc inset
@@ -1902,7 +1895,7 @@ body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements
 	color: #fff7e8!important
 	
 body.p-achievements.p-profiles .l-top_menu-v2 
-    background: linear-gradient(to bottom, rgba(70, 37, 8, 0.8) 0%, rgba(70, 37, 8, 0.6) 70%, rgba(70, 37, 8, 0.3) 100%)
+    background: linear-gradient(to bottom, rgba(70, 37, 8, 0.8) 0%, rgba(70, 37, 8, 0.6) 70%, rgba(70, 37, 8, 0.36) 100%)
     box-shadow: 0 1px 20px 10px rgba(70, 37, 8, 0.4)!important
 
 body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover>span, body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon.active, body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:focus, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active>span, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown>span:focus
@@ -1922,6 +1915,7 @@ body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search .se
 
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover
 	background: rgba(179, 161, 126, 0.12)
+
 
 /* CSS редактор */
 .cm-s-solarized.cm-s-light
@@ -2106,7 +2100,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .no
 .b-db_entry-variant-list_item a.b-link.bubbled-processed
     color: $white_color!important
 	
-.b-anime_status_tag.other, a.b-db_entry-variant-list_item span.b-link
+a.b-db_entry-variant-list_item span.b-link
     color: rgba($white_color,$seventy)!important
 	
 a.b-anime_status_tag.studio
@@ -2118,17 +2112,30 @@ a.b-anime_status_tag.studio
 	margin-right: unset
 
 
+.l-top_menu-v2:hover .global-search input, .is-search-focus .global-search input
+	background: rgba($block_color,$thirty) !important
+	box-shadow: inset 0 0px 2px 2px rgba(0, 0, 0, 0.2)
+    border-radius: 11px !important
+	transition: 0.3s ease-in-out
+
 .l-top_menu-v2
-	background: linear-gradient(to bottom, rgba($menu_back,$eighty) 0%, rgba($menu_back,$sixty) 70%, rgba($menu_back,$thirty) 100%)
-	box-shadow: 0 1px 20px 10px rgba($menu_back,$fourty) !important
+	background: rgba($menu_back,$fourty)
+	box-shadow: 0 1px 20px 10px rgba($menu_back,$fifty) !important
+	transition: 0.3s ease-in-out
 	border-bottom: unset
 
-.l-top_menu-v2 .menu-dropdown>span
+.l-top_menu-v2:hover, .l-top_menu-v2.is-search-focus
+	background: rgba($menu_back,$sixty) !important
+	box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important
+
+.l-top_menu-v2 .menu-dropdown > span
 	background: none
 
 .l-top_menu-v2 .global-search input
 	background: unset
 	color: unset
+	transition: 0.3s ease-in-out
+
 
 .l-top_menu-v2 .global-search
 	color: $dark_color
@@ -2198,15 +2205,24 @@ span.submenu-triangle.icon-profile
 	color: $hover-color
 	
 .b-anime_status_tag.other
-	background-color: rgba(31, 31, 71, 0.9)
+	padding: 2px 12px 1px !important
+	margin: 2px !important
+	color: #cdabce !important
+	background: rgba(72, 35, 56, 0.8) !important
 	cursor: default
 	display: inline-block
 	font-size: 12px
 	letter-spacing: unset
-	padding: 0px 7px
 	border-radius: 10px
 	border: unset
 	color: unset
+
+a.b-anime_status_tag.studio
+    padding: 2px 12px 1px!important
+    margin: 2px !important
+    color: #b3aba0
+    background: rgba(56, 56, 56, 0.6) !important
+    border-radius: 10px
 
 .b-anime_status_tag.episode, .b-anime_status_tag.studio
 	background-color: rgba(31, 31, 71, 0.9)

@@ -111,7 +111,7 @@ header.head h2, header.head h1
 
 .b-link_button
   background-color: rgba($buttoms_color,$seventy)
-  border-color: rgba($buttoms_color,$seventy)
+  border: none
   color: $white_color !important
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)
 
@@ -214,14 +214,14 @@ textarea
   border: none!important
   border-radius: 10px
 
-.line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover
+.line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover, a.b-anime_status_tag.studio:hover
   background-color: $hover_buttoms_2 !important
   color: white!important
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important
   margin: 2px!important
   border: none!important
 
-.block.genres .b-spoiler label
+.block.genres .b-spoiler label, .b-show_more, .b-show_more-more .hide-more
   padding: 2px 0px !important
   color: $bright_color !important
   background: rgba($block_color,$sixty)!important
@@ -232,7 +232,7 @@ textarea
   width: 100%
   text-align: center
 
-.block.genres .b-spoiler label:hover, .b-table .actions a:hover
+.block.genres .b-spoiler label:hover, .b-table .actions a:hover, .b-show_more:hover, .b-show_more-more .hide-more:hover
   background-color: $hover_buttoms_2 !important
   color: white!important
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important
@@ -681,9 +681,6 @@ a.name:hover
   overflow: visible
   white-space: normal
 
-.b-message>.inner header
-  width: calc(100% - 110px)
-
 .p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover
   color: $hover_color !important
   transform: scale(1.01)
@@ -1011,7 +1008,7 @@ input, select, button, textarea
 .b-dialog .b-message
   padding-bottom: 0px
   margin-bottom: 0px!important
-  margin-top: 13px
+  margin-top: 0px
 
 
 .p-user_history-index .history-page .history-interval p .destroy, .buttons .item-reply, .buttons .item-moderation, .buttons .item-edit, .buttons .item-delete, .buttons .item-ignore,.buttons .item-apply, .buttons .item-request-confirm, .buttons .item-delete-confirm, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel
@@ -1737,7 +1734,7 @@ img
 
 .profile-actions .ban:before
   transition: 0.3s ease
-  content: '\\_f12a'
+  content: '\\_f06a'
   font: normal normal normal 14px/1 FontAwesome
   font-size: inherit
   text-rendering: auto
