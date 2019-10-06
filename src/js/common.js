@@ -752,7 +752,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'jay-chef.ru/shikimori' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'dragenge.github.io/master' ? 'master' : 'main');
   },
 });
 
