@@ -588,7 +588,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://jay-chef.ru/shikimori/engitheme'
+        base = 'https://dragenge.github.io/master'
       } else {
         base = '' + branch;
       }
@@ -677,7 +677,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://jay-chef.ru/shikimori/engitheme/', function(list) {
+      XHR('https://dragenge.github.io/master/', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
