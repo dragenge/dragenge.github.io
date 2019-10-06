@@ -677,7 +677,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://api.github.com/repos/dragenge/engitheme/', function(list) {
+      XHR('https://api.github.com/repos/dragenge/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
