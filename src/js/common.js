@@ -364,6 +364,11 @@ var vm = new Vue({
       } else {
         sass_setting += '$image-background: none; '
       };
+      if (this.user.user_cover) {
+        sass_setting += '$image-cover: url(' + this.user.user_cover + '); '
+      } else {
+        sass_setting += '$image-cover: none; '
+      };
       if (this.user.style_name) {
         sass_setting += '$style_names:' + this.user.style_name + '; ';
       } else {
@@ -583,7 +588,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://dragenge.github.io/engitheme'
+        base = 'https://jay-chef.ru/shikimori/engitheme'
       } else {
         base = '' + branch;
       }
@@ -672,7 +677,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://dragenge.github.io/engitheme/', function(list) {
+      XHR('https://jay-chef.ru/shikimori/engitheme/', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -707,7 +712,6 @@ var vm = new Vue({
     var localSettings = [
       'user_id',
       'user_cover',
-      'user_background',
       'style_name',
       'selected_layout',
       'selected_pallete',
@@ -748,7 +752,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'dragenge.github.io/shikimori' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'jay-chef.ru/shikimori' ? 'master' : 'main');
   },
 });
 
@@ -952,3 +956,81 @@ function checkcontrast(background, color) {
     return color;
   }
 }
+let counter_slider = 0;
+let Num_of_divs = document.querySelectorAll('#nav_preview .slider').length;
+function Slider_prev(){
+  if (counter_slider > 0) {
+    counter_slider--
+  }
+  else (counter_slider=4)
+  Slider_num(counter_slider);
+};
+function Slider_next(){
+  if (counter_slider < 4) {
+    counter_slider++
+  }
+  else (counter_slider=0)
+  Slider_num(counter_slider);
+};
+function Slider_num(sliders){
+  let i=0;
+  for (i = 0; i < 5; i++) {
+    document.querySelectorAll('#nav_preview .slider')[i].style.display = 'none';
+  }
+  switch (sliders) {
+    case 0:
+      document.querySelectorAll('#nav_preview .slider')[0].style.display = 'block';
+      $(".style_switch").css("display","block");
+      break;
+    case 1:
+      document.querySelectorAll('#nav_preview .slider')[1].style.display = 'block';
+      $(".style_switch").css("display","none");
+      break;
+    case 2:
+      document.querySelectorAll('#nav_preview .slider')[2].style.display = 'block';
+      $(".style_switch").css("display","none");
+      break;
+    case 3:
+      document.querySelectorAll('#nav_preview .slider')[3].style.display = 'block';
+      $(".style_switch").css("display","none");
+      break;
+    case 4:
+      document.querySelectorAll('#nav_preview .slider')[4].style.display = 'block';
+      $(".style_switch").css("display","none");
+      break;
+      
+  };
+};
+Slider_num(0);
+function User_background(){
+  let background = document.getElementById("user_background").value;
+  $(".bodik").css("background-image","url("+ background + ")");
+  if (background==""||background==undefined){
+  $(".bodik").css("background-image","url(//i.ibb.co/"+ vm._data.scheme.page_img_url + "/back.jpg)");
+  }
+};
+User_background();
+function ShowSliderOver(){
+  if($(".style_switch.active")[0]){
+    $(".style_switch.active").removeClass("active");
+    $(".pre-over-2").css("display","none");
+    $(".pre-over").css("display","block");
+  }
+  else{
+    $(".style_switch").addClass("active");
+    $(".pre-over").css("display","none");
+    $(".pre-over-2").css("display","block");
+  }
+} 
+function ShowSliderCitrus(){
+  if($(".style_switch.active")[0]){
+    $(".style_switch.active").removeClass("active");
+    $(".pre-citrus-2").css("display","none");
+    $(".pre-citrus-fullhd").css("display","block");
+  }
+  else{
+    $(".style_switch").addClass("active");
+    $(".pre-citrus-fullhd").css("display","none");
+    $(".pre-citrus-2").css("display","block");
+  }
+} 

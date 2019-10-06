@@ -3,151 +3,151 @@
     "white_color": {
       "category": "pallete",
       "block": "Основные цвета",
-      "name": "Основной цвет приложения",
-      "description": ""
+      "name": "Условно белый цвет текста",
+      "description": "ролро лролролролролр олрол ролроооооооо ооооооооо ооооооо ооооооооо ооооооо оооооооо оооооо оооооооооло"
     },
     "light_color": {
       "category": "pallete",
       "block": "Основные цвета",
-      "name": "Акцентирующий цвет приложения",
-      "description": ""
+      "name": "Светлый цвет текста",
+      "description": "роооо оооооо ооооооо ооооло ло"
     },
     "dark_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет текста ссылки по умолчанию",
-      "description": ""
+      "name": "Темный цвет текста",
+      "description": "шшшшшшшшшшшшшшшщш гнщщш щшгшщшзщ х хзгш ш щ"
     },
     "bright_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при наведении",
+      "name": "Яркий цвет текста и ссылок",
       "description": ""
     },
     "dull_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Тусклый цвет текста",
       "description": ""
     },
         "input_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Фантомные фразы в строках ввода",
       "description": ""
     },
         "hover_buttoms_1": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "При наведении на 'Загрузить еще'",
       "description": ""
     },
         "buttoms_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Цвет больших кнопок в клубе",
       "description": ""
     },
         "hover_buttoms_2": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "При наведении кнопки в клубе",
       "description": ""
     },
         "very_high_rating": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса найвысшего рейтинга",
       "description": ""
     },
         "high_rating": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса высого рейтинга",
       "description": ""
     },
         "average_rating": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса среднего рейтинга",
       "description": ""
     },
         "small_rating": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса низкого рейтинга",
       "description": ""
     },
         "time_filled": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса пройденного времени",
       "description": ""
     },
         "time_empty": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса не пройденного времени",
       "description": ""
     },
         "anime_inprocess": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса запланированного аниме",
       "description": ""
     },
         "anime_complete": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса просмотренного аниме",
       "description": ""
     },
         "manga_inprocess": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса запланирвоанной манги",
       "description": ""
     },
         "manga_complete": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Полоса прочитанной манги",
       "description": ""
     },
         "hover_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Основной цвет при наведении",
       "description": ""
     },
         "shadows_color": {
       "category": "pallete",
       "block": "Меню сайта",
-      "name": "Цвет меню",
+      "name": "Цвет подсказок",
       "description": ""
     },
         "block_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Цвет панелей заголовков",
       "description": ""
     },
         "menu_back": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Основной цвет фона страницы",
       "description": ""
     },
         "nick_cover": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Очертание никнейма",
       "description": ""
     },
         "popup_color": {
       "category": "pallete",
       "block": "Цвет ссылок",
-      "name": "Цвет ссылки при нажатии",
+      "name": "Фон всплывающей информации",
       "description": ""
     }
   },

@@ -9,49 +9,49 @@
     "url": "main_code_1.sass",
     "disabled": true,
     "checked": true,
-    "title": "Главный css темы"
+    "title": "Главный css темы ч.1"
   },
   {
     "url": "main_code_2.sass",
     "disabled": true,
     "checked": true,
-    "title": "Главный css темы"
+    "title": "Главный css темы ч.2"
   },
   {
     "url": "main_code_3.sass",
     "disabled": true,
     "checked": true,
-    "title": "Главный css темы"
+    "title": "Главный css темы ч.3"
   },
   {
     "url": "main_code_4mob.sass",
     "disabled": true,
     "checked": true,
-    "title": "Главный css темы"
+    "title": "Главный css темы ч.4"
   },
     {
     "url": "prof_form_shikista.sass",
     "disabled": true,
     "checked": false,
-    "description": "*Shikista* Формат профиля"
+    "title": "*Shikista* Формат профиля"
   },
     {
     "url": "prof_form_citrus.sass",
     "disabled": true,
     "checked": false,
-    "description": "*Citrus* Формат профиля"
+    "title": "*Citrus* Формат профиля"
   },
     {
     "url": "prof_form_over.sass",
     "disabled": true,
     "checked": false,
-    "description": "*Over* Формат профиля"
+    "title": "*Over* Формат профиля"
   },
     {
     "url": "prof_form_bigshot.sass",
     "disabled": true,
     "checked": true,
-    "description": "*BigShot* Формат профиля"
+    "title": "*BigShot* Формат профиля"
   },
   {
     "url": "q01_alter_menu.sass",
