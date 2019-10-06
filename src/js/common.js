@@ -588,7 +588,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://dragenge.github.io/engitheme'
+        base = 'https://raw.githubusercontent.com/dragenge/engitheme/'
       } else {
         base = '' + branch;
       }
@@ -677,7 +677,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://dragenge.github.io/engitheme', function(list) {
+      XHR('https://api.github.com/repos/dragenge/engitheme/branches', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
