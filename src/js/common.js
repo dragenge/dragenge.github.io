@@ -677,7 +677,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://api.github.com/repos/dragenge/engitheme/branches', function(list) {
+      XHR('https://api.github.com/repos/dragenge/engitheme/', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -752,7 +752,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'dragenge.github.io' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'dragenge.github.io/master' ? 'master' : 'main');
   },
 });
 
