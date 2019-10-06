@@ -588,7 +588,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://raw.githubusercontent.com/dragenge/engitheme/'
+        base = 'https://raw.githubusercontent.com/dragenge/engitheme'
       } else {
         base = '' + branch;
       }
