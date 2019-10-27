@@ -1,11 +1,5 @@
 [
   {
-    "url": "version.sass",
-    "disabled": true,
-    "checked": true,
-    "title": "Информация о версии"
-  },
-  {
     "url": "main_code_1.sass",
     "disabled": true,
     "checked": true,
@@ -65,22 +59,28 @@
     "checked": false,
     "description": "Однотонные списки аниме и манги (только для *Citrus*)"
   },
-  {
-  "url": "q03_group_achive_per_cent.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Сортировка франшиз по процентам (перестают работать стандартные)"
+    {
+    "url": "q03_group_achive_per_cent.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Сортировка франшиз по процентам (перестают работать стандартные)"
   },
-  {
-  "url": "q04_mark_module_for_posters.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Модуль оценок в блоке 'Обо мне'"
+    {
+    "url": "q04_mark_module_for_posters.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Модуль оценок в блоке 'Обо мне'"
   },
+    {
+    "url": "q05_animated_activity_graph.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Альтернативный анимированный график активности"
+  }
   {
-  "url": "q05_animated_activity_graph.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Альтернативный анимированный график активности"
+    "url": "colors.sass
+    "disabled": true,
+    "checked": true,
+    "title": "Ваши выбранные цвета"
   }
 ]
