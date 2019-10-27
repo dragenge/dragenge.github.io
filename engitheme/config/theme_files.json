@@ -4,5 +4,11 @@
     "disabled": true,
     "checked": true,
     "title": "Информация о версии"
+  }, 
+  {
+    "url": "version.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Информация о версии"
   }
 ]
