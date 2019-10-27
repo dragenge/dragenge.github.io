@@ -481,11 +481,12 @@ var vm = new Vue({
     saveLocal: function (key, value) {
       localStorage.setItem(key, value);
     },
+    console.log( convertHex(this.user.scheme.white_color));
     // Скачивание своих настроек
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
     getMySettings: function () {
       // Подготавливаем данные
-      console.log( convertHex(this.user.scheme.white_color));
+      
       this.user.custom_pallete = this.color_pallete[this.user.selected_pallete].colors;
       this.user.custom_scheme = this.color_scheme[this.user.selected_scheme].colors;
 
