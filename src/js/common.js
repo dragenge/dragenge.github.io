@@ -414,9 +414,9 @@ var vm = new Vue({
 
 
           switchDisabled(document.getElementById('create_css'));
-          var test = document.getElementById("output_css").value
-          var n = test.split('rgba(').join('')
-          n = test.split(', 0.1)').join('')
+          var test = document.getElementById("output_css").value;
+          var n = test.split('rgba(').join('');
+          var n = test.split(', 0.1)').join('');
           document.getElementById("output_css").value = n;
         } else {
           vm.status.isCreating = false;
