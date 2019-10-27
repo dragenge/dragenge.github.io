@@ -263,6 +263,7 @@ var vm = new Vue({
         }
       }
       this.scheme.white_color = convertHex(this.scheme.white_color);
+      console.log("this.scheme.white_color");
       this.saveLocal('selected_layout', this.user.selected_layout);
       this.saveSelectedFiles();
     },
