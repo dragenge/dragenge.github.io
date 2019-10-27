@@ -262,7 +262,7 @@ var vm = new Vue({
           this.file_list[i].checked = this.user.selected_layout == 'over' ? true : false;
         }
       }
-
+      this.scheme.white_color = convertHex(this.scheme.white_color);
       this.saveLocal('selected_layout', this.user.selected_layout);
       this.saveSelectedFiles();
     },
@@ -800,7 +800,7 @@ function XHR (url, callback, error) {
 
 
 document.addEventListener('click', function () {
-  console.log(convertHex(this.scheme.white_color));
+  
   if (event.clientX === 0 && event.clientY === 0 && event.screenX === 0) {
     return false;
   }
