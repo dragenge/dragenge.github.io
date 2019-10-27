@@ -178,9 +178,9 @@ var vm = new Vue({
     scheme: {
       // NOTE: Порядок соответствует color_scheme
       // NOTE: Свойства color_pallete
-      white_color: '#C6CBF1',
+      white_color: convertHex('#C6CBF1'),
       light_color: '#A4ACE5',
-      dark_color: '#7a84d0',
+      dark_color: convertHex('#7a84d0'),
       bright_color: '#7685f5',
       dull_color: '#6c7092',
       input_color: '#4d4fa5',
