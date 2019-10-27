@@ -13,10 +13,6 @@
   }
   
   body:after {
-    background-image: url("//i.ibb.co/jf7rRnW/back.jpg");
-  }
-  
-  body:after {
     content: '';
     width: 100%;
     height: 100%;
