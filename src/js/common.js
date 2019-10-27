@@ -415,7 +415,7 @@ var vm = new Vue({
 
           switchDisabled(document.getElementById('create_css'));
           var test = document.getElementById("output_css").value
-var n = test.replace("rgba", "").replace("(", "").replace(", 0.1)", "");
+var n = test.replace("rgba(", "").replace(", 0.1)", "");
 document.getElementById("output_css").value = n;
         } else {
           vm.status.isCreating = false;
