@@ -740,7 +740,7 @@ var vm = new Vue({
 
     // Подготовка сборщика
     Sass.setWorkerUrl('./vendor/sass.js/sass.worker.min.js');
-      console.log( "test");
+      
     // Загрузка списка цветовых палитр
     XHR('./config/theme_palletes.json', function(config) {
       vm.color_pallete = JSON.parse(config);
@@ -800,6 +800,7 @@ function XHR (url, callback, error) {
 
 
 document.addEventListener('click', function () {
+  console.log( "test");
   if (event.clientX === 0 && event.clientY === 0 && event.screenX === 0) {
     return false;
   }
