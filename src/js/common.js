@@ -224,7 +224,7 @@ var vm = new Vue({
   },
   watch: {
     "scheme.color_primary": function () {
-      console.log( convertHex(this.user.scheme.white_color));
+      
       if (this.scheme.color_primary.length === 7) {
         this.scheme.color_text_on_primary = isLight(hexToRgb(this.scheme.color_primary)) ? '#212121' : '#FAFAFA';
         this.scheme.color_primary_darker = additionColor(this.scheme.color_primary, '#000000', 12);
@@ -487,7 +487,7 @@ var vm = new Vue({
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
     getMySettings: function () {
       // Подготавливаем данные
-      
+      console.log( convertHex(this.scheme.white_color));
       this.user.custom_pallete = this.color_pallete[this.user.selected_pallete].colors;
       this.user.custom_scheme = this.color_scheme[this.user.selected_scheme].colors;
 
