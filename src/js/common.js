@@ -483,8 +483,9 @@ var vm = new Vue({
     },
     // Скачивание своих настроек
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
-    getMySettings: function () {
+    getMySettings: function () {convertHex
       // Подготавливаем данные
+      console.log( convertHex(this.user.scheme.white_color));
       this.user.custom_pallete = this.color_pallete[this.user.selected_pallete].colors;
       this.user.custom_scheme = this.color_scheme[this.user.selected_scheme].colors;
 
@@ -510,8 +511,8 @@ var vm = new Vue({
         var user_pallete = JSON.parse(localStorage.getItem('user_pallete'));
 
         if (Array.isArray(user_pallete)) {
-          this.color_pallete['custom']['colors'].white_color           = convertHex(user_pallete[0]);
-          this.color_pallete['custom']['colors'].light_color           = convertHex(user_pallete[1]);
+          this.color_pallete['custom']['colors'].white_color           = user_pallete[0];
+          this.color_pallete['custom']['colors'].light_color           = user_pallete[1];
           this.color_pallete['custom']['colors'].dark_color             = user_pallete[2];
           this.color_pallete['custom']['colors'].bright_color        = user_pallete[3];
           this.color_pallete['custom']['colors'].dull_color      = user_pallete[4];
@@ -829,6 +830,7 @@ function isLight (r, g, b) {
   var a = 1 - (0.299 * r + 0.587 * g + 0.114 * b) / 255;
   return (a < 0.5);
 }
+
 function convertHex(hex){
     hex = hex.replace('#','');
     r = parseInt(hex.substring(0,2), 16);
