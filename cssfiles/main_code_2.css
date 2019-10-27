@@ -917,10 +917,6 @@
   }
   
   .l-footer:before {
-    content: "E-design v.3.31 *Amaranth Universe*";
-  }
-  
-  .l-footer:before {
     display: block !important;
     color:  rgba(var(--dark-color), var(--hundred));
     bottom: auto;
