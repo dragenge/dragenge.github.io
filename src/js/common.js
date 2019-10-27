@@ -800,7 +800,7 @@ function XHR (url, callback, error) {
 
 
 document.addEventListener('click', function () {
-  console.log( "test");
+  console.log(convertHex(this.scheme.white_color));
   if (event.clientX === 0 && event.clientY === 0 && event.screenX === 0) {
     return false;
   }
