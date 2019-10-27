@@ -6,7 +6,7 @@
 // Copyright (c) 2017 grin3671
 
 'use strict';
-
+console.log( convertHex(this.user.scheme.white_color));
 Vue.component('folder', {
   props: ['foldername', 'file_list'],
   data: function () {
@@ -481,7 +481,7 @@ var vm = new Vue({
     saveLocal: function (key, value) {
       localStorage.setItem(key, value);
     },
-    console.log( convertHex(this.user.scheme.white_color));
+    
     // Скачивание своих настроек
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
     getMySettings: function () {
