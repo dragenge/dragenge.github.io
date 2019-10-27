@@ -391,7 +391,6 @@
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden !important;
-    background-image: url("//i.ibb.co/jf7rRnW/back.jpg");
   }
   #profiles_show .profile-head .c-history, #profiles_show .profile-head .c-history.x2, #profiles_show .profile-head .c-history.x3, #profiles_show.x1000 > .l-page div .profile-head .c-history.x2, #profiles_show.x1000 > .l-page div .profile-head .c-history.x3 {
     position: absolute;
