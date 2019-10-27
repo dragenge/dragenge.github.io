@@ -483,7 +483,7 @@ var vm = new Vue({
     },
     // Скачивание своих настроек
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
-    getMySettings: function () {convertHex
+    getMySettings: function () {
       // Подготавливаем данные
       console.log( convertHex(this.user.scheme.white_color));
       this.user.custom_pallete = this.color_pallete[this.user.selected_pallete].colors;
