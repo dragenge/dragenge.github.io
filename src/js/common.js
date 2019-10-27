@@ -6,7 +6,7 @@
 // Copyright (c) 2017 grin3671
 
 'use strict';
-console.log( convertHex(this.user.scheme.white_color));
+
 Vue.component('folder', {
   props: ['foldername', 'file_list'],
   data: function () {
@@ -224,6 +224,7 @@ var vm = new Vue({
   },
   watch: {
     "scheme.color_primary": function () {
+      console.log( convertHex(this.user.scheme.white_color));
       if (this.scheme.color_primary.length === 7) {
         this.scheme.color_text_on_primary = isLight(hexToRgb(this.scheme.color_primary)) ? '#212121' : '#FAFAFA';
         this.scheme.color_primary_darker = additionColor(this.scheme.color_primary, '#000000', 12);
