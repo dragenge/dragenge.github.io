@@ -487,7 +487,7 @@ var vm = new Vue({
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
     getMySettings: function () {
       // Подготавливаем данные
-      console.log( "test");
+
       this.user.custom_pallete = this.color_pallete[this.user.selected_pallete].colors;
       this.user.custom_scheme = this.color_scheme[this.user.selected_scheme].colors;
 
@@ -740,7 +740,7 @@ var vm = new Vue({
 
     // Подготовка сборщика
     Sass.setWorkerUrl('./vendor/sass.js/sass.worker.min.js');
-
+      console.log( "test");
     // Загрузка списка цветовых палитр
     XHR('./config/theme_palletes.json', function(config) {
       vm.color_pallete = JSON.parse(config);
