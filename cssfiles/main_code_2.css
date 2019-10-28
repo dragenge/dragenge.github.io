@@ -1060,7 +1060,9 @@
   .b-to-top.active .slide, .b-to-top .arrow {
     width: 40px !important;
   }
-  
+  body#profiles_show .b-shiki_editor footer {
+    padding: 0px 0px 0px 0px;
+  }
   .b-shiki_editor footer {
     padding: 0px 0px 10px 0px;
   }
