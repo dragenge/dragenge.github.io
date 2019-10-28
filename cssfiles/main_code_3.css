@@ -1559,7 +1559,7 @@
   }
   
   /* Content */
-  .l-page > div:first-child {
+  .l-page > div:not(.b-hot_topics-v2) {
     min-height: 200px;
   }
   .l-page {
