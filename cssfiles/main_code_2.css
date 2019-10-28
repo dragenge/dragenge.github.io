@@ -904,7 +904,8 @@
   
   .l-footer {
     position: relative;
-    margin: 0;
+    margin: 0px 15px;
+    bottom: 7px;
     padding: 0;
     background: none;
   }
