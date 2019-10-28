@@ -2318,13 +2318,13 @@
   .l-top_menu-v2 .menu-icon.mail:after {
     display: flex;
     justify-content: center;
+    align-items: center;
     top: 0;
     right: 0;
     width: 28px;
     height: 28px;
     padding: 0px;
     margin: 8px 10px 6px;
-    line-height: 10px;
     font-size: 18px;
     font-family: 'Comfortaa';
     color: #ffffff;
