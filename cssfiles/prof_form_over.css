@@ -16,23 +16,27 @@
     opacity: 1;
     transition: 0.5s all;
   }
+  
   body#profiles_show .l-page > div {
     position: relative;
     width: 100%;
     overflow: hidden;
   }
+  
   body#profiles_show.x1200 .l-page, body#profiles_show .l-page {
     margin: 0 auto !important;
     padding: 0 !important;
     max-width: 100%;
     transition: none;
     animation: none;
-    box-shadow: inset 0px 0px 20px 2px rgba(-var(--menu-back, 0.8) !important;
+    box-shadow: inset 0px 0px 20px 2px rgba(var(--menu-back), 0.8)!important;
   }
+  
   body#profiles_show .b-catalog_entry {
     box-shadow: 0px 0px 3px 3px 0, 0, 0, 0.35);
-    background: linear-gradient(transparent 0%, hsla(0, 0%, 0%, 0.24) 100%);
+    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
   }
+  
   body#profiles_show .b-catalog_entry:hover {
     box-shadow: -20px 20px 0 -17px rgba(62, 62, 62, 0.85), 20px -20px 0 -17px #383838, 20px 20px 0 -20px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(0, 0, 0, 0.8);
   }
@@ -42,12 +46,14 @@
     margin-top: 0;
     z-index: 9;
   }
+  
   #profiles_show .profile-content .block {
     display: inline-block;
     width: 100%;
     margin: 0;
     z-index: 8;
   }
+  
   body#profiles_show .profile-content .cc-2.block {
     margin-bottom: 0;
   }
@@ -76,7 +82,7 @@
     bottom: 0;
     left: 0;
     height: 35%;
-    background: linear-gradient(to bottom, rgba(41, 15, 15, 0) 0%, rgba(0, 0, 0, 0.25) 70%,rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.5) 94%, rgba(var(--$menu-back), var(--hundred)) 99%, rgba(var(--$menu-back), var(--hundred)) 100%)
+    background: linear-gradient(to bottom, rgba(41, 15, 15, 0) 0%, rgba(0, 0, 0, 0.25) 70%,rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.5) 94%, rgba(var(--menu-back), var(--hundred)) 99%, rgba(var(--menu-back), var(--hundred)) 100%)
   }
   #profiles_show .profile-head .c-brief header {
     text-align: left;
@@ -90,7 +96,7 @@
     background: none;
     overflow: visible;
     z-index: 15;
-    text-shadow: 1px -1px 0px rgba(-var(--nick-cover), 0.3), -1px 1px 0px rgba(-var(--nick-cover), 0.3), -1px -1px 0px rgba(-var(--nick-cover),0.3), 1px 1px 0px rgba(-var(--nick-cover),0.3), 0px -1px 0px rgba(-var(--nick-cover),0.3), 0px 1px 0px rgba(-var(--nick-cover),0.3), 1px 0px 0px rgba(-var(--nick-cover),0.3), -1px 0px 0px rgba(-var(--nick-cover),0.3);
+    text-shadow: 1px -1px 0px rgba(var(--nick-cover), 0.3), -1px 1px 0px rgba(var(--nick-cover), 0.3), -1px -1px 0px rgba(var(--nick-cover),0.3), 1px 1px 0px rgba(var(--nick-cover), 0.3), 0px -1px 0px rgba(var(--nick-cover), 0.3), 0px 1px 0px rgba(var(--nick-cover), 0.3), 1px 0px 0px rgba(var(--nick-cover), 0.3), -1px 0px 0px rgba(var(--nick-cover), 0.3);
   }
   #profiles_show .profile-head .c-info .c-additionals div a {
     font-size: 13px !important;
@@ -624,3 +630,4 @@
     font-size: 10px;
   }
 }
+
