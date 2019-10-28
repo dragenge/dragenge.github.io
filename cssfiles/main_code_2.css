@@ -203,11 +203,11 @@
   }
   
   .b-height_shortener .expand:hover span {
-    border-bottom-color: rgba(165, 170, 230, 0.2);
+    border-bottom-color: rgba(var(--light-color), 0.2);
   }
   
   .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span {
-    border: 2px dashed rgba(165, 170, 230, 0.2);
+    border: 2px dashed rgba(var(--light-color), 0.2);
     border-radius: 6px;
     transition: 0.3s ease;
     padding: 0px 4px;
@@ -220,7 +220,7 @@
   .b-height_shortener .expand:hover span, .b-log_entry .spoiler.collapse:hover span, .b-log_entry .spoiler.collapsed:hover span, .b-log_entry .spoiler.collapse span:hover, .b-log_entry .spoiler.collapsed span:hover {
     color:  rgba(var(--hover-color), var(--hundred));
     animation: spoilzero 2s ease infinite;
-    border-bottom-color: rgba(165, 170, 230, 0.2);
+    border-bottom-color: rgba(var(--light-color), 0.2);
   }
   
   .b-height_shortener .expand:hover span, .b-height_shortener .expand:hover {
@@ -1705,7 +1705,7 @@
   
   .b-poll .poll-variants .poll-variant.result .bar .line {
     padding: 0;
-    background: rgba(60, 28, 40, 0.8);
+    background: rgba(var(--hover-buttoms-1), 0.8);
     height: 9px;
     border: 1px solid  rgba(var(--small-rating), var(--hundred));
     overflow: hidden;
@@ -2129,7 +2129,7 @@
   
   .b-achievement .c-about .progress {
     padding: 0;
-    background: rgba(60, 28, 40, 0.8);
+    background: rgba(var(--hover-buttoms-1), 0.8);
     height: 7px;
     border: 0.5px solid  rgba(var(--small-rating), var(--hundred));
     overflow: hidden;
