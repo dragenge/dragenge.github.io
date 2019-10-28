@@ -447,7 +447,7 @@
     padding: 7px 10px;
     clip-path: none !important;
     transform: none !important;
-    background: 74, 30, 38, 0.8);
+    background: rgba(var(--menu-back), 0.8);
     border-radius: 16px;
     box-shadow: 0 2px 6px 2px 0, 0, 0, 0.4);
   }
@@ -459,13 +459,13 @@
     padding: 7px 10px;
     clip-path: none !important;
     transform: none !important;
-    background: 74, 30, 38, 0.8);
+    background: rgba(var(--menu-back), 0.8);
     border-radius: 16px;
     box-shadow: 0 2px 6px 2px 0, 0, 0, 0.4);
   }
   #profiles_show .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover, #profiles_show .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
     box-shadow: none !important;
-    background: 74, 30, 38, 0.8);
+    background: rgba(var(--menu-back), 0.8);
     clip-path: none;
     transform: none;
   }
