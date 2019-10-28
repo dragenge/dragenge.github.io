@@ -2316,20 +2316,20 @@
   }
   
   .l-top_menu-v2 .menu-icon.mail:after {
-    background:  rgba(var(--hover-color), var(--hundred));
-    top: 0;
-    right: 0;
-    color: #ffffff;
-    width: 28px;
-    height: 28px;
-    border-radius: 6px;
-    padding: 0px;
-    margin: 8px 10px 6px;
-    font-size: 18px;
-    line-height: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    margin: 8px 10px 6px;
+    line-height: 10px;
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    color: #ffffff;
+    background:  rgba(var(--hover-color), var(--hundred));
+    border-radius: 6px;
     animation: mail 5s ease 1;
     border: none !important;
   }
