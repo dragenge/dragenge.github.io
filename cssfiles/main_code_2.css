@@ -2620,4 +2620,6 @@
   .b-topic.b-news_wall-topic.b-news-topic > .inner > a, .b-topic.b-news_wall-topic.b-news-topic > .inner .name-date .name, .p-dashboards-show .generated-news-line .info .name, .b-topic.b-news_wall-topic.b-news-topic > .inner .name-date .name {
     transition: 0.3s ease;
   }
-  
+  .l-content h3 {
+      line-height: 30px;
+  }
