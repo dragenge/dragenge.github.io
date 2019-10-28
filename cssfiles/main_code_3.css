@@ -1551,8 +1551,11 @@
   }
   
   /* Content */
+  .l-page > div:first-child {
+    min-height: 200px;
+  }
   .l-page {
-    min-height: 250px;
+    min-height: 50px;
     margin: 0px auto 25px;
     position: relative;
     border-radius: 0px;
