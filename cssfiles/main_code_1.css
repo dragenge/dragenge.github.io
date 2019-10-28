@@ -415,7 +415,7 @@ textarea {
 
 /* когда наводишь на загрузку*/
 .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .b-comments .faye-loader:hover, .collapsed:hover, .b-forum .faye-loader:hover, .b-topic .faye-loader:hover, .collapsed + .spoiler .hide-expanded:hover {
-  background: rgba(60, 28, 40, 0.8) !important;
+  background: rgba(var(--hover-buttoms-1), 0.8) !important;
   color:  rgba(var(--white-color), var(--hundred)) !important;
   border: none;
   border-radius: 6px;
