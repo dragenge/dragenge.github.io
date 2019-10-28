@@ -1204,7 +1204,8 @@
   }
   
   .b-options-floated {
-    line-height: normal;
+    line-height: 28px;
+    margin-top: 0;
   }
   
   .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
