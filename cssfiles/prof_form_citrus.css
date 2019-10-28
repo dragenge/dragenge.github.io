@@ -943,7 +943,7 @@
     .p-profiles .profile-head .c-info .c-additionals {
       margin-bottom: 43px !important;
     }
-    .subheadline.m13 {
+    #profiles_show .subheadline.m13 {
       display: inline-block;
       position: relative;
       top: 3px;
@@ -955,7 +955,7 @@
       white-space: normal;
       text-align: center;
     }
-    .subheadline.m13 a {
+    #profiles_show .subheadline.m13 a {
       width: 35px;
       word-wrap: break-word;
       white-space: normal;
@@ -1219,10 +1219,10 @@
       width: 48%;
       margin: 0 1%;
     }
-    .subheadline.m13 {
+    #profiles_show .subheadline.m13 {
       font-size: 0px;
     }
-    .subheadline.m13:after {
+    #profiles_show .subheadline.m13:after {
       content: '\\_f187';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 24px;
@@ -1241,24 +1241,24 @@
       top: 0px;
       z-index: -1;
     }
-    .subheadline.m13:hover:after {
+    #profiles_show .subheadline.m13:hover:after {
       background: rgba(var(--dark-color), 0.3);
     }
-    .subheadline.m13 a {
+    #profiles_show .subheadline.m13 a {
       padding: 0px;
       font-size: 0px;
     }
-    .subheadline.m13 a:hover {
+    #profiles_show .subheadline.m13 a:hover {
       color:  rgba(var(--hover-color), var(--hundred)) !important;
       background: none;
       box-shadow: none !important;
       border: none !important;
       font-size: 0px;
     }
-    .subheadline.m13 a:before {
+    #profiles_show .subheadline.m13 a:before {
       display: none;
     }
-    .subheadline.m13 a:after {
+    #profiles_show .subheadline.m13 a:after {
       content: '\\_f187';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 24px;
@@ -1478,21 +1478,21 @@
       width: 48%;
       margin: 0 1%;
     }
-    .subheadline.m13 > a {
+    #profiles_show .subheadline.m13 > a {
       padding: 0px;
       font-size: 0px;
     }
-    .subheadline.m13 > a:hover {
+    #profiles_show.subheadline.m13 > a:hover {
       color:  rgba(var(--hover-color), var(--hundred)) !important;
       background: none;
       box-shadow: none !important;
       border: none !important;
       font-size: 0px;
     }
-    .subheadline.m13 > a:before {
+    #profiles_show .subheadline.m13 > a:before {
       display: none;
     }
-    .subheadline.m13 > a:after {
+    #profiles_show .subheadline.m13 > a:after {
       content: '\\_f187';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 24px;
