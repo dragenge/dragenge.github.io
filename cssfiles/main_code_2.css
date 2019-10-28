@@ -905,7 +905,7 @@
   .l-footer {
     position: relative;
     margin: 0;
-    padding: 0 0 10px;
+    padding: 0;
     background: none;
   }
   .l-footer .copyright {
@@ -922,18 +922,22 @@
     text-align: center;
     font: bold 10px 'Comfortaa';
    }
+  .l-footer .links a {
+    margin: 5px;
+    color: rgba(var(--bright-color), 0.5);
+   }
   .l-footer:before {
     content: 'E-design v.4.0';
     position: absolute;
     left: 5px;
-    bottom: 8px;
+    bottom: 0;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
   }
   .l-footer:after {
     position: absolute;
     left: 83px;
-    bottom: 8px;
+    bottom: 0;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
   }
