@@ -903,38 +903,19 @@
   }
   
   .l-footer {
-    position: absolute;
-    left: 15px;
-    bottom: -20px;
-    width: calc(100% - 30px);
-    height: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-radius: 0 0 10px 10px;
-    background: rgba(var(--block-color), 0.6);
-    pointer-events: none;
-    opacity: 0.4;
-  }
-  
-  .l-footer:before {
-    display: block !important;
-    color:  rgba(var(--dark-color), var(--hundred));
-    bottom: auto;
-    width: auto;
-    height: 12px;
+    margin: 0 20px;
+    right: 0;
+    bottom: 0;
+    padding: 0;
     background: none;
-    font-size: 11px;
-    padding-top: 3px;
-    text-align: center;
-    width: 100%;
-    pointer-events: none;
   }
-  
-  .l-footer .copyright, .l-footer .links {
-    font-size: 0px;
-    white-space: normal;
-    line-height: 1.7;
+  .l-footer .copyright {
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
   }
+  .l-footer .links {
+    font: bold 10px 'Comfortaa';
+   }
   
   .b-subposter-action.invite.b-tooltipped, label.b-subposter-action.upload.b-tooltipped {
     color:  rgba(var(--bright-color), var(--hundred));
