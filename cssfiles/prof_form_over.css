@@ -72,7 +72,7 @@
     margin: 0 auto 0 auto !important;
     float: none;
     padding: 0 15px 0 15px;
-    box-shadow: inset 0px 37px 29px -18px #4a1e26;
+    box-shadow: inset 0px 37px 29px -18px rgba(var(--menu-back), var(--hundred));
   }
   #profiles_show .profile-head:before {
     content: '';
