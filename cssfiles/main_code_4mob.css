@@ -1,5 +1,4 @@
- 
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .p-dashboards-show .cc-news .c-news_topics {
       margin-right: 25px;
       width: calc(69% - 25px);
@@ -191,7 +190,7 @@
       font-size: 10px !important;
     }
   }
-  
+    
   @media screen and (max-width: 1024px) {
     #profiles_show .achievements .cc-achievements .b-achievement:nth-child(n+3) {
       display: none;
@@ -244,6 +243,7 @@
     .l-top_menu-v2.is-search-mobile .global-search {
       background: #24292b;
     }
+      
     .cc-8 > .c-column {
       width: calc(14.28% - 10px);
     }
@@ -277,12 +277,14 @@
     .b-stats_bar .stat_names {
       font-size: 10px !important;
     }
+  
     .b-comment > .inner div.body, .b-message > .inner div.body, .b-dialog > .inner div.body {
       margin-left: 10px !important;
     }
     .b-topic-preview > .b-comments, .b-topic-preview > .inner > .body, .b-topic-preview > .inner > footer {
       padding-left: 10px !important;
     }
+    
     .item-mobile, .item-mobile:hover {
       color:  rgba(var(--light-color), var(--hundred));
       margin-right: 5px;
@@ -551,7 +553,7 @@
     .b-dialog > .inner > header .name-date a.name {
       font-size: 16px;
     }
-    /*новости*/
+   
     .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name {
       top: 2px;
       position: relative;
@@ -2049,4 +2051,3 @@
       background: linear-gradient(135deg, transparent 280px, #483d1c 0);
     }
   }
-  
