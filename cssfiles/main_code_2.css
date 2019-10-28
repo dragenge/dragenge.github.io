@@ -2625,3 +2625,11 @@
   .l-content h3 {
       line-height: 30px;
   }
+    body#tests_reset_styles_cache .b-input input {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+body#tests_reset_styles_cache input[type="submit"] {
+    width: 30%;
+}
+
