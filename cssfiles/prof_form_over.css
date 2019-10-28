@@ -346,8 +346,8 @@
   #profiles_show .l-footer {
     margin: 0 35px;
     right: 0;
-    bottom: 0;
-    padding-bottom: 7px;
+    bottom: 7px;
+    padding-bottom: 0;
     background: none;
   }
   }
