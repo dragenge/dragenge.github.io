@@ -488,11 +488,15 @@
     max-width: 270px;
     min-width: 170px;
   }
+
   
   body#messages_index .l-page, body#dialogs_index .l-page, body#dialogs_show .l-page {
     max-width: 800px;
   }
-  
+   body#messages_index .l-footer .links, body#dialogs_index .l-footer .links, body#dialogs_show .l-footer .links {
+       font-size: 0!important;
+           height: 14px;
+}
   .p-dashboards-show .cc-news .c-news_topics {
     margin-right: 25px;
     width: calc(69% - 25px);
