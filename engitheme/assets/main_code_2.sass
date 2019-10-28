@@ -1,7 +1,7 @@
 @import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_2.css")
 
-.l-foote:before
+.l-foote:after
   @if $style_names == 'none'
-    content: "E-design v"+$version+$release+" *"+$style_name+"*"
+    content: "*"+$style_name+"*"
   @else
-    content: "E-design v"+$version+$release+" *"+$style_names+"*"
+    content: "*"+$style_names+"*"
