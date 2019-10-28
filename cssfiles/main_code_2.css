@@ -910,7 +910,7 @@
     background: none;
   }
   body#profiles_show .l-footer {
-    margin: 0px 15px;
+    margin: 15px 15px 0;
     bottom: 7px;
   }
   .l-footer .copyright {
