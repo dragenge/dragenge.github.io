@@ -904,19 +904,38 @@
   
   .l-footer {
     margin: 0 20px;
-    right: 0;
-    bottom: 0;
-    padding: 0;
+    padding: 0 0 10px;
     background: none;
   }
   .l-footer .copyright {
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
+    position: absolute;
+    right: 20px;
   }
   .l-footer .links {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
     font: bold 10px 'Comfortaa';
    }
-  
+  .l-footer:before {
+    content: 'E-design v.4.0';
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
+  }
+  .l-footer:after {
+    position: absolute;
+    left: 98px;
+    bottom: 8px;
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
+  }
   .b-subposter-action.invite.b-tooltipped, label.b-subposter-action.upload.b-tooltipped {
     color:  rgba(var(--bright-color), var(--hundred));
   }
