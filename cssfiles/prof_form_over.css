@@ -344,7 +344,7 @@
     font-size: 32px !important;
   }
   #profiles_show .l-footer {
-    margin: 0 35px;
+    margin: 0 35px!important;
     right: 0;
     bottom: 7px;
     padding-bottom: 0;
