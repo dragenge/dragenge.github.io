@@ -903,7 +903,8 @@
   }
   
   .l-footer {
-    margin: 0 20px;
+    position: relative;
+    margin: 0;
     padding: 0 0 10px;
     background: none;
   }
@@ -911,7 +912,7 @@
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
     position: absolute;
-    right: 20px;
+    right: 5px;
   }
   .l-footer .links {
     clear: both;
@@ -924,14 +925,14 @@
   .l-footer:before {
     content: 'E-design v.4.0';
     position: absolute;
-    left: 20px;
+    left: 5px;
     bottom: 8px;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
   }
   .l-footer:after {
     position: absolute;
-    left: 98px;
+    left: 83px;
     bottom: 8px;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
