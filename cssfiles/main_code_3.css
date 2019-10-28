@@ -190,6 +190,13 @@
     border-radius: 9px !important;
     padding: 1px !important;
   }
+.inline.green {
+    background: #06673a !important;
+    color: #acf9e0 !important;
+    border-left: 5px solid #9cd4c0 !important;
+    border-radius: 9px !important;
+    padding: 1px !important;
+}
   
   .b-collection-filters .block-list li:before, .b-collection-filters .b-block_list li:before {
     content: '\\_f10c';
