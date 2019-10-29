@@ -81,7 +81,7 @@ header.head .misc {
   border-bottom: none;
   color:  rgba(var(--white-color), var(--hundred)) !important;
   font-family: 'Comfortaa';
-  text-shadow: 2px -2px 0px  rgba(var(--$nick-cover), var(--hundred)), -2px 2px 0px  rgba(var(--$nick-cover), var(--hundred)), -2px -2px 0px  rgba(var(--$nick-cover), var(--hundred)), 2px 2px 0px  rgba(var(--$nick-cover), var(--hundred)), 0px -2px 0px  rgba(var(--$nick-cover), var(--hundred)), 0px 2px 0px  rgba(var(--$nick-cover), var(--hundred)), 2px 0px 0px  rgba(var(--$nick-cover), var(--hundred)), -2px 0px 0px  rgba(var(--$nick-cover), var(--hundred));
+  text-shadow: 2px -2px 0px  rgba(var(--nick-cover), var(--hundred)), -2px 2px 0px  rgba(var(--nick-cover), var(--hundred)), -2px -2px 0px  rgba(var(--nick-cover), var(--hundred)), 2px 2px 0px  rgba(var(--nick-cover), var(--hundred)), 0px -2px 0px  rgba(var(--nick-cover), var(--hundred)), 0px 2px 0px  rgba(var(--nick-cover), var(--hundred)), 2px 0px 0px  rgba(var(--nick-cover), var(--hundred)), -2px 0px 0px  rgba(var(--nick-cover), var(--hundred));
   font-size: 34px;
   line-height: 38px;
   pointer-events: none;
