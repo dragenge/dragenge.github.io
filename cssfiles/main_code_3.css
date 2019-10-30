@@ -2445,7 +2445,7 @@
   }
   
   .l-top_menu-v2 .menu-dropdown:hover > span, .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
-    background-color:  rgba(var(--hover-buttoms-1), var(--hundred));
+    background-color:  rgba(var(--hover-bottoms-1), var(--hundred));
   }
   
   .l-top_menu-v2 .menu-icon:hover {
@@ -2481,11 +2481,11 @@
   }
   
   .l-top_menu-v2 .global-search .search-results, .l-top_menu-v2 .menu-dropdown > span a:hover {
-    background-color:  rgba(var(--hover-buttoms-1), var(--hundred));
+    background-color:  rgba(var(--hover-bottoms-1), var(--hundred));
   }
   
   .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
-    background: linear-gradient(270deg,  rgba(var(--hover-buttoms-1), var(--hundred)) 0%,  rgba(var(--hover-buttoms-1), var(--hundred)) 100%);
+    background: linear-gradient(270deg,  rgba(var(--hover-bottoms-1), var(--hundred)) 0%,  rgba(var(--hover-bottoms-1), var(--hundred)) 100%);
     border-top: unset;
   }
   
