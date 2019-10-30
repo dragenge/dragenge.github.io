@@ -519,15 +519,12 @@
   
   .c-info-right .b-tag {
     text-align: center;
-    color:  rgba(var(--block-color), var(--hundred));
-    font-weight: bold;
-    font-size: 20px;
+    color:  rgba(var(--white-color), var(--hundred));
+    font: 900 22px 'Open Sans';
     line-height: 35px;
-    background: #8088c4db;
     border-radius: 18px;
     margin: 10px 30px !important;
     height: auto;
-    padding-top: 4px;
     width: calc(100% - 60px);
     text-decoration: none;
     border: 2px solid rgba(var(--block-color), 0.4);
