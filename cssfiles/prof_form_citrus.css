@@ -931,8 +931,10 @@
       height: 430px;
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
-      padding: 0px 0px 0px;
-      top: 395px;
+      top: 435px;
+      padding: 0;
+      margin: 0;
+      width: 25%;
     }
     .p-profiles .profile-head .c-brief {
       height: 127px;
@@ -1053,11 +1055,6 @@
     .profile-content .cc-2 .c-column .cc-2a > .c-column {
       margin-bottom: 0px !important;
     }
-    .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
-      top: 435px;
-      margin-left: 0px;
-      width: 25%;
-    }
     .profile-content .cc-2a.m30 .subheadline > a:before, body#profiles_show .subheadline.m13 > a:before {
       color: rgba(var(--bright-color), 0.6) !important;
       position: absolute;
@@ -1119,7 +1116,7 @@
       margin-top: -475px;
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
-      top: 481px;
+      top: 484px;
       box-shadow: none;
     }
     body#profiles_show .profile-head:before {
