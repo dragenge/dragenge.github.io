@@ -2391,7 +2391,7 @@
   }
   
   a.b-db_entry-variant-list_item span.b-link {
-    color: rgba(var(--white-color), var(--seventy)) !important;
+    color: rgba(var(--white-color), 1) !important;
   }
   
   a.b-anime_status_tag.studio {
