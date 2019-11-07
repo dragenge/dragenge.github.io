@@ -141,23 +141,23 @@
 		margin-left: -40px ;
   }
 	.cc-2a>.c-column  {
-		border-radius: 5% ;
-		padding: 0px 5px 5px ;
+		border-radius: 5%;
+		padding: 0px 5px 5px;
   }
 	.profile-content .cc-2 .c-column .cc-2a > .c-column  {
-		margin-bottom: 10px!important ;
-		float: none!important ;
+		margin-bottom: 10px!important;
+		float: none!important;
   }
 	.p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column, .p-profiles-show.x1000 .profile-content .c-right .cc-2a>.c-column {  
-		box-sizing: border-box ;
-		position: relative ;
-		width: 100% ;
+		box-sizing: border-box;
+		position: relative;
+		width: 100%;
   }
 	.p-profiles .profile-head .c-brief .avatar .profile-actions  {
-		position: absolute ;
-		bottom: 2px ;
-		right: 15px ;
-		z-index: 2 ;
+		position: absolute;
+		bottom: 2px;
+		right: 15px;
+		z-index: 2;
   }
 	.p-profiles .profile-head .c-info .c-additionals  {
 		position: absolute ;
