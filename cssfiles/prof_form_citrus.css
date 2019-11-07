@@ -919,7 +919,6 @@
       transition: 0.2s ease;
       z-index: -5;
     }
-  }
 }
   @media screen and (min-width: 1290px) and (max-width: 1829px) {
     body#profiles_show .l-page {
