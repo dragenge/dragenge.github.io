@@ -170,48 +170,48 @@
 		font-size: 12px ;
   }
 	.p-profiles .profile-head  {
-		background-image: none ; 
-		background-color: transparent  ;
-		background-size: cover ; 
+		background-image: none; 
+		background-color: transparent ;
+		background-size: cover; 
 		background-position: center;  
-		background-repeat: no-repeat  ;
-		box-shadow: none  ;
+		background-repeat: no-repeat;
+		box-shadow: none;
   }
 	.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove { 
 		margin-left: 0; 
-		padding: 10px 10px 5px ;
-		border-radius: 3px ;
-		transition: 0.3s ease ;
+		padding: 10px 10px 5px;
+		border-radius: 3px;
+		transition: 0.3s ease;
   }
 	.profile-actions .mail:hover  {
-		color: rgba(var(--hover_color), 1), ;
+		color: rgba(var(--hover_color), 1);
   }
 	.profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before {
-		font-size: 20px ; 
+		font-size: 20px; 
   }
 	.p-profiles .profile-head .c-brief header h1  {
-		margin-top: -13px ;
+		margin-top: -13px;
   }
 	.b-stats_bar a.title, .b-stats_bar .title  {
-		line-height: 40px ;
+		line-height: 40px;
   }
 	.b-stats_bar.manga .compatibility a:before, .b-stats_bar.anime .compatibility a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before { 
-		font-size: 24px ;
-		line-height: 40px ;
+		font-size: 24px;
+		line-height: 40px;
   }
 	/* Абсолютно позиционированный элемент нужно сначала растянуть на всю ширину */
 	.p-profiles .profile-head .c-info .c-additionals  {
-		position: absolute ;
-		bottom: 0 ;
-		left: 0 ;
-		width: 100% ;
-		margin: 0 auto ;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		margin: 0 auto;
 		margin-bottom: 29px!important ;
-		text-align: center ;
+		text-align: center;
 		font-size: 12px; 
   }
 	.b-stats_bar .stat_names  {
-		font-size: 12px ;
+		font-size: 12px;
 		height: 30px; 
   }
 	.p-profiles .profile-head .c-info .c-additionals div a  {
