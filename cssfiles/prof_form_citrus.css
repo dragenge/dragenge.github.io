@@ -1497,7 +1497,7 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       width: 39px;
-      background: rgba(122, 132, 208, 0.15);
+      background: rgba(var(--dark-color), 0.15);
       height: 60px;
       text-align: center;
       line-height: 60px;
