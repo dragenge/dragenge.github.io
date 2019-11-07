@@ -219,7 +219,7 @@
 		transition: 0.3s ease ;
 }
 	.p-profiles .profile-head .c-info .c-additionals, .p-profiles .profile-head .c-brief header .notice  {
-		text-shadow: 1px -1px 0px rgba(var(--nick_cover), 1), -1px 1px 0px rgba(var(--nick_cover), 1), -1px -1px 0px rgba(var(--nick_cover), 1), 1px 1px 0px rgba(var(--nick_cover), 1), 0px -1px 0px rgba(var(--nick_cover), 1), 0px 1px 0px rgba(var(--nick_cover), 1), 1px 0px 0px rgba(var(--nick_cover), 1), -1px 0px 0px rgba(var(--nick_cover), 1); 
+		text-shadow: 1px -1px 0px rgba(var(--nick-cover), 1), -1px 1px 0px rgba(var(--nick-cover), 1), -1px -1px 0px rgba(var(--nick-cover), 1), 1px 1px 0px rgba(var(--nick-cover), 1), 0px -1px 0px rgba(var(--nick-cover), 1), 0px 1px 0px rgba(var(--nick-cover), 1), 1px 0px 0px rgba(var(--nick-cover), 1), -1px 0px 0px rgba(var(--nick-cover), 1); 
   }
 }
   
