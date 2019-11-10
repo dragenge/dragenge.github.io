@@ -1263,10 +1263,10 @@ input, select, button, textarea {
 }
 
 .b-spoiler .content .inner, .b-spoiler .content .inner-prgrph {
-  border-bottom: 2px dashed rgba(var(--light-color), 0.2);
+  border-bottom: 0;
   border-radius: 6px;
   padding: 0px 6px;
-  animation: spoillerr 2s ease infinite;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
 
 .b-video_player .cc-player_controls .episode-num .video-link a {
