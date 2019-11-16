@@ -361,7 +361,7 @@ textarea {
 }
 
 /* цвет никнеймов */
-.p-dashboards-show .v2 .db-update .name, .b-comment > .inner header .name-date a.name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
+.p-dashboards-show .v2 .db-update .name, .b-comment>.inner .name-date .name, .b-comment > .inner header .name-date a.name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
   font-size: 15.5px;
 }
 
