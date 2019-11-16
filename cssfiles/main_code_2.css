@@ -2717,5 +2717,12 @@ body#tests_reset_styles_cache input[type="submit"] {
 .b-news_wall-topic .title:hover {
     color: rgba(var(--hover-color), 1);
 }
-
+.youtube .marker {
+    color: #dadada;
+    font-size: 10px;
+    font-weight: 900;
+    background: #1b1b1b;
+    border-radius: 10px;
+    padding: 0 8px;
+}
 
