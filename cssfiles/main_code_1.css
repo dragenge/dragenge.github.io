@@ -129,13 +129,13 @@ header.head h2, header.head h1 {
 }
 
 /* инфо-описание */
-.b-entry-info .line .value {
-  color:  rgba(var(--light-color), var(--hundred));
+.line .value {
+  color:  rgba(var(--light-color), var(--hundred))!important;
 }
 
 /* инфо тег */
-.b-entry-info .line .key, .b-catalog_entry-tooltip .inner .line .key {
-  color:  rgba(var(--dark-color), var(--hundred));
+.line .key {
+  color:  rgba(var(--dark-color), var(--hundred))!important;
   font-weight: bold;
 }
 
@@ -234,7 +234,7 @@ textarea {
 }
 
 /* жанр, ссылка на него */
-.line .b-tag, .line .tag, .b-forums .reload, .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
+.tags .b-tag, .line .b-tag, .line .tag, .b-forums .reload, .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
   padding: 1px 12px !important;
   margin: 2px !important;
   color:  rgba(var(--bright-color), var(--hundred)) !important;
@@ -244,7 +244,7 @@ textarea {
   border-radius: 10px;
 }
 
-.line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover, a.b-anime_status_tag.studio:hover {
+.tags .b-tag:hover, .line .b-tag:hover, .line .tag:hover, .b-forums .reload:hover, .p-animes-show .other-names:hover, .p-mangas-show .other-names:hover, .p-ranobe-show .other-names:hover, a.b-anime_status_tag.studio:hover {
   background-color:  rgba(var(--hover-buttoms-2), var(--hundred)) !important;
   color: white !important;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
@@ -362,7 +362,6 @@ textarea {
 
 /* цвет никнеймов */
 .b-comment > .inner header .name-date a.name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
-  color:  rgba(var(--white-color), var(--hundred));
   font-size: 15.5px;
 }
 
@@ -955,17 +954,19 @@ input, select, button, textarea {
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
-.b-comments .comments-collapser:hover, .b-topic > .inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
+.p-dashboards-show .v2 .db-update .name:hover .b-comments .comments-collapser:hover, .b-topic > .inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
   color:  rgba(var(--hover-color), var(--hundred));
 }
 
-.b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
+.p-dashboards-show .v2 .db-update .name .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
   color:  rgba(var(--white-color), var(--hundred));
   top: 2px;
   position: relative;
   padding-top: 2px;
 }
-
+.p-dashboards-show .v2 .db-updates {
+    overflow: visible;
+}
 .b-dialog > .inner div.body {
   color:  rgba(var(--light-color), var(--hundred));
 }
