@@ -1885,75 +1885,9 @@ body.localized_names-ru .name-ru:before {
   color:  rgba(var(--hover-color), var(--hundred)) !important;
 }
 
-/* лента новостей*/
-h2.midheadline.orange.linkheadline {
-  background: rgba(175, 84, 24, 0.4);
-}
 
-h2.midheadline.orange.linkheadline a, h2.midheadline.orange.linkheadline a:before {
-  color: #deb8a1 !important;
-}
 
-/* рецензии */
-h2.midheadline.magenta.linkheadline {
-  background: rgba(175, 24, 58, 0.4);
-}
 
-h2.midheadline.magenta.linkheadline a, h2.midheadline.magenta.linkheadline a:before {
-  color: #dea1ba !important;
-}
-
-/* турниры */
-h2.midheadline.green.linkheadline.m5 {
-  background: rgba(14, 142, 131, 0.4);
-}
-
-h2.midheadline.green.linkheadline.m5 a, h2.midheadline.green.linkheadline.m5 a:before {
-  color: #a1ded9 !important;
-}
-
-/* обновления аниме */
-.midheadline.yellow.linkheadline {
-  background: rgba(108, 46, 175, 0.4);
-}
-
-.midheadline.yellow.linkheadline a, .midheadline.yellow.linkheadline a:before {
-  color: #d1b0e4 !important;
-}
-
-.orange a {
-  color: #deb8a1 !important;
-}
-
-.orange {
-  background: rgba(175, 84, 24, 0.4);
-  color: #deb8a1 !important;
-  border: none;
-}
-
-.yellow {
-  background: rgba(108, 46, 175, 0.4);
-  color: #d1b0e4 !important;
-  border: none;
-}
-
-.green {
-  background: rgba(14, 142, 131, 0.4);
-  color: #a1ded9 !important;
-  border: none;
-}
-
-.blue {
-  color: #9ec7a4 !important;
-  background: #2a6849;
-  border: none;
-}
-
-.magenta {
-  background: rgba(175, 24, 58, 0.4);
-  color: #dea1ba !important;
-  border: none;
-}
 
 .profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before, .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before {
   color: rgba(var(--light-color), 0.6) !important;
