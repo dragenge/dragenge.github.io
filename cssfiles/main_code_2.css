@@ -932,7 +932,7 @@
     color: rgba(var(--bright-color), 0.5);
    }
   .l-footer:before {
-    content: 'E-design v.4.0';
+    content: 'E-design v.4.1';
     position: absolute;
     left: 5px;
     bottom: 0;
