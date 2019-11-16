@@ -2523,8 +2523,8 @@
   .b-anime_status_tag.other {
     padding: 2px 12px 1px !important;
     margin: 2px !important;
-    color: #e9c2ea !important;
-    background: rgba(80, 36, 61, 0.8) !important;
+    color: #d6d6d6 !important;
+    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d)!important;
     cursor: default;
     display: inline-block;
     font-size: 12px;
