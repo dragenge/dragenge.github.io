@@ -2644,3 +2644,34 @@ body#tests_reset_styles_cache input[type="submit"] {
     color: #69d869;
 }
 
+
+.orange {
+  background: rgba(175, 84, 24, 0.4);
+  color: #deb8a1;
+  border: none;
+}
+
+.purple {
+  background: rgba(108, 46, 175, 0.4);
+  color: #d1b0e4;
+  border: none;
+}
+
+.green {
+  background: rgba(14, 142, 131, 0.4);
+  color: #a1ded9;
+  border: none;
+}
+
+.blue {
+  color: #9ec7a4;
+  background: #2a6849;
+  border: none;
+}
+
+.magenta {
+  background: rgba(175, 24, 58, 0.4);
+  color: #dea1ba;
+  border: none;
+}
+
