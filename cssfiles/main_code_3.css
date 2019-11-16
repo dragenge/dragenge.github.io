@@ -1360,6 +1360,7 @@
   
   :root {
     --font-family: "Comfortaa", sans-serif !important;
+    --font-main: "Comfortaa", sans-serif !important;
     --font-alt: var(--font-family);
     --font-alt-text-letter-spacing: normal;
   }
