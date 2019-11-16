@@ -1861,7 +1861,6 @@ body.localized_names-ru .name-ru:before {
   background: rgba(var(--block-color), 0.6);
   transition: 0.3s ease;
   font-size: 14px;
-  box-shadow: none;
   color:  rgba(var(--dark-color), var(--hundred));
 }
 
