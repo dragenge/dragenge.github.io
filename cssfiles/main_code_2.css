@@ -2738,10 +2738,13 @@ body#tests_reset_styles_cache input[type="submit"] {
     order: 3;
 }
 .block.edit-page.styles > .subheadline {
-    order: 2;
+    order: 1;
 }
 .block.edit-page.styles > .cc-2.block.b-edit_styles {
-    order: 1;
+    order: 2;
+}
+.block.edit-page.styles > * {
+    width: 100%;
 }
 
 
