@@ -1857,16 +1857,15 @@ body.localized_names-ru .name-ru:before {
 .headline, .midheadline, .subheadline {
   border: none;
   border-radius: 13px;
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
   background: rgba(var(--block-color), 0.6);
   transition: 0.3s ease;
   font-size: 14px;
   box-shadow: none;
-  color:  rgba(var(--dark-color), var(--hundred)) !important;
+  color:  rgba(var(--dark-color), var(--hundred));
 }
 
 .subheadline {
-  color:  rgba(var(--dark-color), var(--hundred));
   line-height: 1;
   padding: 8px 10px 6px;
 }
