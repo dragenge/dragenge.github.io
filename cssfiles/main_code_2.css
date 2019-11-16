@@ -2730,3 +2730,18 @@ body#tests_reset_styles_cache input[type="submit"] {
     color: rgba(var(--dark-color), 1);
 }
 
+.block.edit-page.styles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block.edit-page.styles > .block {
+    order: 3;
+}
+.block.edit-page.styles > .subheadline {
+    order: 2;
+}
+.block.edit-page.styles > .cc-2.block.b-edit_styles {
+    order: 1;
+}
+
+
