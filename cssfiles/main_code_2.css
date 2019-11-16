@@ -2725,6 +2725,14 @@ body#tests_reset_styles_cache input[type="submit"] {
     border-radius: 10px;
     padding: 0 8px;
 }
+.vk .marker {
+    color: #c7dbec;
+    font-size: 10px;
+    font-weight: 900;
+    background: #293e54;
+    border-radius: 10px;
+    padding: 0 13px;
+}
 
 .p-dashboards-show .v2 .sections .title, .p-dashboards-show .v2 .sections a.title {
     color: rgba(var(--dark-color), 1);
