@@ -1537,12 +1537,8 @@ header.head a.misc:hover {
   background: none !important;
 }
 
-.b-message > .inner header .name-date .time {
-  color:  rgba(var(--dark-color), var(--hundred)) !important;
-}
-
-.b-dialog > .inner header .name-date .time {
-  color:  rgba(var(--dark-color), var(--hundred)) !important;
+time {
+    color: rgba(var(--dark-color), var(--hundred)) !important;
 }
 
 .subheadline .misc-link {
