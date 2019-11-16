@@ -2653,25 +2653,60 @@ body#tests_reset_styles_cache input[type="submit"] {
 
 .purple {
   background: rgba(108, 46, 175, 0.4);
-  color: #d1b0e4;
+  color: #c19ed6;
   border: none;
 }
 
 .green {
-  background: rgba(14, 142, 131, 0.4);
-  color: #a1ded9;
+  background: rgba(16, 130, 67, 0.4);
+  color: #90c7ae;
   border: none;
 }
 
 .blue {
-  color: #9ec7a4;
-  background: #2a6849;
+  background: rgba(29, 77, 167, 0.4);
+  color: #98b6da;
   border: none;
 }
 
 .magenta {
-  background: rgba(175, 24, 58, 0.4);
-  color: #dea1ba;
+  background: rgba(193, 37, 138, 0.4);
+  color: #de9bc6;
   border: none;
+}
+.gray {
+    background: rgba(109, 109, 109, 0.4);
+    color: #b7b7b7;
+    border: none;
+}
+.powderblue {
+    background: rgba(61, 133, 160, 0.4);
+    color: #91c3d2;
+    border: none;
+}
+.skyblue {
+    background: rgba(28, 127, 185, 0.4);
+    color: #86bede;
+    border: none;
+}
+.yellow {
+    background: rgba(167, 139, 39, 0.4);
+    color: #c7c590;
+    border: none;
+}
+.red {
+    background: rgba(175, 38, 38, 0.4);
+    color: #cca1a1;
+    border: none;
+}
+.pink {
+    background: rgba(174, 77, 175, 0.4);
+    color: #c9a3ce;
+    border: none;
+}
+.brown {
+    background: rgba(162, 60, 1, 0.4);
+    color: #d4a882;
+    border: none;
 }
 
