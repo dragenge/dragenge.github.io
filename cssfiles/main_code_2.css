@@ -2719,6 +2719,3 @@ body#tests_reset_styles_cache input[type="submit"] {
 }
 
 
-time {
-    color: rgba(var(--dark-color), var(--hundred)) !important;
-}
