@@ -2632,4 +2632,15 @@
 body#tests_reset_styles_cache input[type="submit"] {
     width: 30%;
 }
+.b-form.green-form {
+    background: #204220;
+    border: none;
+    border-radius: 10px;
+}
+.b-form.green-form .m5 {
+    color: #b5deb5;
+}
+.b-form.green-form ul.b-list.m10 {
+    color: #69d869;
+}
 
