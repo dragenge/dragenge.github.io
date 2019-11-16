@@ -954,11 +954,11 @@ input, select, button, textarea {
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
-.p-dashboards-show .v2 .db-update .name:hover, .b-comments .comments-collapser:hover, .b-topic > .inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
+.p-dashboards-show .v2 .db-update .name:hover, .b-comment>.inner .name-date .name:hover, .b-comments .comments-collapser:hover, .b-topic > .inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
   color:  rgba(var(--hover-color), var(--hundred));
 }
 
-.p-dashboards-show .v2 .db-update .name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
+.p-dashboards-show .v2 .db-update .name, .b-comment>.inner .name-date .name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
   color:  rgba(var(--white-color), var(--hundred));
   top: 2px;
   position: relative;
