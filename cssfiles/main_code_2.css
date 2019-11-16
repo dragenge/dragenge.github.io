@@ -2726,3 +2726,7 @@ body#tests_reset_styles_cache input[type="submit"] {
     padding: 0 8px;
 }
 
+.p-dashboards-show .v2 .sections .title, .p-dashboards-show .v2 .sections a.title {
+    color: rgba(var(--dark-color), 1);
+}
+
