@@ -365,7 +365,7 @@ textarea {
   font-size: 15.5px;
 }
 
-.b-comment > .inner header .name-date a.name:hover, .b-dialog > .inner header .name-date a.name:hover, .b-topic > .inner header .name-date a.name:hover, .b-message > .inner header .name-date a.name:hover, .b-message > .inner header .name-date a.name:hover {
+.b-comment > .inner .name-date .name:hover, .b-comment > .inner header .name-date a.name:hover, .b-dialog > .inner header .name-date a.name:hover, .b-topic > .inner header .name-date a.name:hover, .b-message > .inner header .name-date a.name:hover, .b-message > .inner header .name-date a.name:hover {
   color:  rgba(var(--hover-color), var(--hundred)) !important;
 }
 
