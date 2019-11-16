@@ -2233,7 +2233,7 @@
     display: none;
   }
   
-  .b-status-line .section.created_at time:before, .b-status-line .section.additional .collection-size, .b-status-line .section.additional .comments, .b-status-line .section.additional .comments:before, .b-review_votes span, .b-status-line .section.changed_at time:before, .b-topic > .inner > header .about > span, a.b-menu-line.entry.b-link.person-tooltip .time, a.b-menu-line.entry.b-link .time {
+  .b-news_wall-topic .status-line .comments, .b-status-line .section.created_at time:before, .b-status-line .section.additional .collection-size, .b-status-line .section.additional .comments, .b-status-line .section.additional .comments:before, .b-review_votes span, .b-status-line .section.changed_at time:before, .b-topic > .inner > header .about > span, a.b-menu-line.entry.b-link.person-tooltip .time, a.b-menu-line.entry.b-link .time {
     color:  rgba(var(--dark-color), var(--hundred));
   }
   
