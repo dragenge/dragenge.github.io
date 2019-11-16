@@ -2714,7 +2714,7 @@ body#tests_reset_styles_cache input[type="submit"] {
     color: rgba(var(--white-color), var(--hundred));
     transition: 0.3s ease;
 }
-.b-news_wall-topic .title:hover {
+.b-news_wall-topic .title:hover, .b-news_wall-topic>a:hover .title {
     color: rgba(var(--hover-color), 1);
 }
 .youtube .marker {
