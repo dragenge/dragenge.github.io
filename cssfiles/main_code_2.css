@@ -1980,12 +1980,14 @@
   body#dialogs_show .b-topic > .editor-container {
     margin-top: 0px;
   }
-  
+.p-profiles .profile-head .c-brief {
+postion: relative;
+}
   .p-profiles .profile-head .c-brief header.head .misc {
     position: absolute;
-    left: 14px;
+    left: -3px;
     text-align: center;
-    width: 160px;
+    width: 167px;
     font-size: 11px !important;
     top: 234px;
     padding: 0px;
