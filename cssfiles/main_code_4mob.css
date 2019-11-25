@@ -728,6 +728,18 @@
   }
   
   @media screen and (max-width: 767px) {
+    .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span {
+    padding: 0 14px;
+    }
+      .l-top_menu-v2 .menu-icon:not(.mobile) {
+    display: flex;
+    }
+      .l-top_menu-v2 .menu-dropdown>span[data-unread_count]:after {
+      display: none;
+      }
+    .l-top_menu-v2 .logo-container .logo {
+    width: 110px;
+    }
     #profiles_show .achievements .cc-3 > .c-column:nth-child(1), #profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
       width: 49%;
       margin-bottom: 10px;
