@@ -1162,6 +1162,7 @@
     }
     .b-options-floated.mobile-phone_portrait {
       text-align: center;
+      justify-content: center;
     }
     .c-column.block_m {
       width: 100%;
@@ -1388,14 +1389,13 @@
       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
       margin: 2px 2px;
     }
-    .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone_portrait a {
+    .b-options-floated.mobile-phone_portrait a {
       background-color: rgba(var(--menu-back), 0.6);
       color:  rgba(var(--light-color), var(--hundred));
       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
       margin: 2px 2px;
       vertical-align: middle;
-      color:  rgba(var(--light-color), var(--hundred));
       padding: 5px 10px !important;
     }
     .block.edit-page.misc .c-column {
