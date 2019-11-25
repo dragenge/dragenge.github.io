@@ -1190,8 +1190,8 @@
           margin-bottom: 10px;
       }
       .p-messages .mass-actions
-    .p-messages .mass-actions > *, .b-options-floated.mobile-phone_portrait > *, .b-options-floated.mobile-phone > * {
-        
+    .p-messages .mass-actions *, .b-options-floated.mobile-phone_portrait > *, .b-options-floated.mobile-phone > * {
+        display: inline-flex;
         align-items: center;
        justify-content: center;
       }
