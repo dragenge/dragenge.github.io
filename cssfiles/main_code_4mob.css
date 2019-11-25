@@ -734,6 +734,9 @@
       .l-top_menu-v2 .menu-icon:not(.mobile) {
     display: flex;
     }
+      a.menu-icon.forum.desktop {
+          display: none;
+      } 
       .l-top_menu-v2 .menu-dropdown>span[data-unread_count]:after {
       display: none;
       }
