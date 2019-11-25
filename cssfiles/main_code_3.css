@@ -2360,7 +2360,7 @@
     color: rgba(var(--dark-color), 0.5);
   }
   
-  .l-top_menu-v2 .menu-dropdown a, .l-top_menu-v2 .menu-dropdown.main > span span, a.menu-icon.forum.desktop, a.menu-icon.contest, .l-top_menu-v2 .icon-profile:before, .l-top_menu-v2 .menu-dropdown a:before, .l-top_menu-v2 .menu-dropdown > span:after, .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
+  .l-top_menu-v2 .menu-icon.search:before, .l-top_menu-v2 .menu-dropdown a, .l-top_menu-v2 .menu-dropdown.main > span span, a.menu-icon.forum.desktop, a.menu-icon.contest, .l-top_menu-v2 .icon-profile:before, .l-top_menu-v2 .menu-dropdown a:before, .l-top_menu-v2 .menu-dropdown > span:after, .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
     color:  rgba(var(--white-color), var(--hundred));
   }
   
