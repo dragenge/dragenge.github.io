@@ -84,13 +84,13 @@
   "description": "Модуль оценок в блоке 'Обо мне'"
   },
   {
-  "url": "q05_animated_activity_graph.sass"
+  "url": "q05_animated_activity_graph.sass",
   "disabled": false,
   "checked": false,
   "description": "Альтернативный анимированный график активности"
   },
   {
-  "url": "q06_ava_screen_center.sass"
+  "url": "q06_ava_screen_center.sass",
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана."
