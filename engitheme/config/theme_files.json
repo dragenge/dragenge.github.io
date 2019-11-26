@@ -69,7 +69,7 @@
     "url": "q02_monocolor_citrus_list.sass",
     "disabled": false,
     "checked": false,
-    "description": "Однотонные списки аниме и манги (только для *Citrus*)"
+    "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
   },
   {
   "url": "q03_group_achive_per_cent.sass",
@@ -84,9 +84,15 @@
   "description": "Модуль оценок в блоке 'Обо мне'"
   },
   {
-  "url": "q05_animated_activity_graph.sass",
+  "url": "q05_animated_activity_graph.sass"
   "disabled": false,
   "checked": false,
   "description": "Альтернативный анимированный график активности"
+  },
+  {
+  "url": "q06_ava_screen_center.sass"
+  "disabled": false,
+  "checked": false,
+  "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана."
   }
 ]
