@@ -83,8 +83,8 @@
     "checked": false,
     "description": "(*Over* ONLY) Альтернативное расположение аватарки - по центру экрана "
   },
-  {
-    "url": "colors.sass
+   {
+    "url": "colors.sass",
     "disabled": true,
     "checked": true,
     "title": "Ваши выбранные цвета"
