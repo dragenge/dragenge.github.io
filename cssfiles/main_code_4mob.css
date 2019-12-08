@@ -1672,29 +1672,13 @@
     .b-shiki_editor .links, .b-shiki_editor .images, .b-shiki_editor .quotes, .b-shiki_editor .email, .b-shiki_editor .upload {
       height: 43px;
     }
-    .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add {
+    .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add, .c-actions .fav-remove {
       width: 100%;
     }
-    .c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after {
+    .c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after, .c-actions .fav-remove:after {
       content: attr(data-text);
-      font-size: 11.5px;
-      height: 50px;
-      padding-left: 0px;
-      vertical-align: middle;
-      word-break: normal;
-      text-align: center;
     }
-    .c-actions .new_comment:before, .c-actions .new_review:before, .c-actions .edit:before, .c-actions .fav-add:before {
-      font-size: 40px;
-      position: absolute;
-      vertical-align: middle;
-      width: 20px;
-      width: 100%;
-      /* margin-left: 40px  */
-      line-height: 50px;
-      text-align: center;
-      z-index: -1;
-      opacity: 0.25;
+    .c-actions .new_comment:before, .c-actions .new_review:before, .c-actions .edit:before, .c-actions .fav-add:before, .c-actions .fav-remove:before {
     }
     .b-db_entry .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option {
       max-width: 500px;
