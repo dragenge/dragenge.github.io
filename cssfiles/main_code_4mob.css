@@ -1676,6 +1676,7 @@
       width: 100%;
     }
     .c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after {
+      content: attr(data-text);
       font-size: 11.5px;
       height: 50px;
       padding-left: 0px;
