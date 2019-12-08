@@ -1674,12 +1674,27 @@
     }
     .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add, .c-actions .fav-remove {
       width: 100%;
+        height: 50px;
+        position: relative;
     }
     .c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after, .c-actions .fav-remove:after {
       content: attr(data-text);
+      width: 100%;
+        text-align: center;
     }
     .c-actions .new_comment:before, .c-actions .new_review:before, .c-actions .edit:before, .c-actions .fav-add:before, .c-actions .fav-remove:before {
-    }
+        position: absolute;
+        top: 0;
+        left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.25;
+        width: 100%;
+        height: 100%;
+        font-size: 40px;
+        opacity: 0.25;
+      }
     .b-db_entry .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option {
       max-width: 500px;
     }
