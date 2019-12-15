@@ -2274,11 +2274,10 @@
     font-size: 11.5px;
   }
 #profiles_show .b-catalog_entry .cover .title.two_lined {
-    display: flex;
+    display: grid;
     height: 34px;
     text-align: center;
     justify-content: center;
-    align-items: center;
 }
   
   img[alt='morr'] {
