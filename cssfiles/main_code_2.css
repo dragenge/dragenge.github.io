@@ -2276,6 +2276,7 @@
 #profiles_show .b-catalog_entry .cover .title.two_lined {
     display: grid;
     height: 34px;
+    align-items: center;
     text-align: center;
     justify-content: center;
 }
