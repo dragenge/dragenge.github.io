@@ -94,5 +94,11 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана."
+  },
+  {
+  "url": "q07_ava_screen_center_addon.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
   }
 ]
