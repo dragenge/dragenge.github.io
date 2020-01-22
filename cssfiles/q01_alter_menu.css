@@ -1,4 +1,7 @@
 @media screen and (min-width: 1200px) {
+  .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
+    box-shadow: none;
+  }
   .l-top_menu-v2 .menu-dropdown.profile .submenu {
     top: 49px;
   }
