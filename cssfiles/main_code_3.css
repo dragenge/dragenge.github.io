@@ -2563,10 +2563,7 @@
     color: silver;
     background: transparent;
 }
-.l-top_menu-v2 .menu-dropdown span, .l-top_menu-v2 .menu-dropdown.active span, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover {
-    background: transparent;
-}
-  
+
   .b-anime_status_tag.other {
     padding: 2px 12px 1px !important;
     margin: 2px !important;
