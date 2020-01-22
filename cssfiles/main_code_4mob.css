@@ -120,7 +120,7 @@
     background: rgba(var(--bright-color), 0.15);
     color: rgba(var(--white-color), var(--hundred))!important;
   }
-    .l-top_menu-v2 .menu-dropdown a:before, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
+    .l-top_menu-v2 .menu-dropdown a:hover:before, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
     color: rgba(var(--hover-color), 1)!important;
 }
 
