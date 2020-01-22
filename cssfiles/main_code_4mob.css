@@ -54,6 +54,9 @@
     }
     .l-top_menu-v2 .menu-dropdown.active > span:hover {
     background-color: rgba(var(--hover-bottoms-1), 1);
+   }
+    .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a:hover:before .l-top_menu-v2 .menu-dropdown.main > span:hover span, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
+    color: rgba(var(--hover-color), 1);
 }
   }
   
