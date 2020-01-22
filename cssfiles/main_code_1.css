@@ -8,6 +8,7 @@ html {
 body {
   min-height: 100%;
   width: 100vw;
+  width: -moz-available;
   overflow: auto;
   overflow: overlay;
   color:  rgba(var(--light-color), var(--hundred));
