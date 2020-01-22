@@ -48,6 +48,9 @@
     .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
         background-color: rgba(var(--hover-bottoms-1), 0.6);
     }
+    .l-top_menu-v2 .menu-dropdown.active > span:hover {
+    background-color: rgba(var(--hover-bottoms-1), 1);
+}
   }
   
   @media only screen and (min-width: 1025px) {
@@ -198,18 +201,14 @@
     box-shadow-border-radius: 11px !important;
     transition: 0.3s ease-in-out;
       }
-.l-top_menu-v2 .menu-dropdown:hover > span {
-          background-color: rgba(var(--hover-bottoms-1), var(--hundred));
-      }
+
       .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown.profile:hover > span {
     background: none;
   }
       .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a.active:hover {
     background: rgba(var(--dark-color), 0.2);
   }
-      .l-top_menu-v2 .menu-dropdown > span a:hover {
-    background-color:  rgba(var(--hover-bottoms-1), var(--hundred));
-  }
+
       
       body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover > span {
       background-color: rgba(70, 37, 8, 0.8);
