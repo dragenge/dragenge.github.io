@@ -1142,6 +1142,7 @@
         background-color: transparent;
     }
     ::-webkit-scrollbar-track {
+        display: none;
         width: 6px;
         background: transparent;
     }
