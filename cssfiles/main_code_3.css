@@ -2549,7 +2549,7 @@
 .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img { 
     box-shadow: 0px 0px 5px 1px rgba(var(--bright-color), 1); 
 }
-.l-top_menu-v2 .submenu a.active, .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .global-search .search-results .search-mode.active, 
+.l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .global-search .search-results .search-mode.active, 
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active {
     color: rgba(var(--bright-color), 1);
     background: rgba(var(--block-color), .30) !important;
