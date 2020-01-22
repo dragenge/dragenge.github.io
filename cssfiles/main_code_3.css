@@ -2490,9 +2490,7 @@
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
 }
-.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
-    box-shadow: 0px 0px 1px 3px rgba(var(--bright-color), 1);
-}
+
 .l-top_menu-v2 .menu-dropdown.active .submenu { 
     opacity: 1; 
     pointer-events: auto ;
@@ -2546,9 +2544,7 @@
 .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile.active a.active { 
     color: rgba(var(--bright-color), 1);
 }
-.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img { 
-    box-shadow: 0px 0px 5px 1px rgba(var(--bright-color), 1); 
-}
+
 .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .global-search .search-results .search-mode.active, 
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active {
     color: rgba(var(--bright-color), 1);
