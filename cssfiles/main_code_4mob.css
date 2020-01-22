@@ -63,9 +63,7 @@
         
     }
   
-    .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
-    color: rgba(var(--hover-color), 1);
-}
+    
      .l-top_menu-v2:hover {
         background: rgba(var(--menu-back), 0.6) !important;
      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
@@ -120,7 +118,11 @@
   }
       .l-top_menu-v2 .menu-dropdown.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown > span:hover, .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a.active:hover {
     background: rgba(var(--bright-color), 0.15);
+    color: rgba(var(--white-color), var(--hundred))!important;
   }
+    .l-top_menu-v2 .menu-dropdown a:before, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
+    color: rgba(var(--hover-color), 1)!important;
+}
 
       
       body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover > span {
