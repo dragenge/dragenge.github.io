@@ -13,6 +13,41 @@
     #profiles_show .cc-3 > .c-column {
       margin-bottom: 10px;
     }
+    .l-top_menu-v2 .submenu>.legend:first-child {
+       margin-top: 0;
+    }
+    .l-top_menu-v2 .submenu>.legend {
+        margin-bottom: 3px;
+        padding-top: 3px;
+        padding-left: 15px;
+        font-size: 10px;
+        border-radius: 14px;
+        color: rgba(var(--light-color), 1);
+        background: rgba(var(--block-color), 0.7);
+    }
+    .l-top_menu-v2 .submenu>a {
+        border-radius: 20px;
+        margin: 0 4px;
+    }
+    .l-top_menu-v2 .submenu {
+        padding-bottom: 4px;
+        border-radius: 0 0 20px 20px;
+    }
+    .l-top_menu-v2 .menu-dropdown.main > span {
+        border-radius: 19px;
+        position: relative;
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+    .l-top_menu-v2 .menu-dropdown.submenu > span {
+        border-radius: 19px;
+        position: relative;
+        width: calc(100% + 15px);
+        left: -15px;
+    }
+    .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
+        background-color: rgba(var(--hover-bottoms-1), 0.6);
+    }
   }
   
   @media only screen and (min-width: 1025px) {
