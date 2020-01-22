@@ -2393,8 +2393,10 @@ border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 .b-db_entry-variant-list_item .image img {
     border-radius: 4px;
 }
-a.b-db_entry-variant-list_item .b-link span:hover {
-    color: rgba(var(--hover-color), 1);
+a.b-db_entry-variant-list_item .b-link {
+transition: 0.2s all;
+}
+a.b-db_entry-variant-list_item .b-link:hover {
     text-decoration: none;
 }
 
