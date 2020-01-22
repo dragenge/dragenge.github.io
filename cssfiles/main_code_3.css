@@ -2152,30 +2152,6 @@
     box-shadow: 0 1px 20px 10px rgba(70, 37, 8, 0.4) !important;
   }
   
-  body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon.active, body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:focus, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active > span, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:focus {
-    background-color: rgba(70, 37, 8, 0.8);
-  }
-  
-  body.p-achievements.p-profiles .l-top_menu-v2 .submenu, body.p-achievements.p-profiles .l-top_menu-v2 .l-top_menu-v2 .global-search .search-results, body.p-achievements.p-profiles .l-top_menu-v2 .l-top_menu-v2 .menu-dropdown > span a:hover {
-    background-color: rgba(70, 37, 8, 0.8);
-  }
-  
-  body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span a:hover {
-    background-color: rgba(70, 37, 8, 0.8);
-  }
-  
-  body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found.active:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
-    background: #bd9851;
-  }
-  
-  body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search .search-marker {
-    color: #bd9851 !important;
-  }
-  
-  body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover {
-    background: rgba(179, 161, 126, 0.12);
-  }
-  
   /* CSS редактор */
   .cm-s-solarized.cm-s-light {
     background-color: #1f2123;
