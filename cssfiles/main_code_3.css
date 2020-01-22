@@ -2341,12 +2341,16 @@
     border-radius: 0 0 20px 20px;
     padding: 3px;
   }
+.search-mode, input.has-value {
+transition: 0.2s all;
+}
 .l-top_menu-v2 .global-search .search-results .search-mode {
     border: none;
     border-radius: 20px;
+    
 }
-.l-top_menu-v2 .global-search .search-results .search-mode:hover {
-    background: rgba(var(--bright-color),0.15);
+.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus, .l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: linear-gradient(168deg, rgba(var(--bright-color),0.05) 0%, rgba(var(--bright-color),0.15) 100%);
 }
 .l-top_menu-v2 .global-search .search-results .search-mode.active {
     background: rgba(var(--hover-bottoms-1), 0.4);
