@@ -2390,6 +2390,9 @@ border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 .l-top_menu-v2 .global-search .search-results .nothing_found:hover:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover:before {
    background: linear-gradient(to right, rgba(var(--hover-color), 0.5) 0%, rgba(var(--hover-color), 0.5) 50%, rgba(var(--hover-color), 0) 100%);
 }
+.b-db_entry-variant-list_item .image img {
+    border-radius: 4px;
+}
   
   .l-top_menu-v2 .menu-icon.mail:after {
     display: flex;
