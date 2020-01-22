@@ -94,6 +94,10 @@
     .l-top_menu-v2 .global-search input.has-value~.clear {
     display: flex;
 }
+    .l-top_menu-v2 .global-search .clear:hover {
+    color: #ab5828b3;
+}
+    
     .l-top_menu-v2 .global-search .clear {
     color: rgba(var(--light-color), 0.3);
         width: 42px;
@@ -140,6 +144,9 @@
   }
   
   @media only screen and (min-width: 1025px) {
+      .l-top_menu-v2 .global-search .clear:active {
+    color: #cc4e05b3;
+}
     body[data-locale=ru] .b-offtopic_marker.off:hover:before, body[data-locale=ru] .b-offtopic_marker.active:hover:before {
       color: #ffcfe0;
       background-color: #ad024f;
