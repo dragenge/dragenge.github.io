@@ -2382,7 +2382,7 @@ border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:last-child, .l-top_menu-v2 .global-search .search-results .nothing_found {
     border-bottom: 0;
 }
-.l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:before {
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:before {
     width: 10px;
     border-radius: 13px 0 0 13px;
     background: linear-gradient(to right, rgba(var(--light-color), 0.3) 0%, rgba(var(--light-color), 0.3) 50%, rgba(var(--light-color), 0) 100%);
