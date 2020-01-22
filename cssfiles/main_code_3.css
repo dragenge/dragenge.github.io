@@ -2486,9 +2486,12 @@
   
   .l-top_menu-v2 .menu-dropdown .submenu {
     top: auto;
-      opacity: 0;
+    opacity: 0;
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
+    box-shadow: 0px 0px 1px 3px rgba(var(--bright-color), 1);
 }
 .l-top_menu-v2 .menu-dropdown.active .submenu { 
     opacity: 1; 
