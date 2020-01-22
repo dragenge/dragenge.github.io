@@ -2495,70 +2495,7 @@
     opacity: 1; 
     pointer-events: auto ;
 }
-.l-top_menu-v2:hover .global-search input, .is-search-focus .global-search input { 
-    background: rgba(36, 41, 43, 0.7);
-}
-.l-top_menu-v2:hover, .l-top_menu-v2.is-search-focus {
-    background: rgba(var(--menu-back), 0.75);
-    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.7);
-}
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active .key {
-    color: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .global-search .clear:hover::before { 
-    color: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, 
-.l-top_menu-v2 .global-search .search-results .search-mode.active { 
-    color: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active::before, 
-.l-top_menu-v2 .global-search .search-results .search-mode.active:before { 
-    background: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover::before, 
-.l-top_menu-v2 .global-search .search-results .search-mode:hover::before { 
-    background: rgba(var(--hover-color), 0.3);
-} 
-.l-top_menu-v2 .global-search .search-results .search-mode:hover, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover {
-    background: rgba(var(--bright-color), .1);
-    box-shadow: none;
-    color: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .global-search .search-results { 
-    background: rgba(var(--menu-back), 0.55);
-}
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode { 
-    border: unset ;
-}
-.l-top_menu-v2 .global-search .search-results .search-mode { 
-    color: unset ;
-}
-.l-top_menu-v2 .menu-dropdown.profile .submenu-triangle img, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle, 
-.l-top_menu-v2 .menu-dropdown.main .submenu-triangle {
-    transition: 0.2s ease-in-out;
-}
-.l-top_menu-v2 .menu-dropdown.main.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.main.active a.active { 
-    color: rgba(var(--bright-color), 1);
-}
-.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile.active a.active { 
-    color: rgba(var(--bright-color), 1);
-}
 
-.l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .global-search .search-results .search-mode.active, 
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active {
-    color: rgba(var(--bright-color), 1);
-    background: rgba(var(--bright-color), .3);
-    box-shadow: 0px 0px 20px rgba(var(--bright-color),.4);
-    border: none;
-}
-.l-top_menu-v2 .global-search .hotkey-marker { 
-    opacity: 0.5 ;
-}
-.l-top_menu-v2 .global-search, .l-top_menu-v2 .global-search input, .l-top_menu-v2.is-search-focus .global-search .search-marker { 
-    color: silver;
-    background: transparent;
-}
 
   .b-anime_status_tag.other {
     padding: 2px 12px 1px !important;
