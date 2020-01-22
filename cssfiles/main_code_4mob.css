@@ -2,6 +2,9 @@
     .menu-dropdown *, .menu-dropdown *:before, .menu-dropdown *:after {
     transition: 0.2s all;
 }
+    .menu-dropdown.profile .text {
+    transition: none;
+}
     .p-dashboards-show .cc-news .c-news_topics {
       margin-right: 25px;
       width: calc(69% - 25px);
