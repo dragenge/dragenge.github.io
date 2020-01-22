@@ -93,7 +93,7 @@
         width: 50px;
         color: rgba(var(--light-color), 1);
     }
-    .l-top_menu-v2 .global-search input.has-value ~ .clear {
+    .l-top_menu-v2 .global-search input.has-value~.clear {
     display: flex;
 }
     .l-top_menu-v2 .global-search .clear {
