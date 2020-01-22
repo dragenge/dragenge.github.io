@@ -2194,21 +2194,21 @@ img {
 }
 
 .tipsy-inner {
-  background:  rgba(var(--time-empty), var(--hundred)) !important;
-  padding: 6px 12px;
-  font-size: 13px;
-  box-shadow: 0px 0px 20px rgba(var(--shadows-color), 0.3);
-  transition: 0.1s ease;
-  color:  rgba(var(--white-color), var(--hundred));
-  border-radius: 4px;
+  background: rgba(12, 12, 12, 0.6) !important;
+    padding: 10px 20px;
+    font-size: 10px;
+    box-shadow: 0px 0px 5px rgba(var(--shadows-color), 0.1);
+    transition: 0.1s ease;
+    color: rgba(var(--white-color), var(--hundred));
+    border-radius: 9px;
 }
 
 .tipsy-arrow-s {
-  border-top-color:  rgba(var(--time-empty), var(--hundred));
+  border-top-color:  rgba(12, 12, 12, 0.6);
 }
 
 .tipsy-arrow {
-  border: 5px dashed  rgba(var(--time-empty), var(--hundred));
+  border: 5px dashed rgba(12, 12, 12, 0.6);
 }
 
 .club-actions .invite, .club-actions .upload, .club-actions .broadcast, .club-actions .edit-club, .club-actions .leave {
