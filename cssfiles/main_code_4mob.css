@@ -52,12 +52,32 @@
     .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus, .l-top_menu-v2 .menu-dropdown.active .submenu-triangle {
         background-color: rgba(var(--hover-bottoms-1), 0.6);
     }
-    .l-top_menu-v2 .menu-dropdown.active > span:hover {
-    background-color: rgba(var(--hover-bottoms-1), 1);
-   }
+  
     .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a:hover:before, .l-top_menu-v2 .menu-dropdown.main > span:hover span, .l-top_menu-v2 .menu-dropdown.main > span:hover:after, .l-top_menu-v2 .menu-dropdown.main > span:hover:before {
     color: rgba(var(--hover-color), 1);
 }
+     .l-top_menu-v2:hover {
+        background: rgba(var(--menu-back), 0.6) !important;
+     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
+    }
+      .l-top_menu-v2:hover .global-search input {
+      background: rgba(var(--block-color), 0.3);
+    box-shadow: inset 0 0px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow-border-radius: 11px !important;
+    transition: 0.3s ease-in-out;
+      }
+
+      .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown.profile:hover > span {
+    background: none;
+  }
+      .l-top_menu-v2 .menu-dropdown.active > span:hover, .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a.active:hover {
+    background: rgba(var(--bright-color), 0.1);
+  }
+
+      
+      body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover > span {
+      background-color: rgba(70, 37, 8, 0.8);
+      }
   }
   
   @media only screen and (min-width: 1025px) {
@@ -198,28 +218,7 @@
       padding: 0 10px;
     }
      
-      .l-top_menu-v2:hover {
-        background: rgba(var(--menu-back), 0.6) !important;
-     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
-    }
-      .l-top_menu-v2:hover .global-search input {
-      background: rgba(var(--block-color), 0.3);
-    box-shadow: inset 0 0px 2px 2px rgba(0, 0, 0, 0.2);
-    box-shadow-border-radius: 11px !important;
-    transition: 0.3s ease-in-out;
-      }
-
-      .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown.profile:hover > span {
-    background: none;
-  }
-      .l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .submenu > a.active:hover {
-    background: rgba(var(--dark-color), 0.2);
-  }
-
-      
-      body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover > span {
-      background-color: rgba(70, 37, 8, 0.8);
-      }
+     
       
       
   }
