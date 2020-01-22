@@ -2349,8 +2349,9 @@ transition: 0.2s all;
     border-radius: 20px;
     
 }
-.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .search-mode.active, {
-    background: none;
+.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
+    background: unset;
+    border-top-color: unset;
 }
 .l-top_menu-v2 .global-search .search-results .nothing_found:hover, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode:focus, .l-top_menu-v2 .global-search .search-results .search-mode:hover {
     background: linear-gradient(168deg, rgba(var(--bright-color),0.05) 0%, rgba(var(--bright-color),0.15) 100%);
@@ -2375,8 +2376,8 @@ background: linear-gradient(to right, rgba(var(--light-color), 0.7) 0%, rgba(var
     transition: 0.2s ease;
 }
 .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item {
-border-top: 0.5px solid rgb(var(--bright-color), 0.03);
-    border-bottom: 0.5px solid rgb(var(--bright-color), 0.03);
+border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
+    border-bottom: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 }
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:last-child, .l-top_menu-v2 .global-search .search-results .nothing_found {
     border-bottom: 0;
