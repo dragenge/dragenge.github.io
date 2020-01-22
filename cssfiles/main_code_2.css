@@ -1132,42 +1132,31 @@
   }
   
   /* Скролл - бар */
-  ::-webkit-scrollbar-button {
-    background-image: url("");
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 0px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background:  rgba(var(--buttoms-color), var(--hundred));
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 0px;
-    border-radius: 10px;
-    background:  rgba(var(--high-rating), var(--hundred)) !important;
-    transition: 0.5s ease-out !important;
-    width: 110% !important;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background:  rgba(var(--hover-color), var(--hundred)) !important;
-    transition: 0.5s ease !important;
-  }
-  
-  ::-webkit-resizer {
-    background-image: url("");
-    background-repeat: no-repeat;
-    width: 9px;
-    height: 0px;
-    overflow: visible;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 12px;
-    overflow: visible;
-  }
+  body {
+        overflow: overlay;
+        width: 100vw;
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+    }
+    body::-webkit-scrollbar-track {
+        width: 6px;
+        background: transparent;
+    }
+    body::-webkit-scrollbar-thumb {
+       
+        background-color: #4a4a4a63;
+        border-radius:8px;
+        
+    }
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: #4a4a4a82;
+    }
+    body::-webkit-scrollbar-thumb:active {
+        background-color: #4a4a4a99;
+    }
   
   .p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics::-webkit-scrollbar, .b-topic-minified > .inner .status-line::-webkit-scrollbar, .buttons > div::-webkit-scrollbar, .b-code::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
     height: 8px;
