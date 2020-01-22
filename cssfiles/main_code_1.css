@@ -31,6 +31,9 @@ body:after {
 }
 
 body {
+  width: 100vw;
+  overflow: auto;
+  overflow: overlay;
   background-image: none;
   background-size: cover !important;
   background-repeat: no-repeat;
