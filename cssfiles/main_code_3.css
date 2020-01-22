@@ -2393,6 +2393,11 @@ border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 .b-db_entry-variant-list_item .image img {
     border-radius: 4px;
 }
+a.b-db_entry-variant-list_item .b-link span:hover {
+    color: rgba(var(--hover-color), 1);
+    text-decoration: none;
+}
+
   
   .l-top_menu-v2 .menu-icon.mail:after {
     display: flex;
