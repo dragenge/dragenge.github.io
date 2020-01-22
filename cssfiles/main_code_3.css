@@ -2329,12 +2329,7 @@
 .b-shiki_editor.previewed img.b-poster, .p-profiles .about.block img.b-poster  {
     border-radius: 10px;
 }
-  .l-top_menu-v2 .global-search .search-results {
-    overflow: hidden;
-    max-height: 90vh;
-    white-space: nowrap;
-    overflow-y: auto;
-  }
+  
   
   .l-top_menu-v2 .menu-icon.mail:after {
     display: flex;
@@ -2355,10 +2350,7 @@
     border: none !important;
   }
   
-  .l-top_menu-v2 .global-search .hotkey-marker {
-    border: 1px solid rgba(var(--dark-color), 0.4);
-    color: rgba(var(--dark-color), 0.5);
-  }
+  
   
   .l-top_menu-v2 .menu-icon.search:before, .l-top_menu-v2 .menu-dropdown a, .l-top_menu-v2 .menu-dropdown.main > span span, a.menu-icon.forum.desktop, a.menu-icon.contest, .l-top_menu-v2 .icon-profile:before, .l-top_menu-v2 .menu-dropdown a:before, .l-top_menu-v2 .menu-dropdown > span:after, .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
     color:  rgba(var(--white-color), var(--hundred));
