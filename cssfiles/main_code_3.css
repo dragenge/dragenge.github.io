@@ -2357,7 +2357,7 @@ transition: 0.2s all;
     background: linear-gradient(168deg, rgba(var(--bright-color),0.05) 0%, rgba(var(--bright-color),0.15) 100%);
 }
 .l-top_menu-v2 .global-search .search-results .search-mode.active {
-    background: rgba(var(--hover-bottoms-1), 0.4);
+    background: rgba(var(--bright-color), 0.05);
 }
 .l-top_menu-v2 .global-search .search-results .search-mode:before {
     width: 32px;
