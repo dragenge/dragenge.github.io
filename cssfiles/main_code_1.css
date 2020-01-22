@@ -1,17 +1,22 @@
 .css {
   color: #010101cc;
 }
-
-.l-top_menu-v2 {
-  position: sticky;
-  top: 0;
+html {
+  height: 100%;
+  min-height: 100%;
 }
-
-.l-top_menu-v2 .active .submenu {
-  max-height: calc(100vh - 46px);
+body {
+  min-height: 100%;
+  width: 100vw;
   overflow: auto;
+  overflow: overlay;
+  color:  rgba(var(--light-color), var(--hundred));
+  background-image: none;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-attachment: fixed;
 }
-
 body:after {
   content: '';
   width: 100vw;
@@ -30,29 +35,38 @@ body:after {
 
 }
 
-body {
-  width: 100vw;
+.l-top_menu-v2 {
+  position: sticky;
+  top: 0;
+}
+
+.l-top_menu-v2 .active .submenu {
+  max-height: calc(100vh - 46px);
   overflow: auto;
-  overflow: overlay;
-  background-image: none;
-  background-size: cover !important;
-  background-repeat: no-repeat;
-  background-position: center center !important;
-  background-attachment: fixed;
 }
 
-html {
-  height: 100%;
-  min-height: 100%;
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
 }
+::-webkit-scrollbar-track {
+    display: none;
+    width: 6px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
 
-body {
-  min-height: 100%;
-}
+    background-color: #4a4a4a63;
+    border-radius:8px;
 
-body {
-  color:  rgba(var(--light-color), var(--hundred));
 }
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4a4a4a82;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #4a4a4a99;
+}
+  
 
 .b-shiki_editor footer .about-bb_codes:hover:before {
   color:  rgba(var(--dark-color), var(--hundred));
