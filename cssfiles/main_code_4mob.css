@@ -13,6 +13,9 @@
     #profiles_show .cc-3 > .c-column {
       margin-bottom: 10px;
     }
+    .l-top_menu-v2 .menu-dropdown.profile {
+    margin-left: 14px;
+}
     .l-top_menu-v2 .submenu>.legend:first-child {
        margin-top: 0;
     }
@@ -45,7 +48,8 @@
         width: calc(100% + 15px);
         margin-left: -15px;
     }
-    .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
+    
+    .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus, .l-top_menu-v2 .menu-dropdown.active .submenu-triangle {
         background-color: rgba(var(--hover-bottoms-1), 0.6);
     }
     .l-top_menu-v2 .menu-dropdown.active > span:hover {
