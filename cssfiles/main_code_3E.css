@@ -2223,6 +2223,9 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
         width: 50px;
         color: rgba(var(--light-color), 1);
     }
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-marker {
+        color: rgba(255, 225, 167, 1);
+    }
     .l-top_menu-v2 .global-search input.has-value~.clear {
     display: flex;
 }
@@ -2233,10 +2236,15 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
     .l-top_menu-v2 .global-search .clear {
     color: rgba(var(--light-color), 0.3);
         width: 42px;
-    
+}
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .clear {
+    color: rgba(255, 225, 167, 0.3);  
 }
     .l-top_menu-v2.is-search-focus .global-search .search-marker {
     color: rgba(var(--white-color), 0.7);
+    }
+body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search .search-marker {
+    color: rgba(255, 225, 167, 0.7);
     }
 
    .l-top_menu-v2 .global-search .search-results {
@@ -2251,6 +2259,9 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
     border-radius: 0 0 20px 20px;
     padding: 3px;
   }
+.l-top_menu-v2 .global-search .search-results {
+background-color: rgba(var(--menu-back), 0.6);
+}
 .search-mode, input.has-value {
 transition: 0.2s all;
 }
