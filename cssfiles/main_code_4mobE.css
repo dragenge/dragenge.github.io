@@ -161,6 +161,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     box-sizing: border-box;
     background: #2f261f;
     border-radius: 90px/80px 80px 0 0;
+        transition: 0.2s;
 }
     body.p-achievements.p-profiles .b-list_switchers > *.selected:after {
     background: #171212;
