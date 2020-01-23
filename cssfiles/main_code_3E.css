@@ -2332,7 +2332,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .se
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active:before {
     background: linear-gradient(to right, rgba(255, 225, 167, 0.55) 0%, rgba(255, 225, 167, 0.55) 30%, rgba(255, 225, 167, 0) 75%, rgba(255, 225, 167, 0) 100%);
 }
-a.b-db_entry-variant-list_item span.b-link {
+body.p-achievements.p-profiles a.b-db_entry-variant-list_item span.b-link {
     color: rgba(255, 247, 232, 1) !important;
 }
 body.p-achievements.p-profiles .tags .b-tag, body.p-achievements.p-profiles .line .b-tag, body.p-achievements.p-profiles .line .tag, body.p-achievements.p-profiles .b-forums .reload, body.p-achievements.p-profiles .p-animes-show .other-names, body.p-achievements.p-profiles .p-mangas-show .other-names, body.p-achievements.p-profiles .p-ranobe-show .other-names {
