@@ -1709,49 +1709,15 @@
     padding: 10px;
   }
   
-  .c-franchises .b-options-floated.before-buttons-2 {
-    position: absolute;
-    top: -3px;
-    left: 0;
-    width: 80px;
-    height: 20px;
-    padding: 0px;
-    margin-left: 35px;
-    line-height: 22px;
-    text-align: center;
-    background: rgba(23, 15, 2, 0.5);
-    border-radius: 10px;
-  }
+ 
   
-  .c-franchises .b-options-floated.mobile-phone a {
-    width: auto !important;
-    color: #ceac4b !important;
-    background: none;
-  }
+
   
-  span.switcher.b-tooltipped.popularity {
-    display: inline-block;
-    position: relative;
-    right: 20px;
-    bottom: 0px;
-    width: 150px;
-    height: 20px;
-    line-height: 20px;
-    background: rgba(23, 15, 2, 0.5);
-    border-radius: 9px;
-  }
   
-  span.switcher.b-tooltipped.popularity.selected {
-    background: rgba(152, 93, 0, 0.5);
-  }
   
-  .b-list_switchers .switcher.popularity:before {
-    content: 'ПО ПОПУЛЯРНОСТИ';
-    font: bold 9px "Comfortaa" !important;
-    width: 125px;
-    display: inline-block;
-    color: #daa644;
-  }
+ 
+  
+ 
   
   .b-list_switchers .switcher.popularity::after {
     content: '\\_f201';
@@ -1760,44 +1726,12 @@
     font-weight: bold;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    display: inline-block;
+    
     -moz-osx-font-smoothing: grayscale;
-    height: calc(100% - 4px);
-    right: 0;
-    top: 2px;
-    width: 27px;
-    line-height: 20px;
-    text-align: center;
-    position: absolute;
-    color: #291506;
-    background: #b57819;
-    border-radius: 9px;
-    padding: 0px;
+ 
   }
   
-  span.switcher.b-tooltipped.alphabet {
-    display: inline-block;
-    width: 116px;
-    background: rgba(23, 15, 2, 0.5);
-    height: 20px;
-    line-height: 20px;
-    bottom: 0px;
-    position: relative;
-    border-radius: 9px;
-    right: 30px;
-  }
-  
-  span.switcher.b-tooltipped.alphabet.selected {
-    background: rgba(152, 93, 0, 0.5);
-  }
-  
-  .b-list_switchers .switcher.alphabet:before {
-    content: 'ПО АЛФАВИТУ';
-    font: bold 9px "Comfortaa" !important;
-    width: 92px;
-    display: inline-block;
-    color: #daa644;
-  }
+
   
   .b-list_switchers .switcher.alphabet::after {
     content: '\\_f1c2';
@@ -1806,28 +1740,10 @@
     font-weight: bold;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    display: inline-block;
     -moz-osx-font-smoothing: grayscale;
-    height: calc(100% - 4px);
-    right: 0;
-    top: 2px;
-    width: 27px;
-    line-height: 17px;
-    text-align: center;
-    position: absolute;
-    color: #291506;
-    background: #b57819;
-    border-radius: 9px;
-    padding: 0px;
+    
   }
   
-  .b-list_switchers .switcher.selected:after {
-    background: #efc86e !important;
-  }
-  
-  .b-list_switchers .switcher.selected:before {
-    color: #efc86e !important;
-  }
   
   body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s, body.p-achievements.p-profiles .tipsy, body.p-achievements.p-profiles .tipsy-s {
     display: none !important;
@@ -1839,7 +1755,25 @@
   
   body.p-achievements.p-profiles .block2 {
     margin: 0;
+          margin-top: 40px;
   }
+body.p-achievements.p-profiles .b-options-floated {
+    position: absolute;
+    left: 10px;
+    top: -31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px!important;
+    margin: 0 auto;
+    height: 15px;
+    padding: 11px 7px 45px;
+    background: #131010c7;
+    color: #caa561;
+    box-sizing: content-box;
+    z-indeX: -1;
+    border-radius: 50%;
+}
   
   body.p-achievements.p-profiles .block.m0:before {
     content: '——— ★ ▬▬ ACHIEVEMENTS ▬▬ ★ ———';
@@ -2015,6 +1949,7 @@
     text-align: center;
     position: relative;
     z-index: -1;
+      margin-bottom: 25px!important;
   }
   
   body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
