@@ -185,14 +185,16 @@
     width: 76.4%;
   }
   
-  @font-face {
-    font-family: 'FontAwesome';
-    src: url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
-    src: url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-  }
   
+  .p-profiles .profile-head .c-history .entry .title {
+    width: calc(100% - 66px);
+    padding-top: 3px;
+    text-align: center;
+    text-overflow: clip;
+    text-decoration: none;
+    animation: runningtext 12s ease-in-out infinite;
+    animation-delay: 2s;
+}
   .p-profiles .profile-head .c-history .entry .title {
     color:  rgba(var(--white-color), var(--hundred)) !important;
     text-align: center;
