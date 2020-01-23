@@ -707,7 +707,7 @@
       top: 0px !important;
       z-index: 2;
       width: 100%;
-      margin: 0px;
+      margin: 0px 0;
     }
     .b-block_list {
       display: inline-block;
@@ -2172,9 +2172,11 @@
     justify-content: center;
     align-items: center;
     flex-flow: row-reverse;
+        margin: 6px 0;
 }
     .b-block_list {
     width: calc(100% - 64px);
+    margin-top: 0;
 }
     .p-profiles .profile-head .c-history .entry {
     }
