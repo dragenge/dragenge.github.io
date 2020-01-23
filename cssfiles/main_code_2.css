@@ -2267,8 +2267,8 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .b-topic > .inner header img[alt="morr"] {
-    outline: 2px solid #ff91004f;
-    border: none !important;
+        border: 2px solid rgba(183, 139, 82, 0.9)!important;
+    
   }
   
   .b-user16 a[title="morr"] {
