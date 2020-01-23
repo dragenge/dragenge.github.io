@@ -2354,9 +2354,7 @@ body.p-achievements.p-profiles .tags .b-tag, body.p-achievements.p-profiles .lin
 body.p-achievements.p-profiles .line .key {
     color: #b1a18f!important;
 }
-.b-anime_status_tag.episode, .b-anime_status_tag.studio {
-    color: rgba(255, 247, 232, 0.6);
-}
+
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:before, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:before {
     background: linear-gradient(to right, rgba(255, 225, 167, 0.3) 0%, rgba(255, 225, 167, 0.3) 50%, rgba(255, 225, 167, 0) 100%);
 }
@@ -2567,7 +2565,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
   
   .b-anime_status_tag.episode, .b-anime_status_tag.studio {
     background-color: rgba(31, 31, 71, 0.9);
-    color:  rgba(var(--white-color), var(--hundred));
+    color:  rgba(var(--white-color), 0.6);
     cursor: default;
     display: inline-block;
     font-size: 12px;
@@ -2576,6 +2574,9 @@ body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
     border-radius: 10px;
     border: unset;
   }
+body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.studio {
+    color: rgba(255, 247, 232, 0.6);
+}
   
   .turbolinks-progress-bar {
     background:  rgba(var(--hover-color), var(--hundred)) !important;
