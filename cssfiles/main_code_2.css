@@ -919,6 +919,9 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     position: absolute;
     right: 5px;
   }
+body.p-achievements.p-profiles .l-footer .copyright {
+color:rgba(214, 144, 16, 0.48);
+}
   .l-footer .links {
     clear: both;
     display: inline-block;
@@ -931,6 +934,9 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     margin: 5px;
     color: rgba(var(--bright-color), 0.5);
    }
+body.p-achievements.p-profiles .l-footer .links a {
+    color: rgba(255, 195, 84, 0.48);
+}
   .l-footer:before {
     content: 'E-design v.4.1';
     position: absolute;
