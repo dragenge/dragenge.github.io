@@ -717,7 +717,9 @@
     }
     .p-profiles .profile-head .c-history .entry {
       display: inline-block;
-      width: 30%;
+      width: calc(33.33% - 10px);
+        min-width: calc(33.33% - 10px);
+    margin: 0 5px;
       height: 44px;
       background: rgba(var(--block-color), 0.5);
       border-radius: 23px;
@@ -2163,6 +2165,64 @@
       width: 50px;
     }
   }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .p-profiles .profile-head .c-history {
+    display: flex!important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+    .b-block_list {
+    width: calc(100% - 64px);
+}
+    .p-profiles .profile-head .c-history .entry {
+    }
+    .p-profiles .profile-head .c-history > * {
+    display: inline-flex!important;
+    }
+    .c-history .subheadline {
+    background: none!important;
+    box-shadow: none!important;
+    position: relative!important;
+    top: 0!important;
+    left: 0!important;
+    right: 0!important;
+    width: 44px;
+    padding: 0;
+    height: 44px;
+    margin: 0 0 0 5px !important;
+    overflow: visible;
+}
+    .c-history .subheadline a {
+    font-size: 0;
+    width: auto;
+    height: auto;
+}
+    .c-history .subheadline a:after {
+    background: rgba(var(--block-color), 0.4) !important;
+    content: '\f187';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 44px;
+    background: transparent;
+    height: 44px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    bottom: 0px;
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4) !important;
+}
+    
+}
   
   @media screen and (max-width: 599px) {
     .p-achievements-index .cc-achievements .b-achievement, .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
