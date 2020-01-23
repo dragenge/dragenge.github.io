@@ -1895,6 +1895,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .p-user_rates-index .list-lines tr .num {
       display: table-cell !important;
     }
+      span.current-value[data-field='chapters'] {
+        display: block;
+    }
     .was_updated span {
       font-size: 0px;
     }
