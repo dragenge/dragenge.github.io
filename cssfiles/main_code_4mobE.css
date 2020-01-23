@@ -106,11 +106,18 @@
     .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover img {
     box-shadow: 0px 0px 0px 2.5px rgba(var(--hover-color), 1);
 }
+    
+    
+    
     body.p-achievements.p-profiles .l-top_menu-v2:hover {
     background: linear-gradient(to bottom, rgba(70, 37, 8, 0.7) 0%, rgba(70, 37, 8, 0.7) 70%, rgba(70, 37, 8, 0.7) 100%)!important;
 }
    body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover {
     background: rgba(165, 98, 16, 0.2);
+       color: #fff7e8!important;
+}
+    body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main.active > span, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:focus, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active .submenu-triangle {
+    background-color: rgba(165, 98, 16, 0.1);
 }
    body.p-achievements.p-profiles .l-top_menu-v2 .submenu>.legend {
 background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 0.69) 10%, rgb(115, 67, 6) 30%, rgba(53, 20, 0, 0.6) 100%);
