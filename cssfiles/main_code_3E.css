@@ -2045,9 +2045,13 @@
     color: #ffd78c;
   }
   
-  body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main > span span, body.p-achievements.p-profiles a.menu-icon.forum.desktop, body.p-achievements.p-profiles a.menu-icon.contest, body.p-achievements.p-profiles .l-top_menu-v2 .icon-profile:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:after, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
+  body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main > span span, body.p-achievements.p-profiles a.menu-icon.forum.desktop, body.p-achievements.p-profiles a.menu-icon.contest, body.p-achievements.p-profiles .l-top_menu-v2 .icon-profile:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:after, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
     color: #fff7e8 !important;
   }
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
+    color: #fff7e8;
+}
+
   
   body.p-achievements.p-profiles .l-top_menu-v2 {
     background: linear-gradient(to bottom, rgba(70, 37, 8, 0.8) 0%, rgba(70, 37, 8, 0.6) 70%, rgba(70, 37, 8, 0.36) 100%);
@@ -2409,6 +2413,9 @@ a.b-db_entry-variant-list_item .b-link:hover {
     border-left: unset;
     border-right: unset;
   }
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu {
+    background: linear-gradient(135deg, #2d2626 0%, #271f1c 70%, #52310c 100%);
+}
   
   .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
     background-color:  rgba(var(--hover-bottoms-1), var(--hundred));
@@ -2423,6 +2430,10 @@ a.b-db_entry-variant-list_item .b-link:hover {
   .l-top_menu-v2 .submenu > a.active {
     background: rgba(var(--dark-color), 0.2);
   }
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
+    background: rgba(165, 98, 16, 0.2);
+
+}
   
   .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown > span:focus {
     background-color: rgba(var(--menu-back), 0.3);
