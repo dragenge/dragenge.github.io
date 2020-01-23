@@ -723,15 +723,7 @@
       border-radius: 23px;
       box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4) !important;
     }
-    .p-profiles .profile-head .c-history .entry .title {
-      width: calc(100% - 66px);
-      padding-top: 3px;
-      text-align: center;
-      text-overflow: clip;
-      text-decoration: none;
-      animation: runningtext 12s ease-in-out infinite;
-      animation-delay: 2s;
-    }
+    
     .p-profiles .profile-head .c-history .entry:first-child {
       border-top: none;
       margin-top: 0px;
