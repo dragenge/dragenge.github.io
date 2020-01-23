@@ -96,10 +96,7 @@
 }
 
       
-      body.p-achievements.p-profiles .l-top_menu-v2 .menu-icon:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown:hover > span {
-      background-color: rgba(70, 37, 8, 0.8);
-      }
-    
+
     .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
     box-shadow: 0px 0px 0px 2.5px rgba(var(--bright-color), 1);
         
