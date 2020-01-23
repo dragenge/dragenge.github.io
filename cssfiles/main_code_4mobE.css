@@ -75,15 +75,7 @@
 }
      
 
-    .l-top_menu-v2 .global-search .hotkey-marker {
-    border: 1px solid rgba(var(--dark-color), 0.4);
-    color: rgba(var(--dark-color), 0.5);
-    margin: auto 1px;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-  }
+ 
  
 
       .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown.profile:hover > span {
@@ -106,6 +98,9 @@
     .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover img {
     box-shadow: 0px 0px 0px 2.5px rgba(var(--hover-color), 1);
 }
+    body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
+    box-shadow: 0px 0px 0px 2.5px rgb(206, 169, 120);
+}
     
     
     
@@ -123,6 +118,7 @@
 background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 0.69) 10%, rgb(115, 67, 6) 30%, rgba(53, 20, 0, 0.6) 100%);
     color: #f1ddb7;
 }
+    
     
   }
   
