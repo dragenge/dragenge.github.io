@@ -2305,15 +2305,43 @@
 .b-shiki_editor.previewed img.b-poster, .p-profiles .about.block img.b-poster  {
     border-radius: 10px;
 }
-  
+    
+    .l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear {
+    height: 100%;
+   
+    justify-content: center;
+    align-items: center;
+}
+    .l-top_menu-v2 .global-search .search-marker {
+         display: flex;
+        width: 50px;
+        color: rgba(var(--light-color), 1);
+    }
+    .l-top_menu-v2 .global-search input.has-value~.clear {
+    display: flex;
+}
+    .l-top_menu-v2 .global-search .clear:hover {
+    color: #ab5828b3;
+}
+    
+    .l-top_menu-v2 .global-search .clear {
+    color: rgba(var(--light-color), 0.3);
+        width: 42px;
+    
+}
+    .l-top_menu-v2.is-search-focus .global-search .search-marker {
+    color: rgba(var(--white-color), 0.7);
+    }
+
    .l-top_menu-v2 .global-search .search-results {
     overflow: hidden;
     max-height: 90vh;
     white-space: nowrap;
     overflow-y: auto;
-    max-width: calc(100% - 30px);
+   
+    max-width: calc(100% - 20px);
+    left: 10px;
     background-color: rgba(var(--menu-back), 0.6);
-    left: 17px;
     border-radius: 0 0 20px 20px;
     padding: 3px;
   }
