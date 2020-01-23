@@ -120,22 +120,29 @@
   #profiles_show .profile-content .cc-2.block .c-column.c-right .block {
     margin-top: 0px !important;
   }
-  #profiles_show .profile-content .c-column.c-left:after {
+  #profiles_show .profile-content .c-column.c-left::after {
     position: absolute;
-    content: "Активность";
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 110px;
+    height: 28px;
     margin-top: 87px;
-    padding: .87rem 10px;
-    line-height: 0;
+    content: "Активность";
+    padding: 0;
+    opacity: .6;
+    line-height: 2;
     font-size: 13px;
-    color: rgba(var(--white-color), var(--hundred));
+    color: #fff;
     z-index: 15;
-    opacity: 0.6;
-    border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 0.5rem;
     background-color: transparent;
     transition: 0.8s ease-in-out;
     text-shadow: 0 1px 2px #000000;
-    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2) !important;
-  }
+    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.24);
+}
   #profiles_show .profile-content .c-column.c-left:hover:after {
     margin-top: 25px;
     z-index: 20;
@@ -177,22 +184,29 @@
     transition: 1.2s cubic-bezier(0.82, -0.01, 0.76, 0.98) !important;
     will-change: transform;
   }
-  #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:before {
+  #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30::before {
     position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 127px;
+    height: 28px;
     content: 'Друзья и Клубы';
-    top: 294px;
-    left: 4.9px;
-    padding: .87rem 10px;
-    line-height: 0;
+    padding: 0;
+    opacity: .6;
+    top: 18.375rem;
+    left: 0.25rem;
+    line-height: 2;
     font-size: 13px;
-    color: rgba(var(--white-color), var(--hundred));
+    color: #fff;
     z-index: 10;
-    opacity: 0.6;
     transition: 0.8s ease-in-out;
     background-color: transparent;
     text-shadow: 0 1px 2px #000000;
-    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
-  }
+    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.24);
+}
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:hover:before {
     top: 245px;
     z-index: 15;
@@ -212,22 +226,29 @@
     background: transparent !important;
     transition: 2s ease-in-out;
   }
-  #profiles_show .profile-head .c-history:before {
+  #profiles_show .profile-head .c-history::before {
     position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 96.35px;
+    height: 28px;
     content: 'История';
+    padding: 0;
+    opacity: .6;
     top: 20.65rem;
-    left: -1px;
-    padding: .87rem 5%;
-    line-height: 0;
+    left: -0.0625rem;
+    line-height: 2;
     font-size: 13px;
-    color: rgba(var(--white-color), var(--hundred));
+    color: #fff;
     z-index: 10;
-    opacity: 0.6;
     background-color: transparent;
     transition: 0.8s ease-in-out;
     text-shadow: 0 1px 2px #000000;
-    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
-  }
+    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.24);
+}
   #profiles_show .profile-head .c-history:hover:before {
     top: 15.67rem;
     z-index: 15;
@@ -259,25 +280,29 @@
     background: transparent !important;
     top: -100px;
   }
-  #profiles_show .profile-head .c-info .c-lists-info:before {
+ #profiles_show .profile-head .c-info .c-lists-info::before {
     position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 128px;
+    height: 28px;
     content: "Аниме & Манга";
-    height: 0;
-    line-height: 0;
+    padding: 0;
+    opacity: .6;
+    line-height: 2;
     top: 18.95rem;
-    margin-left: 0;
-    padding: .87rem 10px;
     font-size: 13px;
-    color: rgba(var(--white-color), var(--hundred));
+    color: #fff;
     z-index: 10;
-    opacity: 0.6;
-    vertical-align: middle;
     border-bottom-right-radius: 7px;
     background-color: transparent;
     transition: 0.8s ease-in-out;
     text-shadow: 0 1px 2px #000000;
-    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
-  }
+    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.24);
+}
   #profiles_show .profile-head .c-info .c-lists-info:after {
     position: absolute;
     padding: 6px 10px;
