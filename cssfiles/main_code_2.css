@@ -713,9 +713,7 @@
     background: none;
   }
   
-  .search-mode, input.has-value {
-    color:  rgba(var(--white-color), var(--hundred)) !important;
-  }
+  
   
   .ac_results li {
     background: #282d56cc;
