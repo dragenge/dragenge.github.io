@@ -2268,7 +2268,7 @@ transition: 0.2s all;
     background: linear-gradient(to right, rgba(var(--light-color), 0.5) 0%, rgba(var(--light-color), 0.5) 30%, rgba(var(--light-color), 0) 75%, rgba(var(--light-color), 0) 100%);
     border-radius: 50% 0 0 50%;
 }
-.l-top_menu-v2 .global-search .search-results .search-mode:hover:before {
+.l-top_menu-v2 .global-search .search-results .search-mode:hover:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
     background: linear-gradient(to right, rgba(var(--hover-color), 0.7) 0%, rgba(var(--hover-color), 0.7) 30%, rgba(var(--light-color), 0) 75%, rgba(var(--light-color), 0) 100%);
     border-top-color: rgb(var(--bright-color), 0.03);
 }
