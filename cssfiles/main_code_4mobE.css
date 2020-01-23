@@ -127,20 +127,25 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
   }
   
   @media only screen and (min-width: 1025px) {
-       .l-top_menu-v2 .global-search input {
       
-    
+       .l-top_menu-v2 .global-search input {
     padding: 5px 46px 3px;
     border-radius: 19px;
     transition: 0.3s ease-in-out;
       }
       .l-top_menu-v2:hover .global-search input {
-          background: rgba(var(--block-color), 0.3);
+          background: rgba(var(--light-color), 0.07);
+      }
+      body.p-achievements.p-profiles .l-top_menu-v2:hover .global-search input {
+          background: rgba(255, 225, 167, 0.07);
       }
     .l-top_menu-v2.is-search-focus .global-search input {
     background: rgba(var(--light-color), 0.12);
     box-shadow: none;
 }
+      body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search input {
+    background: rgba(255, 225, 167, 0.12);
+      }
       .l-top_menu-v2 .global-search .clear:active {
     color: #cc4e05b3;
 }
