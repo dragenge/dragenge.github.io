@@ -146,6 +146,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     justify-content: center;
     align-items: center;
     height: 100%;
+        width: auto;
 }
     body.p-achievements.p-profiles .b-list_switchers > *:after {
     width: auto;
