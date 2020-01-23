@@ -64,9 +64,11 @@
   
     
      .l-top_menu-v2:hover {
-        background: rgba(var(--menu-back), 0.6) !important;
+        background: linear-gradient(to bottom,  rgba(var(--menu-back), 0.6) 0%,  rgba(var(--menu-back), 0.6) 70%,  rgba(var(--menu-back), 0.6) 100%)!important;
      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
     }
+ 
+    
     .l-top_menu-v2 .global-search .search-results {
     max-width: calc(100% - 20px);
     left: 10px;
@@ -104,7 +106,14 @@
     .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover img {
     box-shadow: 0px 0px 0px 2.5px rgba(var(--hover-color), 1);
 }
-   
+   body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover {
+    background: rgba(165, 98, 16, 0.2);
+}
+   body.p-achievements.p-profiles .l-top_menu-v2 .submenu>.legend {
+background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 0.69) 10%, rgb(115, 67, 6) 30%, rgba(53, 20, 0, 0.6) 100%);
+    color: #f1ddb7;
+}
+    
   }
   
   @media only screen and (min-width: 1025px) {
