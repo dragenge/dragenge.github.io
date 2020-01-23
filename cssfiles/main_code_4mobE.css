@@ -2201,7 +2201,7 @@
 }
     .c-history .subheadline a:after {
     background: rgba(var(--block-color), 0.4) !important;
-    content: '\f187';
+    content: '\\_f187';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 20px;
     text-rendering: auto;
