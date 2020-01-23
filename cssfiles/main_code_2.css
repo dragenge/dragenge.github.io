@@ -2259,7 +2259,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   .name-date a.name[title="morr"], a.name[href*="/morr"] {
     color: #fdc47a !important;
     font-size: 19px !important;
-    line-height: 15px;
+    line-height: 15px !important;
   }
   
   .subheadline a[title=morr] {
