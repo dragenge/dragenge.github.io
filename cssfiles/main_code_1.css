@@ -2007,10 +2007,7 @@ body.localized_names-ru .name-ru:before {
     position: relative;
 }
 
-.subheadline {
-  line-height: 1;
-  padding: 8px 10px 6px;
-}
+
 
 .headline > a, .midheadline > a, .subheadline > a {
   color:  inherit!important;
