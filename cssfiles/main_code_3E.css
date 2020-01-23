@@ -1606,14 +1606,16 @@
     border-radius: 20px;
   }
   
-  body.p-achievements.p-profiles.p-profiles.p-profiles.p-profiles .b-achievement img {
+  body.p-achievements.p-profiles.p-profiles .b-achievement img {
     border-radius: 11px;
     width: 104%;
     height: 106%;
     max-width: 105%;
     margin-left: -2%;
   }
-  
+  body.p-achievements.p-profiles.p-profiles .l-footer:after {
+    display: none!important;
+}
   .b-achievement .c-image .inner .border {
     border: 0;
     height: 100%;
