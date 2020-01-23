@@ -1782,6 +1782,7 @@ p-userlist_comparer .comparer table a {
 .b-code {
   background: rgba(103, 103, 103, 0.2);
   border-radius: 6px;
+  white-space: pre-wrap!important;
 }
 
 .b-code:before {
