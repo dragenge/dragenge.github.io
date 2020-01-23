@@ -295,7 +295,7 @@
 [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus::before {
     font-family: 'Comfortaa';
     content: 'добавить';
-  
+}
   [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus:hover:before, [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus:hover:before {
     color:  rgba(var(--hover-color), var(--hundred));
   }
@@ -2619,7 +2619,7 @@ a.b-db_entry-variant-list_item .b-link:hover {
     }
   }
   
-  @keyframes animhist) {
+  @keyframes animhist {
     0% {
       display: block;
     }
