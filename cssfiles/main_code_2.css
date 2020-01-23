@@ -1955,16 +1955,18 @@ body.p-achievements.p-profiles .l-footer .links a {
     position: absolute;
     left: -3px;
     text-align: center;
-    width: 167px;
+    width: 190px;
     font-size: 11px !important;
-    top: 234px;
-    padding: 0px;
+    padding: 0px 24px;
     color:  rgba(var(--hover-color), var(--hundred)) !important;
     z-index: 1;
   }
   
   .p-profiles .profile-head .c-brief header.head .misc span {
     border-radius: 15px 15px 0 0;
+     
+    white-space: normal;
+    width: 100%;
   }
   
   .body-truncated {
