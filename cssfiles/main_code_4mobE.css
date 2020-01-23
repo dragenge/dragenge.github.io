@@ -112,11 +112,14 @@
   
   @media only screen and (min-width: 1025px) {
        .l-top_menu-v2 .global-search input {
-      background: rgba(var(--block-color), 0.3);
-    box-shadow: inset 0 0px 2px 2px rgba(0, 0, 0, 0.2);
+      
+    
     padding: 5px 46px 3px;
     border-radius: 19px;
     transition: 0.3s ease-in-out;
+      }
+      .l-top_menu-v2:hover .global-search input {
+          background: rgba(var(--block-color), 0.3);
       }
     .l-top_menu-v2.is-search-focus .global-search input {
     background: rgba(var(--light-color), 0.12);
