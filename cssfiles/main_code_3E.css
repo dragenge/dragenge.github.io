@@ -274,22 +274,27 @@
     margin: 0 0 0 .5rem;
   }
   
-  [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-add:before {
+  .b-collection-filters .b-block_list .filter.item-add:before {
     font-family: 'Comfortaa';
-    content: 'исключить';
     color:  rgba(var(--dark-color), var(--hundred));
     border-radius: 10px;
     padding-right: 12px;
   }
-  
-  [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus::before {
+[data-locale="ru"] .b-collection-filters .b-block_list .filter.item-add:before {
     font-family: 'Comfortaa';
-    content: 'добавить';
+    content: 'исключить';
+}
+  
+  .b-collection-filters .b-block_list .filter.item-minus::before {
+    font-family: 'Comfortaa';
     color:  rgba(var(--dark-color), var(--hundred));
     border-right: 3px solid #af3e0f;
     border-radius: 10px;
     padding-right: 9px;
   }
+[data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus::before {
+    font-family: 'Comfortaa';
+    content: 'добавить';
   
   [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus:hover:before, [data-locale="ru"] .b-collection-filters .b-block_list .filter.item-minus:hover:before {
     color:  rgba(var(--hover-color), var(--hundred));
