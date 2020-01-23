@@ -455,6 +455,10 @@
     background: rgba(var(--block-color), 0.4) !important;
     box-shadow: 0px 0px 20px rgba(var(--block-color), 0.5);
   }
+body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b-ajax, body.p-achievements.p-profiles .ac_loading, body.p-achievements.p-profiles.ac_loading:before, body.p-achievements.p-profiles.b-shiki_editor .b-ajax, body.p-achievements.p-profiles .b-shiki_editor.b-ajax {
+    background: rgba(78, 56, 30, 0.6) !important;
+    box-shadow: 0px 0px 20px rgba(78, 56, 30, 0.8);
+}
   
   .b-ajax:after {
     width: 30px;
