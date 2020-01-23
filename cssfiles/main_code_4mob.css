@@ -20,6 +20,7 @@
     #profiles_show .cc-3 > .c-column {
       margin-bottom: 10px;
     }
+  
     .l-top_menu-v2 .menu-dropdown.profile {
     margin-left: 14px;
 }
@@ -66,6 +67,10 @@
         background: rgba(var(--menu-back), 0.6) !important;
      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
     }
+    .l-top_menu-v2 .global-search .search-results {
+    max-width: calc(100% - 20px);
+    left: 10px;
+}
       .l-top_menu-v2 .global-search input {
       background: rgba(var(--block-color), 0.3);
     box-shadow: inset 0 0px 2px 2px rgba(0, 0, 0, 0.2);
