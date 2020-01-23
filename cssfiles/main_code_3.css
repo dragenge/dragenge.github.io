@@ -1219,6 +1219,7 @@
   .b-options-floated {
     line-height: 28px;
     margin-top: 0;
+          z-index: 1;
   }
   
   .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
