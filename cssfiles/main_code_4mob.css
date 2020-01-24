@@ -1033,6 +1033,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-history .entry .misc.date.unprocessed {
       margin: 0 15%;
     }
+      .p-profiles .profile-head .c-history .entry .title {
+    padding-top: 3px;
+}
     .p-profiles .profile-head .c-history .entry .misc.date.unprocessed {
       width: auto;
       text-align: center;
@@ -1285,6 +1288,12 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       border: 1.5px solid rgba(var(--light-color), 0.2) !important;
       padding: 6px 10px 4px;
     }
+   .c-history .subheadline, .c-history .subheadline > a[href*="/history"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+}
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
       font-size: 0px !important;
       line-height: 0;
