@@ -2281,6 +2281,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     width: auto;
     height: auto;
 }
+    .c-history .subheadline > a:before {
+    display: none;
+    }
     .c-history .subheadline a:after {
     background: rgba(var(--block-color), 0.4) !important;
     content: '\\_f187';
