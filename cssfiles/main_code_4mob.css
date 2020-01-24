@@ -705,10 +705,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .x1000 > .l-page div .profile-head:hover .c-info .c-lists-info, .p-profiles .profile-head:hover .c-info .c-lists-info, .p-profiles .profile-head .c-info .c-lists-info, .x1000 > .l-page div .profile-head .c-info .c-lists-info {
       margin-top: 0px !important;
     }
-    .p-profiles-show .about .item-edit:before, .p-profiles-show .about .item-edit:after {
-      margin-top: -1px;
-      margin-right: -2px;
-    }
+    
     .b-catalog_entry-tooltip .b-add_to_list {
       max-width: 600px;
     }
