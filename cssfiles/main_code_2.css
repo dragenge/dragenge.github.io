@@ -2732,6 +2732,12 @@ body#tests_reset_styles_cache input[type="submit"] {
     z-index:1;
     
 }
+.subheadline-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
   .p-profiles-show .about .item-edit:before, .p-profiles-show .about .item-edit:after {
     margin:0;
     height: 100%;
@@ -2748,6 +2754,9 @@ body#tests_reset_styles_cache input[type="submit"] {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+.p-profiles-show .about .item-edit:after {
+display: none;
 }
   
   .p-profiles-show .about .item-edit:hover:before, .p-profiles-show .about .item-edit:hover:after {
