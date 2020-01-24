@@ -938,7 +938,6 @@ body.p-achievements.p-profiles .l-footer .links a {
     color: rgba(255, 195, 84, 0.48);
 }
   .l-footer:before {
-    content: 'E-design v.4.1';
     position: absolute;
     left: 5px;
     bottom: 0;
