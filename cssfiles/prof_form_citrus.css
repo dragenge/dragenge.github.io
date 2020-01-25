@@ -1459,19 +1459,18 @@
       padding: 0px;
       right: 0px;
       margin: 0px;
+	    background: rgba(var(--menu-back), 0.3);
+	    padding: 4px 6px;
+    border-radius: 14px;
+	    box-sizing: content-box;
     }
-    .p-profiles .profile-head .c-history.x2 {
-      width: 66%;
-      margin: 0 16.5%;
-      padding-right: 30px;
-    }
+    
     .profile-head .subheadline.m13 {
-      background: none;
-      box-shadow: none !important;
-      position: absolute;
-      right: 0;
-      padding: 0px;
-      margin: 0px !important;
+      isplay: inline-flex;
+    padding: 0px;
+    margin: 0px !important;
+    height: 100%;
+    width: 40px;
     }
     .b-block_list {
       padding-right: 39px;
@@ -1483,14 +1482,15 @@
       width: 31%;
       margin: 0 1%;
     }
-    .p-profiles .profile-head .c-history.x2 .entry {
-      display: inline-block;
-      width: 48%;
-      margin: 0 1%;
-    }
+    
     #profiles_show .subheadline.m13 > a {
       padding: 0px;
       font-size: 0px;
+	    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     #profiles_show.subheadline.m13 > a:hover {
       color:  rgba(var(--hover-color), var(--hundred)) !important;
@@ -1509,15 +1509,9 @@
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      width: 39px;
+      
       background: rgba(var(--dark-color), 0.15);
-      height: 60px;
-      text-align: center;
-      line-height: 60px;
-      border-radius: 12px;
-      display: block;
-      margin-right: 10px;
-      bottom: 0px;
+      
     }
     .profile-content > .cc-2 .c-column .cc-2a.m30 {
       min-height: 230px;
