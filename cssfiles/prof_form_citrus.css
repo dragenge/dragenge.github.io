@@ -1485,9 +1485,7 @@
 		   right: 4px;
 	  }
     .b-block_list {
-      padding-right: 39px;
-      
-      border-radius: 15px;
+      width: 100%;
     }
 	  .p-profiles .profile-head .c-history .entry .title {
     padding-top: 3px;
