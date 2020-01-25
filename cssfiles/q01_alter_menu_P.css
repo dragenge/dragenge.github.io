@@ -1,342 +1,130 @@
 @media screen and (min-width: 1200px) {
-  .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
-    box-shadow: none;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .submenu {
-    top: 49px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile {
-    margin-left: 225px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile.active .submenu, .l-top_menu-v2 .menu-dropdown.profile .submenu {
-    overflow: visible;
-    height: 0;
-    border: none;
-    background: none;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .submenu > a {
-    overflow: visible;
-    width: 43px;
-    height: 43px;
-    display: inline-flex !important;
-    padding: 0;
-    justify-content: center;
-  }
-  .l-top_menu-v2 .profile .icon-profile:before {
-    content: '';
-    background: transparent;
-    height: 31px;
-    width: 31px;
-    border: 3px solid rgba(var(--bright-color), 0);
-    border-radius: 50%;
-    transition: 0.3s ease;
-  }
-  .l-top_menu-v2 .profile .icon-profile:hover:before {
-    border: 3px solid rgba(var(--bright-color), 1);
-  }
-  .l-top_menu-v2 .submenu > a .text, .l-top_menu-v2 .menu-dropdown.profile > span > span {
+
+.l-top_menu-v2 .menu-dropdown.profile .submenu {
+    opacity: 1;
+    pointer-events: auto;
+}
+.l-top_menu-v2 .menu-dropdown.profile .submenu>.legend, .l-top_menu-v2 .menu-dropdown.profile .submenu span.text, .l-top_menu-v2 .menu-dropdown.profile span.nickname, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:after {
+    display: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile a.icon-sign_out {
     font-size: 0;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span img {
+}
+
+.l-top_menu-v2 .menu-dropdown.profile > span {
+    width: 500px;
+      min-width: unset;
+    max-width: unset;
+}
+  .l-top_menu-v2 .menu-icon.mail {
     position: absolute;
-    right: 336px;
-    right-top: 10px;
+    top: 0;
+    right: 290px;
+    z-index: 1;
+}
+  .l-top_menu-v2 .menu-icon.mail:after {
+    margin: 8px 10px 6px;
   }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-settings:before, .l-top_menu-v2 .menu-dropdown.profile .icon-anime_list:before, .l-top_menu-v2 .menu-dropdown.profile .icon-manga_list:before, .l-top_menu-v2 .menu-dropdown.profile .icon-mail:before, .l-top_menu-v2 .icon-site_rules:before, .l-top_menu-v2 .icon-faq:before, .l-top_menu-v2 .icon-sign_out:before {
-    width: 100%;
+.l-top_menu-v2 .menu-dropdown.profile .submenu {
+    left: 45px;
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    width: calc(100% - 60px);
+    display: flex!important;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    height: 100%;
+    background: none;
+}
+.l-top_menu-v2 .profile .submenu > a {
+    display: inline-flex;
+      justify-content: center;
+    align-items: center;
+    padding: 0;
     margin: 0;
     height: 100%;
+}
+.l-top_menu-v2 .profile .submenu > a:before {
+    width: 45px;
+  display: flex;
     justify-content: center;
-    display: flex;
     align-items: center;
-    font-family: FontAwesome;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-settings:before {
-    content: '\\_f013';
-    font-size: 24px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-anime_list:before {
+    text-align: center;
+    padding-top: 0px;
+}
+  .l-top_menu-v2 .profile .submenu > .icon-manga_list:before, .l-top_menu-v2 .profile .submenu > .icon-anime_list:before {
+    font-family: 'FontAwesome';
+    padding-top: 0px;
+}
+  .l-top_menu-v2 .profile .submenu > .icon-manga_list:hover:before, .l-top_menu-v2 .profile .submenu > .icon-anime_list:hover:before {
+    opacity: 0.6;
+}
+ .l-top_menu-v2 .profile .submenu > .icon-manga_list:after, .l-top_menu-v2 .profile .submenu > .icon-anime_list:after {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+}
+ .l-top_menu-v2 .profile .submenu > .icon-anime_list:before {
     content: '\\_f008';
-    font-size: 22px;
-    background: none;
-    color: #a8c7a6;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-manga_list:before {
+    width: 55px;
+    color: rgba(159, 255, 189, 0.2);
+   font-size: 25px;
+   margin-top: -2px;
+    position: relative;
+   
+} 
+  .l-top_menu-v2 .profile .submenu > .icon-anime_list:after {
+    content: 'АНИМЕ';
+}
+  .l-top_menu-v2 .profile .submenu > .icon-manga_list:before {
     content: '\\_f02d';
-    font-size: 22px;
+    width: 55px;
+    color: rgba(255, 142, 191, 0.2);
+    font-size: 27px;
+} 
+  .l-top_menu-v2 .profile .submenu > .icon-manga_list:after {
+    content: 'МАНГА';
+}
+a.icon-anime_list {
+    order: 1;
+}
+a.icon-manga_list {
+    order: 2;
+}
+a.icon-mail {
+    order: 3;
+}
+a.icon-settings {
+    order: 4;
+}
+a.icon-achievements {
+    order: 5;
+}
+a.icon-clubs {
+    order: 6;
+}
+a.icon-site_rules {
+    order: 7;
+}
+a.icon-faq {
+    order: 8;
+}
+a.icon-sign_out {
+    order: 9;
+}
+.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
+    box-shadow: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover {
     background: none;
-    color: #d2a3b0;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-mail:before {
-    content: '\\_f0e0';
-    font-size: 22px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-faq:before {
-    content: '\\_f05a';
-    font-size: 20px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-site_rules:before {
-    content: '\\_f12a';
-    font-size: 20px;
-    padding-top: 6px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .icon-sign_out:before {
-    content: '\\_f08b';
-    font-size: 21px;
-    padding-top: 6px;
-  }
-  .l-top_menu-v2 .icon-achievements:before {
-    width: 100%;
-    margin: 0;
-    height: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-  .menu-dropdown.profile .submenu .legend, .l-top_menu-v2 .menu-dropdown.profile > span:after, .menu-dropdown.profile .nickname {
-    display: none;
-  }
-  a.menu-icon.mail:before, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:after {
-    content: '';
-    display: none;
-  }
-  a.menu-icon.mail {
-    position: absolute !important;
-    right: 198px;
-    width: 42px;
-    padding: 0 10px;
-    top: 1px;
-  }
-  a.icon-profile, a.icon-settings, a.icon-anime_list, a.icon-manga_list, a.icon-achievements, a.icon-mail, a.icon-site_rules, a.icon-faq, a.icon-sign_out {
-    position: absolute;
-  }
-  a.icon-profile {
-    top: -48px;
-    right: 222px;
-  }
-  a.icon-settings {
-    top: -148px;
-    right: 131px;
-  }
-  a.icon-anime_list {
-    top: -59px;
-    right: 217px;
-  }
-  a.icon-manga_list {
-    top: -58px;
-    right: 222px;
-  }
-  a.icon-achievements {
-    top: -103px;
-    right: 52px;
-  }
-  a.icon-mail {
-    top: -102px;
-    right: 84px;
-    z-index: -1;
-  }
-  .menu-dropdown.profile a.icon-clubs {
-    top: -102px;
-  }
-  a.icon-site_rules {
-    top: -148px;
-    right: -35px;
-  }
-  a.icon-faq {
-    top: -149px;
-    right: -27px;
-  }
-  a.icon-sign_out {
-    top: -194px;
-    right: -25px;
-    font-size: 0px !important;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile .submenu > a:hover {
-    background: none;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span {
-    min-width: 150px;
-    max-width: 150px;
-    background: none;
-  }
-  .l-top_menu-v2 .icon-mail span.unread {
-    position: absolute;
-    top: 67px;
-    right: 100px;
-    display: none;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile a:before, .l-top_menu-v2 .menu-icon.forum:before {
-    transition: 0.3s all;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile a:hover:before, .l-top_menu-v2 .menu-icon.forum:hover:before {
-    color: rgba(var(--hover-color), 1);
-  }
-}
 
-@media screen and (min-width: 1290px) and (max-width: 1829px) {
-  .l-top_menu-v2 .menu-dropdown.profile {
-    margin-left: 233px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span img {
-    right: 347px;
-  }
-  a.menu-icon.mail {
-    right: 216px;
-  }
-  a.icon-profile {
-    right: 233px;
-  }
-  a.icon-settings {
-    right: 64px;
-  }
-  a.icon-anime_list {
-    right: 228px;
-  }
-  a.icon-manga_list {
-    right: 231px;
-  }
-  a.icon-achievements {
-    right: 72px;
-  }
-  a.icon-mail {
-    right: 105px;
-  }
-  .menu-dropdown.profile a.icon-clubs {
-    right: 79px;
-  }
-  a.icon-site_rules {
-    right: 0px;
-  }
-  a.icon-faq {
-    right: 9px;
-  }
-  a.icon-sign_out {
-    right: -115px;
-  }
 }
-
-@media screen and (min-width: 1530px) {
-  .l-top_menu-v2 .menu-dropdown.profile {
-    margin-left: 270px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span img {
-    right: 382px;
-  }
-  a.menu-icon.mail {
-    right: 253px;
-  }
-  a.icon-profile {
-    right: 268px;
-  }
-  a.icon-settings {
-    right: 101px;
-  }
-  a.icon-anime_list {
-    right: 265px;
-  }
-  a.icon-manga_list {
-    right: 268px;
-  }
-  a.icon-achievements {
-    right: 109px;
-  }
-  a.icon-mail {
-    right: 142px;
-  }
-  .menu-dropdown.profile a.icon-clubs {
-    right: 79px;
-  }
-  a.icon-site_rules {
-    right: 0px;
-  }
-  a.icon-faq {
-    right: 9px;
-  }
-  a.icon-sign_out {
-    right: -115px;
-  }
-}
-
-@media screen and (min-width: 1830px) {
-  .l-top_menu-v2 .menu-dropdown.profile {
-    margin-left: 270px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span img {
-    right: 382px;
-  }
-  a.menu-icon.mail {
-    right: 253px;
-  }
-  a.icon-profile {
-    right: 268px;
-  }
-  a.icon-settings {
-    right: 101px;
-  }
-  a.icon-anime_list {
-    right: 265px;
-  }
-  a.icon-manga_list {
-    right: 268px;
-  }
-  a.icon-achievements {
-    right: 109px;
-  }
-  a.icon-mail {
-    right: 142px;
-  }
-  .menu-dropdown.profile a.icon-clubs {
-    right: 79px;
-  }
-  a.icon-site_rules {
-    right: 0px;
-  }
-  a.icon-faq {
-    right: 9px;
-  }
-  a.icon-sign_out {
-    right: -115px;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1290px) {
-  .l-top_menu-v2 .menu-dropdown.profile {
-    margin-left: 233px;
-  }
-  .l-top_menu-v2 .menu-dropdown.profile > span img {
-    right: 347px;
-  }
-  a.menu-icon.mail {
-    right: 216px;
-  }
-  a.icon-profile {
-    right: 233px;
-  }
-  a.icon-settings {
-    right: 64px;
-  }
-  a.icon-anime_list {
-    right: 228px;
-  }
-  a.icon-manga_list {
-    right: 231px;
-  }
-  a.icon-achievements {
-    right: 72px;
-  }
-  a.icon-mail {
-    right: 105px;
-  }
-  .menu-dropdown.profile a.icon-clubs {
-    right: 79px;
-  }
-  a.icon-site_rules {
-    right: 0px;
-  }
-  a.icon-faq {
-    right: 9px;
-  }
-  a.icon-sign_out {
-    right: -115px;
-  }
+  
 }
