@@ -957,12 +957,13 @@
     margin: 0 !important;
     padding: 0;
     width: 32px;
-    line-height: 21px;
+    line-height: 18px;
     word-wrap: break-word;
     white-space: normal;
     text-align: center;
     height: 100%;
-    padding: 10px 9px;
+    padding: 33px 9px;
+    font-size: 12px;
     }
     #profiles_show .c-history .subheadline.m13 a {
       width: 35px;
