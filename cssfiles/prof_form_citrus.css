@@ -933,6 +933,9 @@
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
       top: 435px;
+	    display: flex;
+    justify-content: center;
+    align-items: flex-start;
       padding: 0;
       margin: 0;
       width: 25%;
@@ -946,19 +949,21 @@
     .p-profiles .profile-head .c-info .c-additionals {
       margin-bottom: 43px !important;
     }
-    #profiles_show .subheadline.m13 {
+    #profiles_show .c-history .subheadline.m13 {
       display: inline-block;
-      position: relative;
-      top: 3px;
-      margin: 0 !important;
-      padding: 21px 9px;
-      width: 32px;
-      line-height: 21px;
-      word-wrap: break-word;
-      white-space: normal;
-      text-align: center;
+    position: relative;
+    top: 0;
+    margin: 0 !important;
+    padding: 0;
+    width: 32px;
+    line-height: 21px;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    height: 100%;
+    padding: 10px 9px;
     }
-    #profiles_show .subheadline.m13 a {
+    #profiles_show .c-history .subheadline.m13 {
       width: 35px;
       word-wrap: break-word;
       white-space: normal;
@@ -1063,8 +1068,14 @@
 	  .profile-content .cc-2 .c-column .cc-2a > .c-column:first-child .subheadline {
 		  padding: 15px 9px;
 	  }
+	  .profile-content .cc-2a > .c-column:first-child .subheadline a {
+		  padding: 8px 9px 22px;
+	  }
 	  .profile-content .cc-2 .c-column .cc-2a > .c-column:nth-child(2n) {
     height: 80px;
+}
+	  .profile-content .cc-2 .c-column .cc-2a > .c-column:nth-child(2n) .subheadline a {
+    padding: 7px 9px 2px;
 }
 	  .profile-content .cc-2 .c-column .cc-2a > .c-column:nth-child(2n) .subheadline {
 		  padding: 10px 9px;
