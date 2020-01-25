@@ -189,11 +189,7 @@
   }
   
   
-  .p-profiles .profile-head .c-history .entry .title {
-
-    animation: runningtext 12s ease-in-out infinite;
-    animation-delay: 2s;
-}
+  
   .p-profiles .profile-head .c-history .entry .title {
     color:  rgba(var(--white-color), var(--hundred)) !important;
     text-align: center;
