@@ -1459,6 +1459,7 @@
       padding: 0px;
       right: 0px;
       margin: 0px;
+	    height: 62px;
 	    background: rgba(var(--menu-back), 0.3);
 	    padding: 4px 6px;
     border-radius: 14px;
@@ -1466,7 +1467,7 @@
     }
     
     .profile-head .subheadline.m13 {
-      isplay: inline-flex;
+      display: inline-flex;
     padding: 0px;
     margin: 0px !important;
     height: 100%;
