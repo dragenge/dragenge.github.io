@@ -968,6 +968,13 @@
       width: 35px;
       word-wrap: break-word;
       white-space: normal;
+position: absolute;
+    top: 0;
+    display: inline-block;
+    left: 0;
+    padding: 28px 11px 43px;
+    line-height: 1.3;
+    font-size: 13px;
     }
     body#profiles_show .b-block_list {
       display: inline-block;
