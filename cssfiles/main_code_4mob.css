@@ -2313,6 +2313,14 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     }
     
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    .x1000 .l-page, .x1200 .l-page {
+    margin-top: 0;
+    }
+    
+    
+}
   
   @media screen and (max-width: 599px) {
     .p-achievements-index .cc-achievements .b-achievement, .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
