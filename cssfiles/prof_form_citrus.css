@@ -1203,9 +1203,8 @@
      
     }
     .b-block_list {
-      padding-right: 39px;
-      background: rgba(var(--menu-back), 0.3);
-      border-radius: 15px;
+      width: 100%;
+    padding-right: 0;
     }
     .p-profiles .profile-head .c-history .entry, .p-profiles .profile-head .c-history.x3 .entry {
       display: inline-block;
