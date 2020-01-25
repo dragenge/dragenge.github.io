@@ -989,13 +989,17 @@
     }
     .profile-content .cc-2a.m30 .subheadline {
       width: 32px;
-      word-wrap: break-word;
-      white-space: normal;
-      text-align: center;
-      position: relative;
-      margin: 0 !important;
-      display: inline-block;
-      padding: 8px 9px 4px;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    position: relative;
+    margin: 0 !important;
+    display: inline-block;
+    line-height: 1;
+    font-size: 12px;
+    padding: 7px 9px;
+    text-align: center;
+    height: 100%;
     }
     .profile-content > .cc-2 .c-column .cc-2a.m30 .cc-friends {
       display: inline-flex;
@@ -1004,7 +1008,7 @@
       align-items: center;
       justify-content: space-around;
       align-content: space-around;
-      min-height: 96px;
+      min-height: 100px;
       top: 0px;
       width: calc(100% - 34px);
       padding: 0px 0px 0px 4px;
@@ -1026,7 +1030,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      min-height: 83px;
+      min-height: 80px;
       top: 0px;
       width: calc(100% - 34px);
       padding: 0px 0px 0px 4px;
@@ -1053,9 +1057,18 @@
     .p-profiles-show .lifetime {
       padding: 0px 10px 0px;
     }
-    .profile-content .cc-2 .c-column .cc-2a > .c-column {
-      margin-bottom: 0px !important;
-    }
+    .profile-content .cc-2 .c-column .cc-2a > .c-column:first-child {
+    height: 100px;
+}
+	  .profile-content .cc-2 .c-column .cc-2a > .c-column:first-child .subheadline {
+		  padding: 15px 9px;
+	  }
+	  .profile-content .cc-2 .c-column .cc-2a > .c-column:nth-child(2n) {
+    height: 80px;
+}
+	  .profile-content .cc-2 .c-column .cc-2a > .c-column:nth-child(2n) .subheadline {
+		  padding: 10px 9px;
+	  }
     .profile-content .cc-2a.m30 .subheadline > a:before, body#profiles_show .subheadline.m13 > a:before {
       color: rgba(var(--bright-color), 0.6) !important;
       position: absolute;
