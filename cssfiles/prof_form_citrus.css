@@ -1214,6 +1214,8 @@
     margin: 0px !important;
     height: calc(100% - 8px);
     width: 40px;
+	    background: rgba(var(--block-color), 0.3);
+    color: rgba(var(--dark-color), 0.5);
     }
 	  .profile-head .c-history.x1 .subheadline.m13  {
 		   right: 4px;
@@ -1472,6 +1474,8 @@
     margin: 0px !important;
     height: calc(100% - 8px);
     width: 40px;
+	    background: rgba(var(--block-color), 0.3);
+    color: rgba(var(--dark-color), 0.5);
     }
 	  .profile-head .c-history.x1 .subheadline.m13  {
 		   right: 4px;
