@@ -1982,9 +1982,12 @@ body.p-achievements.p-profiles .b-options-floated a {
     color: #ffd78c;
   }
   
-  body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main > span span, body.p-achievements.p-profiles a.menu-icon, body.p-achievements.p-profiles .l-top_menu-v2 .icon-profile:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:after, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
+  body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main > span span, body.p-achievements.p-profiles a.menu-icon, body.p-achievements.p-profiles .l-top_menu-v2 .icon-profile:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:after, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
     color: #fff7e8 !important;
   }
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a:before {
+     color: #fff7e8;
+}
 body.p-achievements.p-profiles a.menu-icon:hover {
     color: rgba(var(--hover-color), 1)!important;
 }
