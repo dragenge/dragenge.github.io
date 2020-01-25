@@ -1204,7 +1204,7 @@
     }
     .b-block_list {
       width: 100%;
-    padding-right: 0;
+    padding-right: 0; 
     }
     .p-profiles .profile-head .c-history .entry, .p-profiles .profile-head .c-history.x3 .entry {
       display: inline-block;
