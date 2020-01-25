@@ -921,6 +921,9 @@
     }
 }
   @media screen and (min-width: 1290px) and (max-width: 1829px) {
+	   .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+    justify-content: flex-start;
+}
     body#profiles_show .l-page {
       margin-top: 385px;
     }
@@ -1099,6 +1102,9 @@
   }
   
   @media screen and (min-width: 1530px) {
+	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+    justify-content: flex-start;
+}
     .p-profiles-show .cc-friends .b-user, .p-profiles-show .cc-friends .b-user:last-child {
       width: 16%;
       margin: auto 0% !important;
@@ -1158,6 +1164,9 @@
   }
   
   @media screen and (min-width: 1830px) {
+	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+    justify-content: center;
+}
     body#profiles_show .profile-head {
       top: -554px;
       height: 554px;
@@ -1371,7 +1380,9 @@
     }
     .p-profiles .cc-2a .c-column.m0 .subheadline {
       margin-bottom: 0px !important;
+	    
     }
+	  
     .p-profiles-show .profile-content .graph {
       height: 124px;
     }
@@ -1414,6 +1425,9 @@
   }
   
   @media screen and (min-width: 1200px) and (max-width: 1290px) {
+	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+    justify-content: center;
+}
     .p-profiles-show .lifetime {
       margin-bottom: 0px;
     }
