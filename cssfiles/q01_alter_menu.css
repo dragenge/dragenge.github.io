@@ -38,7 +38,7 @@
     height: 100%;
     background: none;
 }
-.l-top_menu-v2 .profile .submenu > a {
+.l-top_menu-v2 .menu-dropdown.profile .submenu > a {
     display: inline-flex;
       justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
     margin: 0;
     height: 100%;
 }
-.l-top_menu-v2 .profile .submenu > a:before {
+.l-top_menu-v2 .menu-dropdown.profile .submenu > a:before {
     width: 45px;
   display: flex;
     justify-content: center;
@@ -54,14 +54,14 @@
     text-align: center;
     padding-top: 0px;
 }
-  .l-top_menu-v2 .profile .submenu > .icon-manga_list:before, .l-top_menu-v2 .profile .submenu > .icon-anime_list:before {
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
     font-family: 'FontAwesome';
     padding-top: 0px;
 }
-  .l-top_menu-v2 .profile .submenu > .icon-manga_list:hover:before, .l-top_menu-v2 .profile .submenu > .icon-anime_list:hover:before {
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:hover:before, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:hover:before {
     opacity: 0.6;
 }
- .l-top_menu-v2 .profile .submenu > .icon-manga_list:after, .l-top_menu-v2 .profile .submenu > .icon-anime_list:after {
+ .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:after, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:after {
     position: absolute;
     top: 0;
     height: 100%;
@@ -71,25 +71,25 @@
     text-align: center;
     font-size: 11px;
 }
- .l-top_menu-v2 .profile .submenu > .icon-anime_list:before {
+ .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
     content: '\\_f008';
     width: 55px;
-    color: rgba(159, 255, 189, 0.2);
+    color: rgba(159, 255, 189, 0.2)!important;
    font-size: 25px;
    margin-top: -2px;
     position: relative;
    
 } 
-  .l-top_menu-v2 .profile .submenu > .icon-anime_list:after {
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:after {
     content: 'АНИМЕ';
 }
-  .l-top_menu-v2 .profile .submenu > .icon-manga_list:before {
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before {
     content: '\\_f02d';
     width: 55px;
-    color: rgba(255, 142, 191, 0.2);
+    color: rgba(255, 142, 191, 0.2)!important;
     font-size: 27px;
 } 
-  .l-top_menu-v2 .profile .submenu > .icon-manga_list:after {
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:after {
     content: 'МАНГА';
 }
 a.icon-anime_list {
@@ -122,7 +122,7 @@ a.icon-sign_out {
 .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
     box-shadow: none;
 }
-.l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover {
+.l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover, .l-top_menu-v2 .menu-dropdown.profile .submenu {
     background: none;
 
 }
