@@ -303,6 +303,11 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
   }
   
   @media screen and (min-width: 1200px) {
+      .p-profiles .profile-head .c-history .entry .title {
+    text-overflow: clip;
+    animation: runningtext 12s ease-in-out infinite;
+    animation-delay: 5s;
+}
       
     .l-page {
       margin: 15px auto 15px;
