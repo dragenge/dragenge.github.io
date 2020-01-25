@@ -1998,7 +1998,7 @@ body.localized_names-ru .name-ru:before {
   font-size: 14px;
   color:  rgba(var(--dark-color), var(--hundred));
     height: 28px;
-    padding: 0 0 0 14px;
+    padding: 0 14px 0;
     display: flex;
     line-height: 1.5;
     justify-content: flex-start;
