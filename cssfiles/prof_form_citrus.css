@@ -1195,18 +1195,12 @@
       right: 0px;
       margin: 0px;
     }
-    .p-profiles .profile-head .c-history.x2 {
-      width: 66%;
-      margin: 0 16.5%;
-      padding-right: 30px;
-    }
+
     .profile-head .subheadline.m13 {
-      background: none;
-      box-shadow: none !important;
-      position: absolute;
-      right: 0;
-      padding: 0px;
-      margin: 0px !important;
+        width: 50px;
+        padding: 0;
+        margin: 0;
+     
     }
     .b-block_list {
       padding-right: 39px;
@@ -1456,6 +1450,10 @@
       margin-top: -497px;
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x3 {
+        display: flex;
+        align-items: center;
+        flex-flow: row-reverse;
+        justify-content: center;
       top: -71px;
       width: 100%;
       padding: 0px;
