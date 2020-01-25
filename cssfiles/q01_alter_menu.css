@@ -126,5 +126,32 @@ a.icon-sign_out {
     background: none;
 
 }
+    .l-top_menu-v2 .global-search .search-results {
+    max-width: 800px;
+    min-width: 800px;
+    left: -150px;
+}
+}
+
+    @media only screen and (min-width: 1340px) {
+        .l-top_menu-v2 .global-search .search-results {
+    max-width: 800px;
+    min-width: 800px;
+    left: -190px;
+}
+  
+}
+@media only screen and (min-width: 1824px) {
+       
+        .l-top_menu-v2 .global-search .search-results {
+    max-width: 100%;
+    min-width: 800px;
+    left: 0px;
+}
+  
+}
+  
+}
+}
   
 }
