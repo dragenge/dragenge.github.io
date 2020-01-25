@@ -1761,22 +1761,27 @@
 body.p-achievements.p-profiles .b-options-floated {
     position: absolute;
     left: 10px;
-    top: -31px;
+    top: -32px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 86px!important;
     margin: 0 auto;
     height: 15px;
-    padding: 11px 7px 45px;
+    padding: 11px 7px 6px;
     background: #131010c7;
     color: #887146;
     box-sizing: content-box;
-    z-indeX: -1;
-    border-radius: 50%;
+    border-radius: 50%/ 33px 33px 0 0;
 }
 body.p-achievements.p-profiles .b-options-floated a {
     color: #c7a15b;
+        padding: 11px 28px 6px;
+    border-radius: 50%/ 30px 30px 0 0;
+}
+.b-options-floated.mobile-phone.before-buttons-2:hover {
+    background: #442d1c;
+    color: #dc9e55;
 }
   
   body.p-achievements.p-profiles .block.m0:before {
@@ -1950,10 +1955,11 @@ body.p-achievements.p-profiles .b-options-floated a {
   body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
     background: linear-gradient(to right, rgba(53, 22, 0, 0.6), rgba(115, 67, 6, 0.9), rgba(53, 20, 0, 0.6));
     color: #ffe1a7 !important;
-    text-align: center;
+    
     position: relative;
     z-index: -1;
       margin-bottom: 25px!important;
+      justify-content: center;
   }
   
   body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
