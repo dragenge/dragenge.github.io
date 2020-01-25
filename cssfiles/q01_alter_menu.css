@@ -120,7 +120,7 @@ a.icon-sign_out {
     order: 9;
 }
 .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
-    box-shadow: none;
+    box-shadow: none!important;
 }
 .l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover, .l-top_menu-v2 .menu-dropdown.profile .submenu {
     background: none!important;
