@@ -497,7 +497,7 @@
   }
 
   
-  body#messages_index .l-page, body#dialogs_index .l-page, body#dialogs_show .l-page {
+  body#messages_index .l-page, body#dialogs_index .l-page, body#dialogs_show .l-page, body.p-user_history .l-page {
     max-width: 800px;
   }
    body#messages_index .l-footer .links, body#dialogs_index .l-footer .links, body#dialogs_show .l-footer .links {
