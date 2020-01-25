@@ -1295,6 +1295,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     justify-content: center;
     align-items: center;
     padding-top: 1px;
+       padding-right: 0;
 }
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
       font-size: 0px !important;
