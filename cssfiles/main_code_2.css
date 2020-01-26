@@ -2882,6 +2882,21 @@ display: none;
 .b-options-floated a[href*="/notifi"]:after {
     content: '\\_f05a';
 }
+.b-options-floated a[href*="/acc"]:after {
+    content: '\\_f007';
+}
+.b-options-floated a[href*="/profi"]:after {
+    content: '\\_f2bb';
+}
+.b-options-floated a[href*="/styl"]:after {
+    content: '\\_f1fc';
+}
+.b-options-floated a[href*="/lis"]:after {
+    content: '\\_f114';
+}
+ .b-options-floated a[href*="/misc"]:after {
+    content: '\\_f141';
+}
 .b-options-floated.mobile-phone_portrait a.selected:after, .b-options-floated.mobile-phone a.selected:after {
     width: 38px;
     height: 38px;
