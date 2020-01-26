@@ -2929,6 +2929,9 @@ display: none;
     height: auto;
     content: '\\_f058';
 }
+.abstain, .vote.hidden {
+    padding: 6px 26px!important;
+}
 
 
 
