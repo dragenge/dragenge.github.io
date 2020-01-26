@@ -1769,12 +1769,7 @@ body.p-achievements.p-profiles .b-options-floated a {
         padding: 11px 28px 6px;
     border-radius: 50%/ 30px 30px 0 0;
 }
-.b-options-floated.mobile-phone.before-buttons-2:hover {
-    background: #442d1c;
-}
-body.p-achievements.p-profiles .b-options-floated:hover a
-color: #dc9e55;
-}
+
   
   body.p-achievements.p-profiles .block.m0:before {
     content: '——— ★ ▬▬ ACHIEVEMENTS ▬▬ ★ ———';
