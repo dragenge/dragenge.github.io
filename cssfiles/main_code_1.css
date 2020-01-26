@@ -1702,9 +1702,7 @@ time {
   color:  rgba(var(--hover-color), var(--hundred));
 }
 
-.b-options-floated .selected:hover, .b-options-floated.mobile-phone a.selected:hover, .b-options-floated.mobile-phone a.selected {
-  color:  rgba(var(--hover-color), var(--hundred));
-}
+
 
 .b-options-floated.mobile-phone a {
   color:  rgba(var(--bright-color), var(--hundred));
