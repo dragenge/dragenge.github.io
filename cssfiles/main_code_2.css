@@ -3068,7 +3068,7 @@ body#messages_index .block.is-own-profile > .block {
 }
 .mass-actions .action a:before {
     font-family: 'FontAwesome';
-    content: '\f00c''\f00c';
+    content: '\\_f00c''\\_f00c';
     position: absolute;
     bottom: 5px;
     right: 12px;
