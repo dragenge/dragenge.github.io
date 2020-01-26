@@ -3086,7 +3086,7 @@ body#messages_index .block.is-own-profile > .block {
     align-items: center;
     position: relative;
     border-radius: 50%;
-    box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.1);
     transition: 0.2s all;
     z-index: 1;
 }
