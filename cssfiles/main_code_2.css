@@ -2787,7 +2787,7 @@ display: none;
 
 
 
- .subheadline .misc-links {
+ body.p-profiles .subheadline .misc-links {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -2795,10 +2795,10 @@ display: none;
     height: 100%;
   
   }
-.block.is-own-profile .subheadline .misc-links > a {
+body.p-profiles .subheadline .misc-links > a {
 font-size: 0;
 }
-.subheadline .misc-links > a:before {
+body.p-profiles .subheadline .misc-links > a:before {
     content: 'Непрочитанное';
     font-size: 8px;
     text-transform: uppercase;
@@ -2813,7 +2813,7 @@ font-size: 0;
     box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.05);
     transition: 0.2s all;
 }
-.subheadline .misc-links > a:after {
+body.p-profiles .subheadline .misc-links > a:after {
     content: '\\_f2b6';
     display: inline-flex!important;
         background: rgba(var(--block-color), 1);
@@ -2831,10 +2831,10 @@ font-size: 0;
     transition: 0.2s all;
     z-index: 1;
 }
-.subheadline .misc-links > a:hover:before {
+body.p-profiles .subheadline .misc-links > a:hover:before {
     color: rgba(var(--hover-color), 1);
 }
-.subheadline .misc-links > a:hover:after {
+body.p-profiles .subheadline .misc-links > a:hover:after {
     color: rgba(var(--hover-color), 1);
 }
   
