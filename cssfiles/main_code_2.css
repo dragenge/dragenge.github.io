@@ -2907,6 +2907,30 @@ display: none;
 .b-options-floated.mobile-phone a {
   color:  rgba(var(--bright-color), var(--hundred));
 }
+.b-radio input[type="radio"]+.radio-label {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+.b-radio input[type="radio"]+.radio-label:before {
+    font-family: 'FontAwesome';
+    content: '\f1db';
+    bordeR: none;
+    margin: 0px 14px 0 0;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+.b-radio input[type="radio"]:checked+.radio-label:before {
+    width: auto;
+    height: auto;
+    content: '\f058';
+}
+
+
 
 
 
