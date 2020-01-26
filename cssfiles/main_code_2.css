@@ -2524,7 +2524,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     position: relative;
       transition: 0.3s;
   }
-.b-dialog .to_dialog:after, .b-dialog .to_dialog:hover:before {
+.b-dialog .to_dialog:hover:after, .b-dialog .to_dialog:hover:before {
     color: rgba(var(--hover-color), 1);
 }
    
