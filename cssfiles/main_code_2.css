@@ -3142,15 +3142,15 @@ body#messages_index .block.is-own-profile > .block {
 }
 
 .l-top_menu-v2 .submenu > a.icon-mail span.unread span:first-child {
-  background: rgba(52, 105, 54, 0.6);
+  background: rgba(52, 105, 54, 0.4);
 }
 
 .l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(2n) {
-  background: rgba(65, 100, 144, 0.6);
+  background: rgba(65, 100, 144, 0.4);
 }
 
 .l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(3n) {
-  background: rgba(148, 70, 113, 0.6);
+  background: rgba(148, 70, 113, 0.4);
 }
 
 .l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:first-child {
