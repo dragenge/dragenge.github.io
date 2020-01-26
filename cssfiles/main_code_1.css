@@ -2005,6 +2005,7 @@ body.localized_names-ru .name-ru:before {
     align-items: center;
     text-align: left;
     position: relative;
+    overflow:visible;
 }
 
 
