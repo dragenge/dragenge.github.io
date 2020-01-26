@@ -2907,7 +2907,7 @@ display: none;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 .b-options-floated.mobile-phone_portrait a:hover:after, .b-options-floated.mobile-phone a:hover:after {
-        background: rgba(var(--hover-color), 0.2);
+        background: rgba(var(--hover-color), 0.3);
 }
 .b-radio input[type="radio"]+.radio-label {
     display: flex;
