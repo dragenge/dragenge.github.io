@@ -2862,6 +2862,7 @@ display: none;
     color: rgba(var(--white-color), 0.7);
     border-radius: 50%;
     box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
     z-index: 1;
 }
 .b-options-floated a[href*="/dialog"]:after {
@@ -2897,6 +2898,7 @@ display: none;
     z-index: 2;
     top: 25px;
     background: rgba(var(--hover-color), 0.8);
+    transition: 0.3s;
 }
 .b-options-floated .selected:hover, .b-options-floated.mobile-phone a.selected:hover, .b-options-floated.mobile-phone a.selected, .b-options-floated.mobile-phone_portrait a:hover, .b-options-floated.mobile-phone a:hover {
     color: rgba(var(--light-color), var(--hundred))!important;
