@@ -2814,7 +2814,7 @@ font-size: 0;
         background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
     height: 34px;
-    font-size: 14px;
+    font-size: 15px;
     width: 34px;
     font-family: 'FontAwesome';
     padding: 0;
@@ -3087,6 +3087,12 @@ body#messages_index .block.is-own-profile > .block {
 .mass-actions .action a[href*='/dele']:after {
      content: '\\_f014';
     font-size: 18px;
+}
+.mass-actions .action a:hover:before {
+    color: rgba(var(--light-color), 1);
+}
+.mass-actions .action a:hover:AFTER {
+    color: rgba(var(--hover-color), 1);
 }
 
 
