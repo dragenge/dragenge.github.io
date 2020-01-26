@@ -1224,19 +1224,7 @@
           z-index: 1;
   }
   
-  .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
-    overflow: visible;
-    color:  rgba(var(--dark-color), var(--hundred));
-    transition: 0.2s ease;
-  }
-  
-  .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover {
-    text-decoration: none;
-    color:  rgba(var(--hover-color), var(--hundred)) !important;
-    background: rgba(var(--shadows-color), 0.15);
-    box-shadow: 0px 0px 50px rgba(var(--shadows-color), 0.5) !important;
-    border: none !important;
-  }
+
   
   .p-topics .l-menu .sticky-topics .topic:hover .title, .p-topics .l-menu .sticky-topics .topic .title:hover:after, .p-topics .l-menu .sticky-topics .topic:hover .title:after {
     text-decoration: none;
