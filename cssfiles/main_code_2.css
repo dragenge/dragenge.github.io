@@ -3119,7 +3119,11 @@ body#messages_index .block.is-own-profile > .block {
 }
 
 
-
+.l-top_menu-v2 .submenu > a.icon-mail span.unread {
+        position: absolute;
+    top: 1px;
+    right: 4px;
+}
 .l-top_menu-v2 .submenu > a.icon-mail span.unread span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
