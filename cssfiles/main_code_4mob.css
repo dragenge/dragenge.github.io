@@ -395,6 +395,10 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
   }
     
   @media screen and (max-width: 1024px) {
+      .p-profiles-favorites .item-edit:after {
+              font-size: 0px;
+    width: 0;
+      }
     #profiles_show .achievements .cc-achievements .b-achievement:nth-child(n+3) {
       display: none;
     }
