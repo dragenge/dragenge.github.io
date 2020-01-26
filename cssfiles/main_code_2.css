@@ -3049,7 +3049,7 @@ body#messages_index .block.is-own-profile > .block {
 
 .mass-actions .action a:after {
     display: inline-flex!important;
-    background: rgba(var(--block-color), 0.7);
+    background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
     height: 32px;
     
