@@ -2827,17 +2827,17 @@ display: none;
     }
 .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone a {
     position: relative;
-        display: inline-flex;
+     display: inline-flex;
     align-items: center;
     justify-content: center; 
     padding: 50px 0px 0;
     width: 65px;
-    margin: 0px 8px 10px;
     height: 63px;
-    padding: 50px 0px 0;
-    position: relative;
- 
+    margin: 0px 8px 10px;
+    line-height: 9px;
     font-size: 8px;
+    text-align: center;
+    white-space: normal;
     text-transform: uppercase;
 }
 .b-options-floated a[href*="/notifi"], .b-options-floated a[href*="/edit/list"], .b-options-floated a[href*="/edit/sty"] {
