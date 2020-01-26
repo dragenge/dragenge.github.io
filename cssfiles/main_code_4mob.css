@@ -308,7 +308,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     animation: runningtext 12s ease-in-out infinite;
     animation-delay: 5s;
 }
-      
+      .l-page {
+      background-color: rgba(var(--menu-back), 0.8);
+      }
     .l-page {
       margin: 15px auto 15px;
       border-radius: 12px;
@@ -361,7 +363,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
   
   @media screen and (max-width: 1199px) {
     .l-page {
-      
+      background-color: rgba(var(--menu-back), 0);
       box-shadow: none !important;
     }
     body:before {
@@ -1705,7 +1707,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       position: relative;
       top: -320px;
       height: 320px;
-      background-color: rgba(var(--menu-back), 0.8);
+      background-color: rgba(var(--menu-back), 0);
       border-radius: 0px;
       padding: 20px 15px 0 15px !important;
     }
