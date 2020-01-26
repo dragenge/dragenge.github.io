@@ -893,10 +893,6 @@ header.head a.misc:hover {
   color:  rgba(var(--hover-color), var(--hundred));
 }
 
-.b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected {
-  color:  rgba(var(--hover-color), var(--hundred));
-  font-size: 13px;
-}
 
 .b-options-floated a:hover, .b-options-floated .link:hover {
   color:  rgba(var(--hover-color), var(--hundred));
