@@ -3120,4 +3120,46 @@ body#messages_index .block.is-own-profile > .block {
 
 
 
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 15px;
+  width: 15px;
+  padding-top: 3px;
+  color: rgba(var(--white-color), 1) !important;
+  border-radius: 50%;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:after {
+  content: none;
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:first-child {
+  background: rgba(52, 105, 54, 0.6);
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(2n) {
+  background: rgba(65, 100, 144, 0.6);
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(3n) {
+  background: rgba(148, 70, 113, 0.6);
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:first-child {
+  background: rgba(52, 105, 54, 0.8);
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:nth-child(2n) {
+  background: rgba(65, 100, 144, 0.8);
+}
+
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:nth-child(3n) {
+  background: rgba(148, 70, 113, 0.8);
+}
+
+
 
