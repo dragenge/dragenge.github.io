@@ -2893,7 +2893,7 @@ display: none;
     padding-left: 2px;
     color: white;
     position: absolute;
-    right: 3px;
+    right: 9px;
     z-index: 2;
     top: 25px;
     background: rgba(var(--hover-color), 0.8);
