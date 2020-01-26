@@ -2822,12 +2822,12 @@ body.p-profiles .subheadline .misc-links > a:before {
     text-transform: uppercase;
     background: #000;
     padding: 11px 63px 8px 19px;
-    background: rgba(var(--block-color), 1);
+    background: linear-gradient(to right, rgba(var(--block-color), 0) 0%, rgba(var(--block-color), 1) 20%, rgba(var(--block-color), 1) 100%);
     color: rgba(var(--bright-color), 1);
     border-radius: 10px;
     position: Relative;
     margin-right: -53px;
-    top: -2px;
+    top: -1px;
     box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.05);
     transition: 0.2s all;
 }
