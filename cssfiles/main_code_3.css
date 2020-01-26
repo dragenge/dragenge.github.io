@@ -1219,6 +1219,7 @@
   }
   
   .b-options-floated {
+      width: auto;
     line-height: 28px;
     margin-top: 0;
           z-index: 1;
