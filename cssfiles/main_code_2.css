@@ -3078,7 +3078,7 @@ body#messages_index .block.is-own-profile > .block {
     width: 18px;
     border-radius: 8px;
     z-index: 2;
-    color: rgba(var(--bright-color), 1);
+    color: rgba(var(--bright-color), 1); 
 }
 .mass-actions .action a[href*='/read']:after {
      content: '\\_f2b6';
