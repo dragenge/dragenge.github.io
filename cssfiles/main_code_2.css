@@ -2942,7 +2942,6 @@ body#profiles_edit .b-options-floated a.selected:after, body#clubs_edit .b-optio
 body#profiles_edit .b-options-floated a:hover, body#profiles_edit .b-options-floated .selected, body#profiles_edit .b-options-floated .selected:hover, body#clubs_edit .b-options-floated a:hover, body#clubs_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected:hover {
   color: rgba(var(--light-color), var(--hundred)) !important;
 }
-/*# sourceMappingURL=Untitled-1.css.map */
 
 .b-options-floated a[href*="/dialog"]:after {
     content: '\\_f0e0';
