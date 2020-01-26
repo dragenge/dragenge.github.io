@@ -2837,14 +2837,14 @@ font-size: 0;
     padding: auto !important;
   }
   
-body.profiles .b-options-floated, body.profiles .mass-actions, body#clubs_edit .b-options-floated, body#clubs_edit .mass-actions {
+body.p-profiles .b-options-floated, body.p-profiles .mass-actions, body#clubs_edit .b-options-floated, body#clubs_edit .mass-actions {
   position: initial;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-body.profiles .b-options-floated a, body#clubs_edit .b-options-floated a {
+body.p-profiles .b-options-floated a, body#clubs_edit .b-options-floated a {
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2867,7 +2867,7 @@ body.profiles .b-options-floated a, body#clubs_edit .b-options-floated a {
   color: rgba(var(--bright-color), var(--hundred));
 }
 
-body.profiles .b-options-floated a:after, body#clubs_edit .b-options-floated a:after {
+body.p-profiles .b-options-floated a:after, body#clubs_edit .b-options-floated a:after {
   content: '\\_f128';
   position: Absolute;
   top: 0;
@@ -2895,7 +2895,7 @@ body.profiles .b-options-floated a:after, body#clubs_edit .b-options-floated a:a
   z-index: 1;
 }
 
-body.profiles .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets {
+body.p-profiles .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets {
   width: 18px;
   height: 17px;
   border-radius: 25px;
@@ -2923,26 +2923,26 @@ body.profiles .b-options-floated a span.brackets, body#clubs_edit .b-options-flo
   transition: 0.3s;
 }
 
-body.profiles .b-options-floated .selected, body#clubs_edit .b-options-floated .selected {
+body.p-profiles .b-options-floated .selected, body#clubs_edit .b-options-floated .selected {
   color: rgba(var(--light-color), 1);
 }
 
-body.profiles .b-options-floated a[href*="/notifi"], body.profiles .b-options-floated a[href*="/edit/list"], body.profiles .b-options-floated a[href*="/edit/sty"], body#clubs_edit .b-options-floated a[href*="/notifi"], body#clubs_edit .b-options-floated a[href*="/edit/list"], body#clubs_edit .b-options-floated a[href*="/edit/sty"] {
+body.p-profiles .b-options-floated a[href*="/notifi"], body.p-profiles .b-options-floated a[href*="/edit/list"], body.p-profiles .b-options-floated a[href*="/edit/sty"], body#clubs_edit .b-options-floated a[href*="/notifi"], body#clubs_edit .b-options-floated a[href*="/edit/list"], body#clubs_edit .b-options-floated a[href*="/edit/sty"] {
   font-size: 7px;
 }
 
-body.profiles .b-options-floated a:hover:after, body#clubs_edit .b-options-floated a:hover:after {
+body.p-profiles .b-options-floated a:hover:after, body#clubs_edit .b-options-floated a:hover:after {
   background: rgba(var(--hover-color), 0.3);
 }
 
-body.profiles .b-options-floated a.selected:after, body#clubs_edit .b-options-floated a.selected:after {
+body.p-profiles .b-options-floated a.selected:after, body#clubs_edit .b-options-floated a.selected:after {
   width: 38px;
   height: 38px;
   background: rgba(var(--block-color), 1);
   border: 2px solid rgba(var(--light-color), 0.2);
 }
 
-body.profiles .b-options-floated a:hover, body.profiles .b-options-floated .selected, body.profiles .b-options-floated .selected:hover, body#clubs_edit .b-options-floated a:hover, body#clubs_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected:hover {
+body.p-profiles .b-options-floated a:hover, body.p-profiles .b-options-floated .selected, body.p-profiles .b-options-floated .selected:hover, body#clubs_edit .b-options-floated a:hover, body#clubs_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected:hover {
   color: rgba(var(--light-color), var(--hundred)) !important;
 }
 
