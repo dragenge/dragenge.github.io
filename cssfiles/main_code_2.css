@@ -2825,8 +2825,11 @@ display: none;
     }
 .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone a {
     position: relative;
+        display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 50px 0px 0;
-    width: 52px;
+    width: 60px;
     margin: 0px 8px;
     height: 60px;
     padding: 50px 0px 0;
