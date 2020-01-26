@@ -2126,7 +2126,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .l-page {
       padding: 10px !important;
       margin-top: 5px !important;
-      outline: 40px solid rgba(var(--menu-back), 0.8);
+      
     }
     .b-options-floated.mobile-desktop a {
       width: 250px;
