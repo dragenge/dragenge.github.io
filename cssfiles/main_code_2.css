@@ -3044,6 +3044,7 @@ body#messages_index .block.is-own-profile > .block {
 
 .mass-actions .action a {
     font-size: 0;
+    position: relative;
 }
 
 .mass-actions .action a:after {
@@ -3051,7 +3052,7 @@ body#messages_index .block.is-own-profile > .block {
     background: rgba(var(--block-color), 0.7);
     color: rgba(var(--white-color), 0.7);
     height: 32px;
-    font-size: 14px;
+    
     width: 33px;
     font-family: 'FontAwesome';
     padding-right: 1px;
@@ -3065,11 +3066,27 @@ body#messages_index .block.is-own-profile > .block {
     transition: 0.2s all;
     z-index: 1;
 }
+.mass-actions .action a:before {
+    font-family: 'FontAwesome';
+    content: '\f00c''\f00c';
+    position: absolute;
+    bottom: 5px;
+    right: 12px;
+    font-size: 12px;
+    letter-spacing: -6px;
+    background: rgba(var(--block-color), 0.7);
+    width: 18px;
+    border-radius: 8px;
+    z-index: 2;
+    color: rgba(var(--bright-color), 1);
+}
 .mass-actions .action a[href*='/read']:after {
      content: '\\_f2b6';
+    font-size: 15px;
 }
 .mass-actions .action a[href*='/dele']:after {
      content: '\\_f014';
+    font-size: 18px;
 }
 
 
