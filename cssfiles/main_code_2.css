@@ -2828,11 +2828,15 @@ display: none;
     padding: 50px 0px 0;
     width: 52px;
     margin: 0px 8px;
+    height: 60px;
     padding: 50px 0px 0;
     position: relative;
  
     font-size: 8px;
     text-transform: uppercase;
+}
+.b-options-floated a[href*="/notifi"] {
+    font-size: 7px;
 }
 .b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected {
     color: rgba(var(--light-color), 1);
