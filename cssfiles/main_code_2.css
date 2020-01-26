@@ -2837,11 +2837,14 @@ font-size: 0;
     padding: auto !important;
   }
   
-body#profiles_edit .b-options-floated, body#clubs_edit .b-options-floated, body#profiles_edit .mass-actions,body#clubs_edit .mass-actions {
-    position: initial;
-    justify-content: center;
+body.profiles .b-options-floated, body.profiles .mass-actions, body#clubs_edit .b-options-floated, body#clubs_edit .mass-actions {
+  position: initial;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-body#profiles_edit .b-options-floated a, body#clubs_edit .b-options-floated a {
+
+body.profiles .b-options-floated a, body#clubs_edit .b-options-floated a {
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2864,7 +2867,7 @@ body#profiles_edit .b-options-floated a, body#clubs_edit .b-options-floated a {
   color: rgba(var(--bright-color), var(--hundred));
 }
 
-body#profiles_edit .b-options-floated a:after, body#clubs_edit .b-options-floated a:after {
+body.profiles .b-options-floated a:after, body#clubs_edit .b-options-floated a:after {
   content: '\\_f128';
   position: Absolute;
   top: 0;
@@ -2892,7 +2895,7 @@ body#profiles_edit .b-options-floated a:after, body#clubs_edit .b-options-floate
   z-index: 1;
 }
 
-body#profiles_edit .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets {
+body.profiles .b-options-floated a span.brackets, body#clubs_edit .b-options-floated a span.brackets {
   width: 18px;
   height: 17px;
   border-radius: 25px;
@@ -2920,67 +2923,67 @@ body#profiles_edit .b-options-floated a span.brackets, body#clubs_edit .b-option
   transition: 0.3s;
 }
 
-body#profiles_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected {
+body.profiles .b-options-floated .selected, body#clubs_edit .b-options-floated .selected {
   color: rgba(var(--light-color), 1);
 }
 
-body#profiles_edit .b-options-floated a[href*="/notifi"], body#profiles_edit .b-options-floated a[href*="/edit/list"], body#profiles_edit .b-options-floated a[href*="/edit/sty"], body#clubs_edit .b-options-floated a[href*="/notifi"], body#clubs_edit .b-options-floated a[href*="/edit/list"], body#clubs_edit .b-options-floated a[href*="/edit/sty"] {
+body.profiles .b-options-floated a[href*="/notifi"], body.profiles .b-options-floated a[href*="/edit/list"], body.profiles .b-options-floated a[href*="/edit/sty"], body#clubs_edit .b-options-floated a[href*="/notifi"], body#clubs_edit .b-options-floated a[href*="/edit/list"], body#clubs_edit .b-options-floated a[href*="/edit/sty"] {
   font-size: 7px;
 }
 
-body#profiles_edit .b-options-floated a:hover:after, body#clubs_edit .b-options-floated a:hover:after {
+body.profiles .b-options-floated a:hover:after, body#clubs_edit .b-options-floated a:hover:after {
   background: rgba(var(--hover-color), 0.3);
 }
 
-body#profiles_edit .b-options-floated a.selected:after, body#clubs_edit .b-options-floated a.selected:after {
+body.profiles .b-options-floated a.selected:after, body#clubs_edit .b-options-floated a.selected:after {
   width: 38px;
   height: 38px;
   background: rgba(var(--block-color), 1);
   border: 2px solid rgba(var(--light-color), 0.2);
 }
 
-body#profiles_edit .b-options-floated a:hover, body#profiles_edit .b-options-floated .selected, body#profiles_edit .b-options-floated .selected:hover, body#clubs_edit .b-options-floated a:hover, body#clubs_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected:hover {
+body.profiles .b-options-floated a:hover, body.profiles .b-options-floated .selected, body.profiles .b-options-floated .selected:hover, body#clubs_edit .b-options-floated a:hover, body#clubs_edit .b-options-floated .selected, body#clubs_edit .b-options-floated .selected:hover {
   color: rgba(var(--light-color), var(--hundred)) !important;
 }
 
 .b-options-floated a[href*="/dialog"]:after {
-    content: '\\_f0e0';
+    content: '\\_f0e0'!important;
 }
 .b-options-floated a[href*="/news"]:after {
-    content: '\\_f1ea';
+    content: '\\_f1ea'!important;
 }
 .b-options-floated a[href*="/notifi"]:after {
-    content: '\\_f05a';
+    content: '\\_f05a'!important;
 }
 .b-options-floated a[href*="/acc"]:after {
-    content: '\\_f007';
+    content: '\\_f007'!important;
 }
 .b-options-floated a[href*="/profi"]:after {
-    content: '\\_f2bb';
+    content: '\\_f2bb'!important;
 }
 .b-options-floated a[href*="/styl"]:after {
-    content: '\\_f1fc';
+    content: '\\_f1fc'!important;
 }
 .b-options-floated a[href*="/lis"]:after {
-    content: '\\_f114';
+    content: '\\_f114'!important;
 }
  .b-options-floated a[href*="/misc"]:after {
-    content: '\\_f141';
+    content: '\\_f141'!important;
 }
 .b-options-floated a[href*="/main"]:after {
-    content: '\\_f1ad';
+    content: '\\_f1ad'!important;
 }
 .b-options-floated a[href*="/descrip"]:after {
-    content: '\\_f15c';
+    content: '\\_f15c'!important;
 }
 .b-options-floated a[href*="/page"]:after {
-    content: '\\_f0c5';
+    content: '\\_f0c5'!important;
 }
 .b-options-floated a[href*="/link"]:after {
-    content: '\\_f0c1';
+    content: '\\_f0c1'!important;
 }
 .b-options-floated a[href*="/memb"]:after {
-    content: '\\_f0c0';
+    content: '\\_f0c0'!important;
 }
 
 .b-radio input[type="radio"]+.radio-label {
