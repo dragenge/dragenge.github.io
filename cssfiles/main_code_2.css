@@ -2811,7 +2811,7 @@ font-size: 0;
 .subheadline .misc-links > a:after {
     content: '\\_f2b6';
     display: inline-flex!important;
-        background: rgba(var(--block-color), 0.7);
+        background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
     height: 34px;
     font-size: 14px;
