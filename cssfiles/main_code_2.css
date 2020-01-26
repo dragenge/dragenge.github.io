@@ -2512,6 +2512,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     -moz-osx-font-smoothing: grayscale;
     border-radius: 50%;
     background:  rgba(var(--block-color), var(--hundred));
+          color: rgba(var(--white-color), 0.7);
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
     width: 28px;
     height: 28px;
@@ -2521,7 +2522,10 @@ body.p-achievements.p-profiles .l-footer .links a {
     z-index: 1;
     position: relative;
   }
-  
+.b-dialog .to_dialog:hover:before {
+    color: rgba(var(--hover-color), 1);
+}
+   
   .b-dialog .to_dialog {
     font-size: 0px !important;
   }
