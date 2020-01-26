@@ -2831,16 +2831,16 @@ display: none;
     align-items: center;
     justify-content: center; 
     padding: 50px 0px 0;
-    width: 60px;
-    margin: 0px 8px;
-    height: 60px;
+    width: 65px;
+    margin: 0px 8px 10px;
+    height: 63px;
     padding: 50px 0px 0;
     position: relative;
  
     font-size: 8px;
     text-transform: uppercase;
 }
-.b-options-floated a[href*="/notifi"] {
+.b-options-floated a[href*="/notifi"], .b-options-floated a[href*="/edit/list"], .b-options-floated a[href*="/edit/sty"] {
     font-size: 7px;
 }
 .b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected {
