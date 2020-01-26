@@ -3023,6 +3023,7 @@ body#messages_index .block.is-own-profile > .b-options-floated {
     order: 1;
 }
 body#messages_index .block.is-own-profile > .mass-actions {
+    order:2;
     position: relative;
     margin-top: 0;
     z-index: 2;
