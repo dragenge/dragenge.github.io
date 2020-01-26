@@ -2916,7 +2916,7 @@ display: none;
 }
 .b-radio input[type="radio"]+.radio-label:before {
     font-family: 'FontAwesome';
-    content: '\f1db';
+    content: '\\_f1db';
     bordeR: none;
     margin: 0px 14px 0 0;
     display: inline-flex;
@@ -2927,7 +2927,7 @@ display: none;
 .b-radio input[type="radio"]:checked+.radio-label:before {
     width: auto;
     height: auto;
-    content: '\f058';
+    content: '\\_f058';
 }
 
 
