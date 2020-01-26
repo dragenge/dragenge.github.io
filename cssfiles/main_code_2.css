@@ -2502,6 +2502,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+      transition: 0.3s;
   }
   
   .b-dialog .to_dialog:before {
