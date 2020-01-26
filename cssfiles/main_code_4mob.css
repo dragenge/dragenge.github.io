@@ -175,10 +175,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     
   }
  @media screen and (min-width: 861px) {
-       .subheadline .misc-links {
-   
-    justify-content: flex-start;
-      }
+
 }
   
   @media only screen and (min-width: 1025px) {
@@ -914,10 +911,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
   }
   
   @media screen and (max-width: 860px) {
-       .subheadline .misc-links {
-   
-    justify-content: flex-end;
-      }
+
     .b-options-floated {
       line-height: normal;
       margin-bottom: 10px;
