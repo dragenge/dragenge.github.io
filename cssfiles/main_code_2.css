@@ -2814,6 +2814,7 @@ margin-right: 20px;
   }
 body.p-profiles .subheadline .misc-links > a {
 font-size: 0;
+        margin: 0;
 }
 body.p-profiles .subheadline .misc-links > a:before {
     content: 'Непрочитанное';
