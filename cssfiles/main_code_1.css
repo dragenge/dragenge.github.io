@@ -1704,10 +1704,6 @@ time {
 
 
 
-.b-options-floated.mobile-phone a {
-  color:  rgba(var(--bright-color), var(--hundred));
-}
-
 .p-user_history-index .history-page .history-interval p a:hover {
   color:  rgba(var(--hover-color), var(--hundred)) !important;
   font-weight: bold;
