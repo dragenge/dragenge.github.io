@@ -2798,12 +2798,12 @@ font-size: 0;
     font-size: 8px;
     text-transform: uppercase;
     background: #000;
-    padding: 6px 14px 5px 10px;
+    padding: 11px 63px 8px 19px;
     background: rgba(var(--block-color), 0.8);
     color: rgba(var(--bright-color), 1);
     border-radius: 10px 0 0 10px;
     position: Relative;
-    margin-right: -12px;
+    margin-right: -53px;
     top: -2px;
     box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.05);
     transition: 0.2s all;
@@ -2811,11 +2811,11 @@ font-size: 0;
 .subheadline .misc-links > a:after {
     content: '\\_f2b6';
     display: inline-flex!important;
-        background: rgba(var(--small-rating), 1);
+        background: rgba(var(--block-color), 0.7);
     color: rgba(var(--white-color), 0.7);
-    height: 36px;
+    height: 34px;
     font-size: 14px;
-    width: 36px;
+    width: 34px;
     font-family: 'FontAwesome';
     padding: 0;
     justify-content: center;
@@ -2827,10 +2827,10 @@ font-size: 0;
     z-index: 1;
 }
 .subheadline .misc-links > a:hover:before {
-    color: rgba(var(--light-color), 1);
+    color: rgba(var(--hover-color), 1);
 }
 .subheadline .misc-links > a:hover:after {
-    background: rgba(var(--hover-color), 0.2);
+    color: rgba(var(--hover-color), 1);
 }
   
   .b-options-floated.mobile-phone a {
