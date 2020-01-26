@@ -2769,16 +2769,16 @@ display: none;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
 }
- .p-messages .mass-actions, .b-options-floated.mobile-phone_portrait, .b-options-floated.mobile-phone {
+ .p-messages .mass-actions, .b-options-floated {
         width: 100%;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       width: 100%;
       float: none;
-     position: initial;
      margin-bottom: 0px;
     }
+
 
 
 
@@ -2837,7 +2837,10 @@ font-size: 0;
     padding: auto !important;
   }
   
-
+body#profiles_edit .b-options-floated, body#clubs_edit .b-options-floated, body#profiles_edit .mass-actions,body#clubs_edit .mass-actions {
+    position: initial;
+    justify-content: center;
+}
 body#profiles_edit .b-options-floated a, body#clubs_edit .b-options-floated a {
   position: relative;
   display: -webkit-inline-box;
