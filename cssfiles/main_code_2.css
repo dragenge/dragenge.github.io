@@ -2865,6 +2865,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+    height: auto;
 }
 
 body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a, body#clubs_edit .b-options-floated a {
