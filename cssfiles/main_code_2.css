@@ -2897,6 +2897,21 @@ display: none;
  .b-options-floated a[href*="/misc"]:after {
     content: '\\_f141';
 }
+.b-options-floated a[href*="/main"]:after {
+    content: '\\_f1ad';
+}
+.b-options-floated a[href*="/descrip"]:after {
+    content: '\\_f15c';
+}
+.b-options-floated a[href*="/page"]:after {
+    content: '\\_f0c5';
+}
+.b-options-floated a[href*="/link"]:after {
+    content: '\\_f0c1';
+}
+.b-options-floated a[href*="/memb"]:after {
+    content: '\\_f0c0';
+}
 .b-options-floated.mobile-phone_portrait a.selected:after, .b-options-floated.mobile-phone a.selected:after {
     width: 38px;
     height: 38px;
