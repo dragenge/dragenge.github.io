@@ -2874,6 +2874,25 @@ display: none;
     background: rgba(var(--block-color), 1);
     border: 2px solid rgba(var(--light-color), 0.2);
 }
+.b-options-floated a span.brackets {
+    width: 18px;
+    height: 17px;
+    border-radius: 25px;
+    font-weight: bolder;
+    margin: 0;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+    padding-left: 2px;
+    color: white;
+    position: absolute;
+    right: 3px;
+    z-index: 2;
+    top: 25px;
+    background: rgba(var(--hover-color), 0.8);
+}
 
 
 
