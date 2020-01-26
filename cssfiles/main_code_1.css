@@ -2001,13 +2001,19 @@ body.localized_names-ru .name-ru:before {
 
 
 .headline > a, .midheadline > a, .subheadline > a {
+     overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
   color:  inherit!important;
     display: inline-flex;
     align-items: center;
     height: 100%;
     width: 100%;
+     padding: 2px 0 0;
     line-height: 1;
-    padding: 2px 0 0;
+        border-radius: 13px;
+    
 }
 
 .headline > a:before, .midheadline > a:before, .subheadline > a:before {
@@ -2029,6 +2035,18 @@ body.localized_names-ru .name-ru:before {
   color:  rgba(var(--hover-color), var(--hundred)) !important;
     background: linear-gradient(270deg, rgba(var(--hover-color), var(--hundred)), rgba(var(--hover-color), 0.3));
 }
+  .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
+   
+    color:  rgba(var(--dark-color), var(--hundred));
+    transition: 0.2s ease;
+  }
+  
+  .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover {
+    text-decoration: none;
+    color:  rgba(var(--hover-color), var(--hundred)) !important;
+    background: rgba(var(--shadows-color), 0.15);
+    border: none;
+  }
 
 
 
