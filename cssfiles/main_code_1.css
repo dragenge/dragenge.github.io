@@ -1999,7 +1999,7 @@ body.localized_names-ru .name-ru:before {
 
 
 
-.headline > a, .midheadline > a, .subheadline > a {
+.headline > a, .midheadline > a, .subheadline > a, .midheadline .b-link, .subheadline .b-link {
      overflow: visible;
     position: absolute;
     top: 0;
