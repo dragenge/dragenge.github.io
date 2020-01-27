@@ -3069,6 +3069,7 @@ body#messages_index .block.is-own-profile > .block {
 body.p-profiles .mass-actions .action a {
     font-size: 0;
     position: relative;
+    padding: 0 0px 0 13px;
 }
 
 body.p-profiles .mass-actions .action a:after {
