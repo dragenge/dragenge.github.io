@@ -1102,15 +1102,16 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .b-log_entry a.bubbled-processed, a.b-link.bubbled-processed {
-    color:  rgba(var(--white-color), var(--hundred));
-    font-weight: bold;
+   /* color:  rgba(var(--white-color), var(--hundred));
+    font-weight: bold;*/
   }
   
   .b-log_entry a.bubbled-processed:hover, a.b-link.bubbled-processed:hover, a.b-db_entry-variant-list_item span.b-link:hover {
-    color:  rgba(var(--hover-color), var(--hundred)) !important;
+   /*
+      color:  rgba(var(--hover-color), var(--hundred)) !important;
     font-weight: bold !important;
     box-shadow: none !important;
-    background: transparent !important;
+    background: transparent !important;*/
   }
   
   .b-contests-menu .results, .b-contests-menu .grid a {
