@@ -1118,9 +1118,9 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
       top: auto;
-      bottom: 12px;
+      bottom: 18px;
       left: 5px;
-      text-align: left;
+      text-align: center;
       width: 100%;
       color:  rgba(var(--bright-color), var(--hundred)) !important;
       opacity: 0.3;
@@ -1184,7 +1184,7 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
       top: auto;
-      bottom: 0;
+      bottom: 18px;
       left: 0;
       width: 100%;
     }
