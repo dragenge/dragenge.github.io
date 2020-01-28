@@ -118,60 +118,7 @@
 background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 0.69) 10%, rgb(115, 67, 6) 30%, rgba(53, 20, 0, 0.6) 100%);
     color: #f1ddb7;
 }
-    body.p-achievements.p-profiles .subheadline-buttons {
-       margin-top: -28px;
-    right: 0;
-    height: 28px;
-    box-sizing: border-box;
-    padding-right: 40px;
-    }
-    body.p-achievements.p-profiles .b-list_switchers {
-        align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 100%;
-    margin: 0px !important;
-    }
-    body.p-achievements.p-profiles .b-list_switchers > *:before {
-        content: none;
-        
-    }
-    body.p-achievements.p-profiles .b-list_switchers > *, body.p-achievements.p-profiles .b-list_switchers > *:after {
-    display: inline-flex;
-    }
-    body.p-achievements.p-profiles .b-list_switchers > * {
-    font-size: 0;
-    margin: 0px 4px!important;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-        width: auto;
-}
-    body.p-achievements.p-profiles .b-list_switchers > *:after {
-    width: auto;
-    padding: 0;
-    font-size: 14px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #675642;
-    width: 62px;
-    padding-top: 4px;
-    box-sizing: border-box;
-    background: #2f261f;
-    border-radius: 90px/80px 80px 0 0;
-        transition: 0.2s;
-}
-    body.p-achievements.p-profiles .b-list_switchers > *.selected:after {
-    background: #171212;
-    color: #bb8d57;
-}
-    body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
-    background: #442d1c;
-    color: #dc9e55;
-}
-    
+   
     
   }
  @media screen and (min-width: 861px) {
