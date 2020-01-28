@@ -2149,7 +2149,9 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
 .b-shiki_editor.previewed img.b-poster, .p-profiles .about.block img.b-poster  {
     border-radius: 10px;
 }
-    
+    .l-top_menu-v2 .global-search .search-results .nothing_found {
+    color: rgba(var(--dark-color), 1);
+}
     .l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear {
     height: 100%;
    
