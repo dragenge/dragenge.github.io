@@ -3221,6 +3221,26 @@ body.p-profiles .mass-actions .action a:hover:AFTER {
     background: #442d1c;
     color: #dc9e55;
 }
+.b-review_votes .votes-for, .b-review_votes .votes-against {
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    padding-top: 1px;
+     border-radius: 50%;
+}
+.b-review_votes .votes-for {
+    color: #a7d4b4;
+    background: #33753a9e;
+    
+}
+.b-review_votes .votes-against {
+    color: #f1d1b5;
+    background: #ab442d9e;
+}
+    
     
 
 
