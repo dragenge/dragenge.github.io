@@ -1259,10 +1259,10 @@ position: absolute;
 	  }
     .b-block_list {
       width: 100%;
-	    width: 100%;
+
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     }
 	  .p-profiles .profile-head .c-history .entry .title {
     padding-top: 3px;
@@ -1542,6 +1542,9 @@ position: absolute;
 	  }
     .b-block_list {
       width: 100%;
+	     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
     }
 	  .p-profiles .profile-head .c-history .entry .title {
     padding-top: 3px;
