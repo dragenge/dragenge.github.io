@@ -1252,7 +1252,7 @@ position: absolute;
 		   right: 4px;
 	  }
 	  .profile-head .c-history.x2 .subheadline.m13  {
-		   right: 200px;
+		   right: 211px;
 	  }
 	  .profile-head .c-history.x3 .subheadline.m13  {
 		   right: 4px;
@@ -1269,8 +1269,8 @@ position: absolute;
 }
     .p-profiles .profile-head .c-history .entry, .p-profiles .profile-head .c-history.x3 .entry {
     display: inline-block;
-    width: 366px;
-    min-width: 366px;
+    width: 372px;
+    min-width: 372px;
     margin: 0 1% 0 0px;
 }
 	  .p-profiles .profile-head .c-history .entry:last-child {
@@ -1535,7 +1535,7 @@ position: absolute;
 		   right: 4px;
 	  }
 	  .profile-head .c-history.x2 .subheadline.m13  {
-		   right: 211px;
+		   right: 200px;
 	  }
 	  .profile-head .c-history.x3 .subheadline.m13  {
 		   right: 4px;
@@ -1551,8 +1551,8 @@ position: absolute;
 }
     .p-profiles .profile-head .c-history .entry, .p-profiles .profile-head .c-history.x3 .entry {
     display: inline-block;
-    width: 372px;
-    min-width: 372px;
+    width: 366px;
+    min-width: 366px;
     margin: 0 1% 0 0px;
 }
 	  .p-profiles .profile-head .c-history .entry:last-child {
