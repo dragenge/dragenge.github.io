@@ -527,7 +527,7 @@
 	  "style_name": "Calidum"
     }
   },
-	"ss":{
+	"spacestuff":{
     "name": "Space Stuff",
     "default": false,
     "colors": {
@@ -583,7 +583,7 @@
       "anime_complete": "#296b2f",
       "manga_inprocess": "#bd0f56",
       "manga_complete": "#99003e",
-      "hover_color": "#a9d22d",
+      "hover_color": "#7dab1f",
       "shadows_color": "#53acac",
       "block_color": "#173636",
       "menu_back": "#000a0a",
