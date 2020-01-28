@@ -2149,9 +2149,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
 .b-shiki_editor.previewed img.b-poster, .p-profiles .about.block img.b-poster  {
     border-radius: 10px;
 }
-    .l-top_menu-v2 .global-search .search-results .nothing_found {
-    color: rgba(var(--dark-color), 1);
-}
+ 
     .l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear {
     height: 100%;
    
@@ -2275,7 +2273,10 @@ border-top: 0.5px solid rgb(var(--bright-color), 0.03)!important;
 .l-top_menu-v2 .global-search .search-results .nothing_found:hover:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover:before {
    background: linear-gradient(to right, rgba(var(--hover-color), 0.5) 0%, rgba(var(--hover-color), 0.5) 50%, rgba(var(--hover-color), 0) 100%)!important;
 }
-
+   .l-top_menu-v2 .global-search .search-results .nothing_found {
+    color: rgba(var(--dark-color), 1);
+           border: none!important;
+}
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
     background: rgba(165, 98, 16, 0.12);
 }
@@ -2305,6 +2306,10 @@ body.p-achievements.p-profiles header.head.misc a {
 }
 body.p-achievements.p-profiles .b-breadcrumbs > span:after {
     color: #a59a85;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found {
+    color: #b5a28c;
+           
 }
 
 
