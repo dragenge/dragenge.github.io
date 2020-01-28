@@ -2485,9 +2485,7 @@ body#dashboards_show .l-page {
     width: 280px;
     margin-right: 1% !important;
   }
-  .p-achievements-index .c-franchises .b-badge[data-progress='100']:after {
-    background: linear-gradient(135deg, transparent 283px, #483d1c 0);
-  }
+ 
   body.p-achievements.p-profiles .b-list_switchers {
     margin-top: 2px !important;
   }
