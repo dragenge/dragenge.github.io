@@ -1101,7 +1101,8 @@ position: absolute;
     left: 0;
     background: linear-gradient(0deg, rgba(var(--dark-color), var(--hundred)), rgba(var(--dark-color), 0.3));
     }
-    .profile-content .cc-2a.m30 .cc-2a.m30 .subheadline > a:hover:before, body#profiles_show .subheadline.m13 > a:hover:before {
+	  
+    .profile-content .cc-2a.m30 .subheadline > a:hover:before, body#profiles_show .subheadline.m13 > a:hover:before {
       background:  rgba(var(--hover-color), var(--hundred));
     }
     body#profiles_show .b-clubs .b-nothing_here, body#profiles_show .cc-friends .b-nothing_here {
