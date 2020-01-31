@@ -984,7 +984,7 @@ position: absolute;
     }
     .c-history.x2 .b-block_list {
       position: relative;
-      top: -32px;
+      top: 32px;
     }
     .p-profiles .profile-head .c-history .entry:first-child {
       margin-top: 0px;
