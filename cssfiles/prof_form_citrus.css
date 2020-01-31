@@ -1258,7 +1258,7 @@ position: absolute;
 	  .profile-head .c-history.x3 .subheadline.m13  {
 		   right: 4px;
 	  }
-    .b-block_list {
+    .c-history .b-block_list {
       width: 100%;
 
     justify-content: center;
@@ -1541,7 +1541,7 @@ position: absolute;
 	  .profile-head .c-history.x3 .subheadline.m13  {
 		   right: 4px;
 	  }
-    .b-block_list {
+    .c-history .b-block_list {
       width: 100%;
 	     justify-content: center;
     display: flex;
