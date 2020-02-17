@@ -135,7 +135,7 @@
   
   .b-topic > .inner header img {
     transition: 0.3s ease;
-    border-radius: 21px;
+    border-radius: 10px;
   }
   
   .b-topic > .inner header img:hover {
