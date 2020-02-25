@@ -1475,20 +1475,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       color:  rgba(var(--dark-color), var(--hundred));
       font-style: bold;
     }
-    .b-options-floated.mobile-desktop a {
-      text-align: center;
-      padding: 5px 10px 5px 10px !important;
-      line-height: 15px;
-      width: 160px;
-      display: inline-block;
-      background-color: rgba(43, 42, 97, 0.6);
-      border-radius: 4px;
-      color:  rgba(var(--light-color), var(--hundred)) !important;
-      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
-      margin: 2.5px 2px;
-      vertical-align: middle;
-    }
+    
     .b-options-floated.mobile-desktop {
+        height: auto;
       text-align: center;
       width: 100%;
       margin-top: -5px;
