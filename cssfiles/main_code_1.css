@@ -786,14 +786,7 @@ textarea {
   color:  rgba(var(--hover-color), var(--hundred));
 }
 
-/* в списке аниме : планы смотрю и т.д. */
-.b-options-floated.mobile-desktop a {
-  color:  rgba(var(--dark-color), var(--hundred));
-}
 
-.b-options-floated.mobile-desktop a:hover {
-  color:  rgba(var(--hover-color), var(--hundred));
-}
 
 /* под шкалой в профиле сколько пробыл на сайте */
 .bar.vertical .line .x_label {
