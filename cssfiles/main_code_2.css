@@ -3298,5 +3298,10 @@ color: #ffcacd;
 .b-news_line-topic .status-line, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind {
     color: rgba(var(--dark-color), var(--hundred));
 }
+.p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button {
+    max-width: 200px;
+    width: 100%;
+    justify-content: center;
+}
 
 
