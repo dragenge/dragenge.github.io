@@ -3273,7 +3273,7 @@ body.p-profiles .mass-actions .action a:hover:AFTER {
         line-height: 24px;
     margin: 8px 0 0 10px;
     padding: 0 12px;
-    border: 0;
+    border: 0!important;
 }
 .p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
     color: #cae4ff;
