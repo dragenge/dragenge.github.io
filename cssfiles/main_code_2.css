@@ -3295,7 +3295,7 @@ color: #ffcacd;
     background: linear-gradient(45deg, #a05050bd 0%, #6b3f3fbd 50%, #ad5353bd);
     
 }
-.b-news_line-topic .status-line {
+.b-news_line-topic .status-line, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind {
     color: rgba(var(--dark-color), var(--hundred));
 }
 
