@@ -212,6 +212,7 @@ body:after {
 .b-link, .b-mention, .b-mention:before, .b-mention s, .b-mention span {
   color:  rgba(var(--bright-color), var(--hundred)) !important;
   cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention s:hover {
