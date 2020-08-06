@@ -70,6 +70,7 @@
     "disabled": false,
     "checked": false,
     "description": "Модуль оценок в блоке 'Обо мне'"
+      "img_url": "https://image.prntscr.com/image/03z9kPt8TliwubpdUaczsA.png"
   },
     {
     "url": "q05_animated_activity_graph.sass",
