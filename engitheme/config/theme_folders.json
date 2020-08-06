@@ -1,9 +1,5 @@
 [
   {
-    "url": "common-adds",
-    "title": "Общие шаблоны/фичи/прочее"
-  },
-  {
     "url": "citrus-only",
     "title": "Только 'Citrus'"
   },
