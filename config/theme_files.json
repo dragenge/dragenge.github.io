@@ -54,7 +54,7 @@
     "description": "*Альтернативное расположение элементов меню. Выворачивает наизнанку правое меню профиля."
   },
     {
-    "url": "/citrus-only/q02_monocolor_citrus_list.sass",
+    "url": "citrus-only/q02_monocolor_citrus_list.sass",
     "disabled": false,
     "checked": false,
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги "
