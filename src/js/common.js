@@ -66,6 +66,7 @@ Vue.component('file', {
               '<span :class="file.cat ? \'md-radio\' : \'md-checkbox\'"></span>' +
               '<span :data-url="file.url">{{ file.title ? file.title : file_name }}</span>' +
               '<span class="md-list_description" v-if="file.description">{{ file.description }}</span>' +
+              '<img class="md-img":src="file.img_url"></img>' +
             '</label>',
   methods: {
     onChange: function () {
