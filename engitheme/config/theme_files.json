@@ -94,5 +94,11 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
+  },
+    {
+    "url": "citrus-only/q02_monocolor_citrus_list.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
   }
 ]
