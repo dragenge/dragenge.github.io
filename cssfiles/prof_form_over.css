@@ -3,11 +3,7 @@
     flex-wrap: unset;
   }
   #profiles_show .l-top_menu-v2 {
-    position: fixed;
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: sticky;
     z-index: 25;
     opacity: 0.5;
     transition: 1s all;
@@ -24,7 +20,7 @@
   }
   
   body#profiles_show.x1200 .l-page, body#profiles_show .l-page {
-    margin: 0 auto !important;
+    margin: -2.875rem auto 0 auto !important;
     padding: 0 !important;
     max-width: 100%;
     transition: none;
@@ -34,7 +30,6 @@
   }
   
   body#profiles_show .b-catalog_entry {
-    box-shadow: 0px 0px 3px 3px 0, 0, 0, 0.35);
     background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
   }
   
@@ -196,7 +191,7 @@
     content: 'Друзья и Клубы';
     padding: 0;
     opacity: .6;
-    top: 18.375rem;
+    top: 18.82rem;
     left: 0.25rem;
     line-height: 2;
     font-size: 13px;
@@ -396,12 +391,12 @@
     pointer-events: none;
   }
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:after {
-    height: 20.8rem;
+    height: 23rem;
     left: 0;
     content: '';
     position: absolute;
     width: 139px;
-    top: -2.5rem;
+    top: -2rem;
     transition: 0.8s ease-in-out;
     border-radius: 6px;
     background: transparent;
@@ -410,7 +405,7 @@
   }
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:hover:after {
     z-index: 25;
-    height: 2.4rem;
+    height: 2.25rem;
   }
   #profiles_show .profile-head {
     position: relative;
@@ -445,7 +440,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin: -15.44rem 0 0 32.98rem;
+    margin: -15.85rem 0 0 32.98rem;
     padding: 10px 8px;
     width: 320px;
     height: 245px;
@@ -523,11 +518,11 @@
   }
   #profiles_show .cc-2a > .c-column {
     width: 100%;
+    z-index: 50;
   }
   #profiles_show .cc-favourites .c-column {
     display: inline-block;
     width: 8.58%;
-    left: 4px;
     float: none;
     margin: 6px !important;
     overflow: hidden;
@@ -559,7 +554,8 @@
     padding-left: .5%;
     padding-right: .5%;
   }
-  #profiles_show .b-comment img.b-poster {
+  #profiles_show .b-comment img.b-poster,
+  #profiles_show .b-comment .b-image.b-poster img {
     max-width: 1000px;
     width: 100%;
   }
@@ -572,6 +568,7 @@
   }
   #profiles_show .cc-friends .b-user {
     margin: 1% .5% 1% .5% !important;
+    z-index: 50;
   }
   #profiles_show .b-clubs {
     min-height: 55px;
@@ -581,48 +578,6 @@
   }
 }
 
-
-
-@media screen and (min-width: 1290px) {
-
-      #profiles_show .cc-9-g15>.c-column {
-        width: 8.65%!important;
-        clear: right!important;
-    }
-    #profiles_show .cc-9-g15>.c-column:nth-child(9n) {
-        margin-right: 1.5%;
-    }
-    #profiles_show .cc-9-g15>.c-column:nth-child(10n) {
-        margin-right: 0;
-    }
-    #profiles_show .cc-9-g0>.c-column {
-        width: 9.1%!important;
-        clear: right!important;
-        margin-right: 1%;
-        margin-bottom: 20px;
-    }
-    #profiles_show .cc-9-g0>.c-column:nth-child(9n) {
-        margin-right: 1%;
-    }   
-    #profiles_show .cc-9-g0>.c-column:nth-child(10n) {
-        margin-right: 0%;
-    }
-    #profiles_show .cc-8-g0>.c-column,
-    #profiles_show .cc-8-g15>.c-column {
-        width: 10.1%;
-        clear: right!important;
-        margin-right: 1.1%;
-        margin-bottom: 20px;
-    }
-    #profiles_show .cc-8-g0>.c-column:nth-child(8n),
-    #profiles_show .cc-8-g15>.c-column:nth-child(8n) {
-        margin-right: 1.1%;
-    }
-    #profiles_show .cc-8-g0>.c-column:nth-child(9n),
-    #profiles_show .cc-8-g15>.c-column:nth-child(9n) {
-        margin-right: 0;
-    }
-  }
 @media screen and (min-width: 1290px) and (max-width: 1829px) {
   #profiles_show .profile-head .c-brief .avatar {
     margin: -9vh 0 0 5rem;
