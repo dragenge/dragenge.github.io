@@ -118,5 +118,11 @@
   "disabled": false,
   "checked": false,
   "description": "Библиотека дополнений для вашего космически-эпического *Обо мне*"
+  },
+  {
+  "url": "q11_cubik-corners.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Почти острые уголки на большинстве элементов"
   }
 ]
