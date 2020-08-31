@@ -226,15 +226,23 @@
         font-size: 18px;
         border-radius: 3rem;
     }
+
     .p-profiles-favorites .b-catalog_entry.planned .image-decor::after,
-    .p-profiles-favorites .b-catalog_entry.watching .image-decor::after,
-    .p-profiles-favorites .b-catalog_entry.completed .image-decor::after,
-    .p-profiles-favorites .b-catalog_entry.rewatching .image-decor::after,
-    .p-profiles-favorites .b-catalog_entry.on_hold .image-decor::after,
-    .p-profiles-favorites .b-catalog_entry.dropped .image-decor::after {
-        /*Браузер ( edge ) фикс*/
-        display: none;
-    }
+  .p-profiles-favorites .b-catalog_entry.watching .image-decor::after,
+  .p-profiles-favorites .b-catalog_entry.completed .image-decor::after,
+  .p-profiles-favorites .b-catalog_entry.rewatching .image-decor::after,
+  .p-profiles-favorites .b-catalog_entry.on_hold .image-decor::after,
+  .p-profiles-favorites .b-catalog_entry.dropped .image-decor::after { /*Браузер ( edge ) фикс*/
+    display: none;
+  }
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.planned .image-decor::after,
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.watching .image-decor::after,
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.completed .image-decor::after,
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.rewatching .image-decor::after,
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.on_hold .image-decor::after,
+  .p-profiles-favorites .tooltip-inner .b-catalog_entry.dropped .image-decor::after {/*(tooltip-inner) восстановит Иконки. Смотрю, Просмотрена_ИТД*/
+    display: block;
+  }
     .p-profiles-show .user_rates-minified .b-catalog_entry.watching .image-decor::after {
         background-color: rgb(76 48 189 / 90%);
     }
