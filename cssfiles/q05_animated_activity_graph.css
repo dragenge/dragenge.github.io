@@ -4,7 +4,7 @@
     -moz-border-radius: 14px;
     border-radius: 14px;
 }
-.bar.vertical .line .bar-container .bar {
+.bar.vertical .line .bar-container .bar { 
     background: transparent;
 }
 .bar.vertical .line:nth-child(1) {
