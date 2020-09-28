@@ -4,7 +4,7 @@
     -moz-border-radius: 14px;
     border-radius: 14px;
 }
-.bar.vertical .line .bar-container .bar { 
+.bar.vertical .line .bar-container .bar {
     background: transparent;
 }
 .bar.vertical .line:nth-child(1) {
@@ -207,7 +207,7 @@
 }
 .bar.vertical .line:nth-child(34) {
     -webkit-animation: fluctuations 2.5s 0s infinite linear;
-    -moz-animation: fluctuations 2.5s 0s infinite linear;
+    -moz-animation-direction: fluctuations 2.5s 0s infinite linear;
     -o-animation: fluctuations 2.5s 0s infinite linear;
     animation: fluctuations 2.5s 0s infinite linear;
 }
@@ -226,21 +226,21 @@
 
 @-webkit-keyframes fluctuations {
     0% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         margin-top: 35px;
         margin-bottom: 45px;
         height: 20px;
     }
 
     50% {
-        background-color: $very-high-rating;
+        background-color: rgba(var(--very-high-rating), 1);
         height: 95px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
     100% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         height: 20px;
         margin-top: 35px;
         margin-bottom: 45px;
@@ -249,21 +249,21 @@
 
 @-moz-keyframes fluctuations {
     0% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         margin-top: 35px;
         margin-bottom: 45px;
         height: 20px;
     }
 
     50% {
-        background-color: $very-high-rating;
+        background-color: rgba(var(--very-high-rating), 1);
         height: 95px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
     100% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         height: 20px;
         margin-top: 35px;
         margin-bottom: 45px;
@@ -272,20 +272,20 @@
 
 @-o-keyframes fluctuations {
     0% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         margin-top: 35px;
         margin-bottom: 45px;
         height: 20px;
     }
     50% {
-        background-color: $very-high-rating;
+        background-color: rgba(var(--very-high-rating), 1);
         height: 95px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
     100% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         height: 20px;
         margin-top: 35px;
         margin-bottom: 45px;
@@ -294,21 +294,21 @@
 
 @keyframes fluctuations {
     0% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         margin-top: 35px;
         margin-bottom: 45px;
         height: 20px;
     }
 
     50% {
-        background-color: $very-high-rating;
+        background-color: rgba(var(--very-high-rating), 1);
         height: 95px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
     100% {
-        background-color: $small-rating;
+        background-color: rgba(var(--small-rating), 1);
         height: 20px;
         margin-top: 35px;
         margin-bottom: 45px;
