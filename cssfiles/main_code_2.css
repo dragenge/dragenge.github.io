@@ -3402,7 +3402,7 @@ body.p-profiles .mass-actions .action a:after {
 }
 body.p-profiles .mass-actions .action a:before {
     font-family: "FontAwesome";
-    content: "\f00c""\f00c";
+    content: '\f00c\f00c';
     position: absolute;
     bottom: 5px;
     right: 2px;
